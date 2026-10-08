@@ -1,0 +1,1 @@
+The bundled demo_history.csv is synthetic, reproducible hackathon data, never live mandi data. Prices are INR per quintal. For real training, supply chronological crop/mandi histories from AGMARKNET or CEDA with date, crop, mandi, price columns. data.gov.in credentials enable the live snapshot endpoint, not historical training.
