@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Local safety backups made before refactors
+/backups/
+
+# Raw/bulky data (rebuild the versioned data/series/ files with `python run_pipeline.py prepare`)
+/data/raw/*.csv
+/data/processed/
+/data/sample/*.csv
+
+# Models are refit deterministically at serving time; legacy pickles are not versioned
+/models/
+*.pkl
+*.joblib

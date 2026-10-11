@@ -1,14 +1,31 @@
+# Node.js
 node_modules/
-dist/
-.venv/
+frontend/dist/
+frontend/.vite/
+
+# Python
 __pycache__/
-.pytest_cache/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+backend/.venv/
+ml/.venv/
+
+# Environment variables and local data
 .env
 .env.*
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
 !.env.example
-*.db
-*.db-*
+!backend/.env.example
+!frontend/.env.example
+data/*
+!data/.gitkeep
+
+# Editors and operating systems
 .DS_Store
-*.log
-test-results/
-playwright-report/
+.vscode/
+.idea/

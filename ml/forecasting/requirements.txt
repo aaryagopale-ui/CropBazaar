@@ -1,0 +1,3 @@
+# Runtime dependencies: reuse the ML workspace's pinned ranges (numpy, pandas, scikit-learn, xgboost).
+# joblib is installed with scikit-learn. This module needs nothing else at runtime.
+-r ../requirements.txt

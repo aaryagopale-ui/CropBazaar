@@ -1,0 +1,5 @@
+-r requirements.txt
+pytest>=8,<10
+# only needed by tests/test_fastapi_example.py (the same ranges as backend/requirements.txt)
+fastapi>=0.115,<1.0
+httpx>=0.27,<1.0

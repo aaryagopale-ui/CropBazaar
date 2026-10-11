@@ -1,0 +1,940 @@
+{
+  "cells": {
+    "Brinjal|APMC Nasik|1": {
+      "baseline_holdout_mae": 564.9342105263158,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 838.3458646616541,
+      "candidate_holdout_mae": 536.2093877875276,
+      "candidate_method": "ridge_core",
+      "candidate_validation_mae": 773.1570914354937,
+      "diagnostics": {
+        "targets_after_data_end": 1,
+        "targets_missing_market_day": 59,
+        "targets_observed": 844,
+        "valid_origins": 904
+      },
+      "experimental_candidate": null,
+      "failed_criteria": [],
+      "n_holdout": 152,
+      "n_train_final": 844,
+      "n_validation": 399,
+      "selected_holdout_mae": 536.2093877875276,
+      "selected_method": "ridge_core",
+      "selected_validation_mae": 773.1570914354937,
+      "status": "validated_model"
+    },
+    "Brinjal|APMC Nasik|2": {
+      "baseline_holdout_mae": 625.2559118885649,
+      "baseline_method": "rolling_mean_7d",
+      "baseline_validation_mae": 971.1775818639799,
+      "candidate_holdout_mae": 600.3613287116038,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 875.5218929679503,
+      "diagnostics": {
+        "targets_after_data_end": 2,
+        "targets_missing_market_day": 70,
+        "targets_observed": 832,
+        "valid_origins": 904
+      },
+      "experimental_candidate": null,
+      "failed_criteria": [],
+      "n_holdout": 147,
+      "n_train_final": 832,
+      "n_validation": 397,
+      "selected_holdout_mae": 600.3613287116038,
+      "selected_method": "ridge_extended",
+      "selected_validation_mae": 875.5218929679503,
+      "status": "validated_model"
+    },
+    "Brinjal|APMC Nasik|3": {
+      "baseline_holdout_mae": 679.4602087410307,
+      "baseline_method": "rolling_mean_7d",
+      "baseline_validation_mae": 1049.8069985569987,
+      "candidate_holdout_mae": 658.0664827467191,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 984.7658027097094,
+      "diagnostics": {
+        "targets_after_data_end": 3,
+        "targets_missing_market_day": 72,
+        "targets_observed": 829,
+        "valid_origins": 904
+      },
+      "experimental_candidate": null,
+      "failed_criteria": [],
+      "n_holdout": 146,
+      "n_train_final": 829,
+      "n_validation": 396,
+      "selected_holdout_mae": 658.0664827467191,
+      "selected_method": "ridge_extended",
+      "selected_validation_mae": 984.7658027097094,
+      "status": "validated_model"
+    },
+    "Brinjal|APMC Nasik|4": {
+      "baseline_holdout_mae": 744.2133072407046,
+      "baseline_method": "rolling_mean_7d",
+      "baseline_validation_mae": 1125.7513362487853,
+      "candidate_holdout_mae": 752.7029011644222,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 1061.8692679763665,
+      "diagnostics": {
+        "targets_after_data_end": 4,
+        "targets_missing_market_day": 76,
+        "targets_observed": 824,
+        "valid_origins": 904
+      },
+      "experimental_candidate": "ridge_extended",
+      "failed_criteria": [
+        "holdout_mae_better"
+      ],
+      "n_holdout": 146,
+      "n_train_final": 824,
+      "n_validation": 392,
+      "selected_holdout_mae": 744.2133072407046,
+      "selected_method": "rolling_mean_7d",
+      "selected_validation_mae": 1125.7513362487853,
+      "status": "baseline_estimate"
+    },
+    "Brinjal|APMC Nasik|5": {
+      "baseline_holdout_mae": 853.4722222222222,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 1191.5189873417721,
+      "candidate_holdout_mae": 775.5895189745819,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 1112.1742904506677,
+      "diagnostics": {
+        "targets_after_data_end": 5,
+        "targets_missing_market_day": 77,
+        "targets_observed": 822,
+        "valid_origins": 904
+      },
+      "experimental_candidate": null,
+      "failed_criteria": [],
+      "n_holdout": 144,
+      "n_train_final": 822,
+      "n_validation": 395,
+      "selected_holdout_mae": 775.5895189745819,
+      "selected_method": "ridge_extended",
+      "selected_validation_mae": 1112.1742904506677,
+      "status": "validated_model"
+    },
+    "Brinjal|APMC Nasik|6": {
+      "baseline_holdout_mae": 845.9027777777778,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 1245.6743002544529,
+      "candidate_holdout_mae": 761.7643537640537,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 1196.8513975390456,
+      "diagnostics": {
+        "targets_after_data_end": 6,
+        "targets_missing_market_day": 76,
+        "targets_observed": 822,
+        "valid_origins": 904
+      },
+      "experimental_candidate": "ridge_extended",
+      "failed_criteria": [
+        "ci_excludes_zero"
+      ],
+      "n_holdout": 144,
+      "n_train_final": 822,
+      "n_validation": 393,
+      "selected_holdout_mae": 845.9027777777778,
+      "selected_method": "persistence",
+      "selected_validation_mae": 1245.6743002544529,
+      "status": "baseline_estimate"
+    },
+    "Brinjal|APMC Nasik|7": {
+      "baseline_holdout_mae": 862.7083333333334,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 1274.6173469387754,
+      "candidate_holdout_mae": 857.9722074809787,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 1227.2521121790933,
+      "diagnostics": {
+        "targets_after_data_end": 7,
+        "targets_missing_market_day": 75,
+        "targets_observed": 822,
+        "valid_origins": 904
+      },
+      "experimental_candidate": "ridge_extended",
+      "failed_criteria": [
+        "ci_excludes_zero",
+        "rmse_not_worse"
+      ],
+      "n_holdout": 144,
+      "n_train_final": 822,
+      "n_validation": 392,
+      "selected_holdout_mae": 862.7083333333334,
+      "selected_method": "persistence",
+      "selected_validation_mae": 1274.6173469387754,
+      "status": "baseline_estimate"
+    },
+    "Cabbage|APMC Nasik|1": {
+      "baseline_holdout_mae": 156.93567251461988,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 217.09701492537314,
+      "candidate_holdout_mae": 140.76841720385625,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 195.81347777953806,
+      "diagnostics": {
+        "targets_after_data_end": 1,
+        "targets_missing_market_day": 55,
+        "targets_observed": 860,
+        "valid_origins": 916
+      },
+      "experimental_candidate": "ridge_extended",
+      "failed_criteria": [
+        "ci_excludes_zero"
+      ],
+      "n_holdout": 171,
+      "n_train_final": 860,
+      "n_validation": 402,
+      "selected_holdout_mae": 156.93567251461988,
+      "selected_method": "persistence",
+      "selected_validation_mae": 217.09701492537314,
+      "status": "baseline_estimate"
+    },
+    "Cabbage|APMC Nasik|2": {
+      "baseline_holdout_mae": 150.10511204481793,
+      "baseline_method": "rolling_mean_7d",
+      "baseline_validation_mae": 240.84000595238092,
+      "candidate_holdout_mae": 159.04321426277443,
+      "candidate_method": "ridge_core",
+      "candidate_validation_mae": 221.12412604595104,
+      "diagnostics": {
+        "targets_after_data_end": 2,
+        "targets_missing_market_day": 61,
+        "targets_observed": 853,
+        "valid_origins": 916
+      },
+      "experimental_candidate": "ridge_core",
+      "failed_criteria": [
+        "holdout_mae_better",
+        "rmse_not_worse"
+      ],
+      "n_holdout": 170,
+      "n_train_final": 853,
+      "n_validation": 400,
+      "selected_holdout_mae": 150.10511204481793,
+      "selected_method": "rolling_mean_7d",
+      "selected_validation_mae": 240.84000595238092,
+      "status": "baseline_estimate"
+    },
+    "Cabbage|APMC Nasik|3": {
+      "baseline_holdout_mae": 151.53428856572566,
+      "baseline_method": "rolling_mean_7d",
+      "baseline_validation_mae": 249.65235111588495,
+      "candidate_holdout_mae": 161.6337735713353,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 237.05940195382036,
+      "diagnostics": {
+        "targets_after_data_end": 3,
+        "targets_missing_market_day": 65,
+        "targets_observed": 848,
+        "valid_origins": 916
+      },
+      "experimental_candidate": "ridge_extended",
+      "failed_criteria": [
+        "ci_excludes_zero",
+        "holdout_mae_better",
+        "rmse_not_worse"
+      ],
+      "n_holdout": 167,
+      "n_train_final": 848,
+      "n_validation": 399,
+      "selected_holdout_mae": 151.53428856572566,
+      "selected_method": "rolling_mean_7d",
+      "selected_validation_mae": 249.65235111588495,
+      "status": "baseline_estimate"
+    },
+    "Cabbage|APMC Nasik|4": {
+      "baseline_holdout_mae": 155.085413080895,
+      "baseline_method": "rolling_mean_7d",
+      "baseline_validation_mae": 261.157354363065,
+      "candidate_holdout_mae": 161.6113481178941,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 243.4462205216707,
+      "diagnostics": {
+        "targets_after_data_end": 4,
+        "targets_missing_market_day": 72,
+        "targets_observed": 840,
+        "valid_origins": 916
+      },
+      "experimental_candidate": "ridge_extended",
+      "failed_criteria": [
+        "ci_excludes_zero",
+        "holdout_mae_better",
+        "rmse_not_worse"
+      ],
+      "n_holdout": 166,
+      "n_train_final": 840,
+      "n_validation": 394,
+      "selected_holdout_mae": 155.085413080895,
+      "selected_method": "rolling_mean_7d",
+      "selected_validation_mae": 261.157354363065,
+      "status": "baseline_estimate"
+    },
+    "Cabbage|APMC Nasik|5": {
+      "baseline_holdout_mae": 164.6515873015873,
+      "baseline_method": "rolling_mean_7d",
+      "baseline_validation_mae": 266.8539021164021,
+      "candidate_holdout_mae": 173.02608549152188,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 253.22845735295604,
+      "diagnostics": {
+        "targets_after_data_end": 5,
+        "targets_missing_market_day": 72,
+        "targets_observed": 839,
+        "valid_origins": 916
+      },
+      "experimental_candidate": "ridge_extended",
+      "failed_criteria": [
+        "ci_excludes_zero",
+        "holdout_mae_better",
+        "rmse_not_worse"
+      ],
+      "n_holdout": 165,
+      "n_train_final": 839,
+      "n_validation": 396,
+      "selected_holdout_mae": 164.6515873015873,
+      "selected_method": "rolling_mean_7d",
+      "selected_validation_mae": 266.8539021164021,
+      "status": "baseline_estimate"
+    },
+    "Cabbage|APMC Nasik|6": {
+      "baseline_holdout_mae": 169.67409812409812,
+      "baseline_method": "rolling_mean_7d",
+      "baseline_validation_mae": 273.5217246797196,
+      "candidate_holdout_mae": 179.82741671875394,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 258.48525106394555,
+      "diagnostics": {
+        "targets_after_data_end": 6,
+        "targets_missing_market_day": 71,
+        "targets_observed": 839,
+        "valid_origins": 916
+      },
+      "experimental_candidate": "ridge_extended",
+      "failed_criteria": [
+        "ci_excludes_zero",
+        "holdout_mae_better",
+        "rmse_not_worse"
+      ],
+      "n_holdout": 165,
+      "n_train_final": 839,
+      "n_validation": 394,
+      "selected_holdout_mae": 169.67409812409812,
+      "selected_method": "rolling_mean_7d",
+      "selected_validation_mae": 273.5217246797196,
+      "status": "baseline_estimate"
+    },
+    "Cabbage|APMC Nasik|7": {
+      "baseline_holdout_mae": 187.5521472392638,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 276.8607594936709,
+      "candidate_holdout_mae": 174.06637462577132,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 261.52749402152193,
+      "diagnostics": {
+        "targets_after_data_end": 7,
+        "targets_missing_market_day": 68,
+        "targets_observed": 841,
+        "valid_origins": 916
+      },
+      "experimental_candidate": "ridge_extended",
+      "failed_criteria": [
+        "ci_excludes_zero"
+      ],
+      "n_holdout": 163,
+      "n_train_final": 841,
+      "n_validation": 395,
+      "selected_holdout_mae": 187.5521472392638,
+      "selected_method": "persistence",
+      "selected_validation_mae": 276.8607594936709,
+      "status": "baseline_estimate"
+    },
+    "Cauliflower|APMC Nasik|1": {
+      "baseline_holdout_mae": 160.06432748538012,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 271.4362244897959,
+      "candidate_holdout_mae": 151.07239012587542,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 245.33961445041191,
+      "diagnostics": {
+        "targets_after_data_end": 1,
+        "targets_missing_market_day": 53,
+        "targets_observed": 854,
+        "valid_origins": 908
+      },
+      "experimental_candidate": null,
+      "failed_criteria": [],
+      "n_holdout": 171,
+      "n_train_final": 854,
+      "n_validation": 392,
+      "selected_holdout_mae": 151.07239012587542,
+      "selected_method": "ridge_extended",
+      "selected_validation_mae": 245.33961445041191,
+      "status": "validated_model"
+    },
+    "Cauliflower|APMC Nasik|2": {
+      "baseline_holdout_mae": 202.01183431952663,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 312.7840616966581,
+      "candidate_holdout_mae": 179.65716655350963,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 293.1277752542636,
+      "diagnostics": {
+        "targets_after_data_end": 2,
+        "targets_missing_market_day": 62,
+        "targets_observed": 844,
+        "valid_origins": 908
+      },
+      "experimental_candidate": null,
+      "failed_criteria": [],
+      "n_holdout": 169,
+      "n_train_final": 844,
+      "n_validation": 389,
+      "selected_holdout_mae": 179.65716655350963,
+      "selected_method": "ridge_extended",
+      "selected_validation_mae": 293.1277752542636,
+      "status": "validated_model"
+    },
+    "Cauliflower|APMC Nasik|3": {
+      "baseline_holdout_mae": 223.59281437125748,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 333.0129198966408,
+      "candidate_holdout_mae": 191.141361138858,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 307.1511480703096,
+      "diagnostics": {
+        "targets_after_data_end": 3,
+        "targets_missing_market_day": 66,
+        "targets_observed": 839,
+        "valid_origins": 908
+      },
+      "experimental_candidate": null,
+      "failed_criteria": [],
+      "n_holdout": 167,
+      "n_train_final": 839,
+      "n_validation": 387,
+      "selected_holdout_mae": 191.141361138858,
+      "selected_method": "ridge_extended",
+      "selected_validation_mae": 307.1511480703096,
+      "status": "validated_model"
+    },
+    "Cauliflower|APMC Nasik|4": {
+      "baseline_holdout_mae": 217.51269363166955,
+      "baseline_method": "rolling_mean_7d",
+      "baseline_validation_mae": 352.0105674290714,
+      "candidate_holdout_mae": 203.14669613131574,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 337.20555356181455,
+      "diagnostics": {
+        "targets_after_data_end": 4,
+        "targets_missing_market_day": 73,
+        "targets_observed": 831,
+        "valid_origins": 908
+      },
+      "experimental_candidate": "ridge_extended",
+      "failed_criteria": [
+        "ci_excludes_zero"
+      ],
+      "n_holdout": 166,
+      "n_train_final": 831,
+      "n_validation": 381,
+      "selected_holdout_mae": 217.51269363166955,
+      "selected_method": "rolling_mean_7d",
+      "selected_validation_mae": 352.0105674290714,
+      "status": "baseline_estimate"
+    },
+    "Cauliflower|APMC Nasik|5": {
+      "baseline_holdout_mae": 239.13939393939393,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 360.44386422976504,
+      "candidate_holdout_mae": 211.31460147606214,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 338.1029366453944,
+      "diagnostics": {
+        "targets_after_data_end": 5,
+        "targets_missing_market_day": 75,
+        "targets_observed": 828,
+        "valid_origins": 908
+      },
+      "experimental_candidate": null,
+      "failed_criteria": [],
+      "n_holdout": 165,
+      "n_train_final": 828,
+      "n_validation": 383,
+      "selected_holdout_mae": 211.31460147606214,
+      "selected_method": "ridge_extended",
+      "selected_validation_mae": 338.1029366453944,
+      "status": "validated_model"
+    },
+    "Cauliflower|APMC Nasik|6": {
+      "baseline_holdout_mae": 240.6717893217893,
+      "baseline_method": "rolling_mean_7d",
+      "baseline_validation_mae": 384.55138471177946,
+      "candidate_holdout_mae": 221.48908791969325,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 357.6514198126959,
+      "diagnostics": {
+        "targets_after_data_end": 6,
+        "targets_missing_market_day": 75,
+        "targets_observed": 827,
+        "valid_origins": 908
+      },
+      "experimental_candidate": null,
+      "failed_criteria": [],
+      "n_holdout": 165,
+      "n_train_final": 827,
+      "n_validation": 380,
+      "selected_holdout_mae": 221.48908791969325,
+      "selected_method": "ridge_extended",
+      "selected_validation_mae": 357.6514198126959,
+      "status": "validated_model"
+    },
+    "Cauliflower|APMC Nasik|7": {
+      "baseline_holdout_mae": 254.88716038562666,
+      "baseline_method": "rolling_mean_7d",
+      "baseline_validation_mae": 402.26191101112363,
+      "candidate_holdout_mae": 232.6705174689372,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 363.5514281262994,
+      "diagnostics": {
+        "targets_after_data_end": 7,
+        "targets_missing_market_day": 73,
+        "targets_observed": 828,
+        "valid_origins": 908
+      },
+      "experimental_candidate": null,
+      "failed_criteria": [],
+      "n_holdout": 163,
+      "n_train_final": 828,
+      "n_validation": 381,
+      "selected_holdout_mae": 232.6705174689372,
+      "selected_method": "ridge_extended",
+      "selected_validation_mae": 363.5514281262994,
+      "status": "validated_model"
+    },
+    "Onion|Lasalgaon(Vinchur)|1": {
+      "baseline_holdout_mae": 65.30735042735041,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 49.81669291338582,
+      "candidate_holdout_mae": 65.78264106834851,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 49.26483939068751,
+      "diagnostics": {
+        "targets_after_data_end": 1,
+        "targets_missing_market_day": 174,
+        "targets_observed": 581,
+        "valid_origins": 756
+      },
+      "experimental_candidate": "ridge_extended",
+      "failed_criteria": [
+        "improvement_pct",
+        "folds_won",
+        "ci_excludes_zero",
+        "holdout_mae_better"
+      ],
+      "n_holdout": 117,
+      "n_train_final": 581,
+      "n_validation": 254,
+      "selected_holdout_mae": 65.30735042735041,
+      "selected_method": "persistence",
+      "selected_validation_mae": 49.81669291338582,
+      "status": "baseline_estimate"
+    },
+    "Onion|Lasalgaon(Vinchur)|2": {
+      "baseline_holdout_mae": 93.19254385964913,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 76.17153846153846,
+      "candidate_holdout_mae": 90.67304870773427,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 76.69257492920202,
+      "diagnostics": {
+        "targets_after_data_end": 2,
+        "targets_missing_market_day": 187,
+        "targets_observed": 567,
+        "valid_origins": 756
+      },
+      "experimental_candidate": "ridge_extended",
+      "failed_criteria": [
+        "improvement_pct",
+        "folds_won",
+        "ci_excludes_zero"
+      ],
+      "n_holdout": 114,
+      "n_train_final": 567,
+      "n_validation": 247,
+      "selected_holdout_mae": 93.19254385964913,
+      "selected_method": "persistence",
+      "selected_validation_mae": 76.17153846153846,
+      "status": "baseline_estimate"
+    },
+    "Onion|Lasalgaon(Vinchur)|3": {
+      "baseline_holdout_mae": 120.70747747747748,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 94.50255144032923,
+      "candidate_holdout_mae": 117.99147799506353,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 94.06935597520385,
+      "diagnostics": {
+        "targets_after_data_end": 2,
+        "targets_missing_market_day": 197,
+        "targets_observed": 557,
+        "valid_origins": 756
+      },
+      "experimental_candidate": "ridge_extended",
+      "failed_criteria": [
+        "improvement_pct",
+        "ci_excludes_zero"
+      ],
+      "n_holdout": 111,
+      "n_train_final": 557,
+      "n_validation": 243,
+      "selected_holdout_mae": 120.70747747747748,
+      "selected_method": "persistence",
+      "selected_validation_mae": 94.50255144032923,
+      "status": "baseline_estimate"
+    },
+    "Onion|Lasalgaon(Vinchur)|4": {
+      "baseline_holdout_mae": 142.8225892857143,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 113.03495867768595,
+      "candidate_holdout_mae": 138.87830221979675,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 114.04344790984143,
+      "diagnostics": {
+        "targets_after_data_end": 3,
+        "targets_missing_market_day": 196,
+        "targets_observed": 557,
+        "valid_origins": 756
+      },
+      "experimental_candidate": "ridge_extended",
+      "failed_criteria": [
+        "improvement_pct",
+        "folds_won",
+        "ci_excludes_zero"
+      ],
+      "n_holdout": 112,
+      "n_train_final": 557,
+      "n_validation": 242,
+      "selected_holdout_mae": 142.8225892857143,
+      "selected_method": "persistence",
+      "selected_validation_mae": 113.03495867768595,
+      "status": "baseline_estimate"
+    },
+    "Onion|Lasalgaon(Vinchur)|5": {
+      "baseline_holdout_mae": 168.77578947368423,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 125.07622406639004,
+      "candidate_holdout_mae": 157.18383177809824,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 125.76732271483083,
+      "diagnostics": {
+        "targets_after_data_end": 3,
+        "targets_missing_market_day": 194,
+        "targets_observed": 559,
+        "valid_origins": 756
+      },
+      "experimental_candidate": "ridge_extended",
+      "failed_criteria": [
+        "improvement_pct",
+        "folds_won",
+        "ci_excludes_zero"
+      ],
+      "n_holdout": 114,
+      "n_train_final": 559,
+      "n_validation": 241,
+      "selected_holdout_mae": 168.77578947368423,
+      "selected_method": "persistence",
+      "selected_validation_mae": 125.07622406639004,
+      "status": "baseline_estimate"
+    },
+    "Onion|Lasalgaon(Vinchur)|6": {
+      "baseline_holdout_mae": 183.06599999999997,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 134.40851851851855,
+      "candidate_holdout_mae": 171.25792519510213,
+      "candidate_method": "ridge_core",
+      "candidate_validation_mae": 135.7159701697971,
+      "diagnostics": {
+        "targets_after_data_end": 4,
+        "targets_missing_market_day": 191,
+        "targets_observed": 561,
+        "valid_origins": 756
+      },
+      "experimental_candidate": "ridge_core",
+      "failed_criteria": [
+        "improvement_pct",
+        "folds_won",
+        "ci_excludes_zero",
+        "rmse_not_worse"
+      ],
+      "n_holdout": 115,
+      "n_train_final": 561,
+      "n_validation": 243,
+      "selected_holdout_mae": 183.06599999999997,
+      "selected_method": "persistence",
+      "selected_validation_mae": 134.40851851851855,
+      "status": "baseline_estimate"
+    },
+    "Onion|Lasalgaon(Vinchur)|7": {
+      "baseline_holdout_mae": 192.51264705882355,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 151.31193103448277,
+      "candidate_holdout_mae": 188.5205870136982,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 151.7738029781576,
+      "diagnostics": {
+        "targets_after_data_end": 5,
+        "targets_missing_market_day": 80,
+        "targets_observed": 671,
+        "valid_origins": 756
+      },
+      "experimental_candidate": "ridge_extended",
+      "failed_criteria": [
+        "improvement_pct",
+        "folds_won",
+        "ci_excludes_zero",
+        "rmse_not_worse"
+      ],
+      "n_holdout": 136,
+      "n_train_final": 671,
+      "n_validation": 290,
+      "selected_holdout_mae": 192.51264705882355,
+      "selected_method": "persistence",
+      "selected_validation_mae": 151.31193103448277,
+      "status": "baseline_estimate"
+    },
+    "Tomato|APMC Pimpalgaon Baswant|1": {
+      "baseline_holdout_mae": 238.1578947368421,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 183.9102564102564,
+      "candidate_holdout_mae": 233.50576259053847,
+      "candidate_method": "ridge_core",
+      "candidate_validation_mae": 182.71704616316524,
+      "diagnostics": {
+        "targets_after_data_end": 1,
+        "targets_missing_market_day": 119,
+        "targets_observed": 657,
+        "valid_origins": 777
+      },
+      "experimental_candidate": "ridge_core",
+      "failed_criteria": [
+        "improvement_pct",
+        "ci_excludes_zero"
+      ],
+      "n_holdout": 133,
+      "n_train_final": 657,
+      "n_validation": 312,
+      "selected_holdout_mae": 238.1578947368421,
+      "selected_method": "persistence",
+      "selected_validation_mae": 183.9102564102564,
+      "status": "baseline_estimate"
+    },
+    "Tomato|APMC Pimpalgaon Baswant|2": {
+      "baseline_holdout_mae": 312.4812030075188,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 243.53225806451613,
+      "candidate_holdout_mae": 304.00634520606616,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 239.7324793670487,
+      "diagnostics": {
+        "targets_after_data_end": 2,
+        "targets_missing_market_day": 132,
+        "targets_observed": 643,
+        "valid_origins": 777
+      },
+      "experimental_candidate": "ridge_extended",
+      "failed_criteria": [
+        "improvement_pct",
+        "ci_excludes_zero"
+      ],
+      "n_holdout": 133,
+      "n_train_final": 643,
+      "n_validation": 310,
+      "selected_holdout_mae": 312.4812030075188,
+      "selected_method": "persistence",
+      "selected_validation_mae": 243.53225806451613,
+      "status": "baseline_estimate"
+    },
+    "Tomato|APMC Pimpalgaon Baswant|3": {
+      "baseline_holdout_mae": 405.87786259541986,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 269.2718446601942,
+      "candidate_holdout_mae": 387.4837347412298,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 270.10846858979176,
+      "diagnostics": {
+        "targets_after_data_end": 3,
+        "targets_missing_market_day": 138,
+        "targets_observed": 636,
+        "valid_origins": 777
+      },
+      "experimental_candidate": "ridge_extended",
+      "failed_criteria": [
+        "improvement_pct",
+        "folds_won",
+        "ci_excludes_zero"
+      ],
+      "n_holdout": 131,
+      "n_train_final": 636,
+      "n_validation": 309,
+      "selected_holdout_mae": 405.87786259541986,
+      "selected_method": "persistence",
+      "selected_validation_mae": 269.2718446601942,
+      "status": "baseline_estimate"
+    },
+    "Tomato|APMC Pimpalgaon Baswant|4": {
+      "baseline_holdout_mae": 447.48091603053433,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 294.88524590163934,
+      "candidate_holdout_mae": 427.21877501765766,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 288.6612296819748,
+      "diagnostics": {
+        "targets_after_data_end": 4,
+        "targets_missing_market_day": 145,
+        "targets_observed": 628,
+        "valid_origins": 777
+      },
+      "experimental_candidate": "ridge_extended",
+      "failed_criteria": [
+        "ci_excludes_zero"
+      ],
+      "n_holdout": 131,
+      "n_train_final": 628,
+      "n_validation": 305,
+      "selected_holdout_mae": 447.48091603053433,
+      "selected_method": "persistence",
+      "selected_validation_mae": 294.88524590163934,
+      "status": "baseline_estimate"
+    },
+    "Tomato|APMC Pimpalgaon Baswant|5": {
+      "baseline_holdout_mae": 469.375,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 330.9967845659164,
+      "candidate_holdout_mae": 446.4060744315035,
+      "candidate_method": "ridge_core",
+      "candidate_validation_mae": 337.9822536226326,
+      "diagnostics": {
+        "targets_after_data_end": 5,
+        "targets_missing_market_day": 143,
+        "targets_observed": 629,
+        "valid_origins": 777
+      },
+      "experimental_candidate": "ridge_core",
+      "failed_criteria": [
+        "improvement_pct",
+        "ci_excludes_zero",
+        "rmse_not_worse"
+      ],
+      "n_holdout": 128,
+      "n_train_final": 629,
+      "n_validation": 311,
+      "selected_holdout_mae": 469.375,
+      "selected_method": "persistence",
+      "selected_validation_mae": 330.9967845659164,
+      "status": "baseline_estimate"
+    },
+    "Tomato|APMC Pimpalgaon Baswant|6": {
+      "baseline_holdout_mae": 510.0,
+      "baseline_method": "persistence",
+      "baseline_validation_mae": 348.03691275167785,
+      "candidate_holdout_mae": 479.25022116342194,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 348.56350299539406,
+      "diagnostics": {
+        "targets_after_data_end": 6,
+        "targets_missing_market_day": 153,
+        "targets_observed": 618,
+        "valid_origins": 777
+      },
+      "experimental_candidate": "ridge_extended",
+      "failed_criteria": [
+        "improvement_pct",
+        "ci_excludes_zero"
+      ],
+      "n_holdout": 129,
+      "n_train_final": 618,
+      "n_validation": 298,
+      "selected_holdout_mae": 510.0,
+      "selected_method": "persistence",
+      "selected_validation_mae": 348.03691275167785,
+      "status": "baseline_estimate"
+    },
+    "Tomato|APMC Pimpalgaon Baswant|7": {
+      "baseline_holdout_mae": 535.3629298941798,
+      "baseline_method": "rolling_mean_7d",
+      "baseline_validation_mae": 370.54641764962867,
+      "candidate_holdout_mae": 515.7018704854904,
+      "candidate_method": "ridge_extended",
+      "candidate_validation_mae": 377.1462961599786,
+      "diagnostics": {
+        "targets_after_data_end": 7,
+        "targets_missing_market_day": 107,
+        "targets_observed": 663,
+        "valid_origins": 777
+      },
+      "experimental_candidate": "ridge_extended",
+      "failed_criteria": [
+        "improvement_pct",
+        "folds_won",
+        "ci_excludes_zero"
+      ],
+      "n_holdout": 144,
+      "n_train_final": 663,
+      "n_validation": 327,
+      "selected_holdout_mae": 535.3629298941798,
+      "selected_method": "rolling_mean_7d",
+      "selected_validation_mae": 370.54641764962867,
+      "status": "baseline_estimate"
+    }
+  },
+  "criteria": {
+    "min_folds_won_fraction": 0.6,
+    "min_holdout_rows": 20,
+    "min_improvement_pct": 2.0,
+    "min_valid_folds": 3,
+    "require_ci_excludes_zero": true,
+    "require_holdout_mae_better": true,
+    "require_rmse_not_worse": true
+  },
+  "evaluated_through": "2026-10-06",
+  "policy_compat_version": 1,
+  "protocol": {
+    "holdout_start": "2026-04-01",
+    "horizons": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "validation_folds": [
+      [
+        "2025-01-01",
+        "2025-04-01"
+      ],
+      [
+        "2025-04-01",
+        "2025-07-01"
+      ],
+      [
+        "2025-07-01",
+        "2025-10-01"
+      ],
+      [
+        "2025-10-01",
+        "2026-01-01"
+      ],
+      [
+        "2026-01-01",
+        "2026-04-01"
+      ]
+    ]
+  },
+  "series_sha256": "aabdd6e9dd77fd1f05bbeedbfedf521302b2e00ce4f788c274cfff23d4a6962e"
+}

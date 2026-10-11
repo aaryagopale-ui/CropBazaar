@@ -1,0 +1,1681 @@
+commodity,market,horizon_days,split,method,n_train,n_test,test_start,test_end,mae,rmse,median_ae
+Onion,Lasalgaon(Vinchur),1,fold1,persistence,209,48,2025-01-01,2025-03-26,81.4167,115.5664,50.0000
+Onion,Lasalgaon(Vinchur),1,fold1,rolling_mean_7d,209,48,2025-01-01,2025-03-26,155.7524,230.5602,91.4667
+Onion,Lasalgaon(Vinchur),1,fold1,ridge_core,209,48,2025-01-01,2025-03-26,81.4777,113.6204,54.3750
+Onion,Lasalgaon(Vinchur),1,fold1,ridge_extended,209,48,2025-01-01,2025-03-26,82.0829,113.8461,58.5255
+Onion,Lasalgaon(Vinchur),1,fold1,rf_core,209,48,2025-01-01,2025-03-26,85.0955,118.1470,51.6574
+Onion,Lasalgaon(Vinchur),1,fold1,rf_extended,209,48,2025-01-01,2025-03-26,87.5975,119.4338,57.4690
+Onion,Lasalgaon(Vinchur),1,fold1,xgb_core,209,48,2025-01-01,2025-03-26,93.5020,127.4872,56.2985
+Onion,Lasalgaon(Vinchur),1,fold1,xgb_extended,209,48,2025-01-01,2025-03-26,100.9302,137.6663,78.7843
+Onion,Lasalgaon(Vinchur),1,fold2,persistence,258,57,2025-04-02,2025-06-30,34.3333,44.9392,30.0000
+Onion,Lasalgaon(Vinchur),1,fold2,rolling_mean_7d,258,57,2025-04-02,2025-06-30,46.4716,65.0247,35.0000
+Onion,Lasalgaon(Vinchur),1,fold2,ridge_core,258,57,2025-04-02,2025-06-30,34.6646,45.1572,27.8107
+Onion,Lasalgaon(Vinchur),1,fold2,ridge_extended,258,57,2025-04-02,2025-06-30,34.7365,45.1738,28.9564
+Onion,Lasalgaon(Vinchur),1,fold2,rf_core,258,57,2025-04-02,2025-06-30,35.0642,47.6566,26.1309
+Onion,Lasalgaon(Vinchur),1,fold2,rf_extended,258,57,2025-04-02,2025-06-30,33.4704,45.3645,29.5390
+Onion,Lasalgaon(Vinchur),1,fold2,xgb_core,258,57,2025-04-02,2025-06-30,35.4494,47.9883,26.8868
+Onion,Lasalgaon(Vinchur),1,fold2,xgb_extended,258,57,2025-04-02,2025-06-30,36.1523,47.4749,27.1101
+Onion,Lasalgaon(Vinchur),1,fold3,persistence,314,50,2025-07-03,2025-09-30,34.7000,53.0330,25.0000
+Onion,Lasalgaon(Vinchur),1,fold3,rolling_mean_7d,314,50,2025-07-03,2025-09-30,54.4667,77.6980,42.9167
+Onion,Lasalgaon(Vinchur),1,fold3,ridge_core,314,50,2025-07-03,2025-09-30,34.9314,52.1024,25.9225
+Onion,Lasalgaon(Vinchur),1,fold3,ridge_extended,314,50,2025-07-03,2025-09-30,35.1034,51.8917,26.7163
+Onion,Lasalgaon(Vinchur),1,fold3,rf_core,314,50,2025-07-03,2025-09-30,37.1156,50.2742,28.9356
+Onion,Lasalgaon(Vinchur),1,fold3,rf_extended,314,50,2025-07-03,2025-09-30,38.2275,51.0627,28.6238
+Onion,Lasalgaon(Vinchur),1,fold3,xgb_core,314,50,2025-07-03,2025-09-30,36.6127,49.5353,29.6004
+Onion,Lasalgaon(Vinchur),1,fold3,xgb_extended,314,50,2025-07-03,2025-09-30,38.5620,51.9183,28.6059
+Onion,Lasalgaon(Vinchur),1,fold4,persistence,364,50,2025-10-01,2025-12-31,68.5232,95.8267,50.0000
+Onion,Lasalgaon(Vinchur),1,fold4,rolling_mean_7d,364,50,2025-10-01,2025-12-31,149.2899,199.4080,110.5000
+Onion,Lasalgaon(Vinchur),1,fold4,ridge_core,364,50,2025-10-01,2025-12-31,65.4695,93.0990,42.6727
+Onion,Lasalgaon(Vinchur),1,fold4,ridge_extended,364,50,2025-10-01,2025-12-31,64.4360,92.0410,40.8369
+Onion,Lasalgaon(Vinchur),1,fold4,rf_core,364,50,2025-10-01,2025-12-31,76.8005,107.4412,51.2627
+Onion,Lasalgaon(Vinchur),1,fold4,rf_extended,364,50,2025-10-01,2025-12-31,74.7590,105.0092,54.2309
+Onion,Lasalgaon(Vinchur),1,fold4,xgb_core,364,50,2025-10-01,2025-12-31,83.6892,117.8513,53.7017
+Onion,Lasalgaon(Vinchur),1,fold4,xgb_extended,364,50,2025-10-01,2025-12-31,83.2823,117.7390,59.5142
+Onion,Lasalgaon(Vinchur),1,fold5,persistence,414,49,2026-01-01,2026-03-24,33.2098,48.1728,25.0000
+Onion,Lasalgaon(Vinchur),1,fold5,rolling_mean_7d,414,49,2026-01-01,2026-03-24,69.2394,88.5171,59.1667
+Onion,Lasalgaon(Vinchur),1,fold5,ridge_core,414,49,2026-01-01,2026-03-24,33.2853,46.2131,23.3646
+Onion,Lasalgaon(Vinchur),1,fold5,ridge_extended,414,49,2026-01-01,2026-03-24,32.9865,45.6320,23.7709
+Onion,Lasalgaon(Vinchur),1,fold5,rf_core,414,49,2026-01-01,2026-03-24,35.9505,46.7807,29.8325
+Onion,Lasalgaon(Vinchur),1,fold5,rf_extended,414,49,2026-01-01,2026-03-24,37.7441,47.0513,35.2948
+Onion,Lasalgaon(Vinchur),1,fold5,xgb_core,414,49,2026-01-01,2026-03-24,37.4107,48.8054,32.9471
+Onion,Lasalgaon(Vinchur),1,fold5,xgb_extended,414,49,2026-01-01,2026-03-24,39.0277,48.4537,33.0792
+Onion,Lasalgaon(Vinchur),1,holdout,persistence,464,117,2026-04-02,2026-10-05,65.3074,99.1160,50.0000
+Onion,Lasalgaon(Vinchur),1,holdout,rolling_mean_7d,464,117,2026-04-02,2026-10-05,122.7090,186.7567,66.6667
+Onion,Lasalgaon(Vinchur),1,holdout,ridge_core,464,117,2026-04-02,2026-10-05,66.2358,97.1088,48.6086
+Onion,Lasalgaon(Vinchur),1,holdout,ridge_extended,464,117,2026-04-02,2026-10-05,65.7826,96.0750,47.6492
+Onion,Lasalgaon(Vinchur),1,holdout,rf_core,464,117,2026-04-02,2026-10-05,69.8241,99.7204,49.1874
+Onion,Lasalgaon(Vinchur),1,holdout,rf_extended,464,117,2026-04-02,2026-10-05,66.9103,94.3507,48.0597
+Onion,Lasalgaon(Vinchur),1,holdout,xgb_core,464,117,2026-04-02,2026-10-05,74.8427,108.1037,53.6374
+Onion,Lasalgaon(Vinchur),1,holdout,xgb_extended,464,117,2026-04-02,2026-10-05,69.9779,102.0619,51.2184
+Onion,Lasalgaon(Vinchur),2,fold1,persistence,204,44,2025-01-01,2025-03-25,136.8750,197.1706,100.0000
+Onion,Lasalgaon(Vinchur),2,fold1,rolling_mean_7d,204,44,2025-01-01,2025-03-25,198.7280,283.0127,125.0000
+Onion,Lasalgaon(Vinchur),2,fold1,ridge_core,204,44,2025-01-01,2025-03-25,137.8744,197.2943,102.1060
+Onion,Lasalgaon(Vinchur),2,fold1,ridge_extended,204,44,2025-01-01,2025-03-25,139.5138,197.9271,98.3660
+Onion,Lasalgaon(Vinchur),2,fold1,rf_core,204,44,2025-01-01,2025-03-25,152.5620,207.8869,114.4157
+Onion,Lasalgaon(Vinchur),2,fold1,rf_extended,204,44,2025-01-01,2025-03-25,147.1638,202.6833,110.7175
+Onion,Lasalgaon(Vinchur),2,fold1,xgb_core,204,44,2025-01-01,2025-03-25,171.4465,224.5609,143.3145
+Onion,Lasalgaon(Vinchur),2,fold1,xgb_extended,204,44,2025-01-01,2025-03-25,157.7993,212.7902,110.5319
+Onion,Lasalgaon(Vinchur),2,fold2,persistence,250,56,2025-04-02,2025-06-28,43.4911,56.1945,32.5000
+Onion,Lasalgaon(Vinchur),2,fold2,rolling_mean_7d,250,56,2025-04-02,2025-06-28,51.0668,72.6067,38.8333
+Onion,Lasalgaon(Vinchur),2,fold2,ridge_core,250,56,2025-04-02,2025-06-28,43.9421,56.3054,32.1026
+Onion,Lasalgaon(Vinchur),2,fold2,ridge_extended,250,56,2025-04-02,2025-06-28,43.6795,56.0144,32.7669
+Onion,Lasalgaon(Vinchur),2,fold2,rf_core,250,56,2025-04-02,2025-06-28,47.2915,58.0152,39.1111
+Onion,Lasalgaon(Vinchur),2,fold2,rf_extended,250,56,2025-04-02,2025-06-28,44.7862,55.7795,35.0559
+Onion,Lasalgaon(Vinchur),2,fold2,xgb_core,250,56,2025-04-02,2025-06-28,52.3841,63.1057,43.9469
+Onion,Lasalgaon(Vinchur),2,fold2,xgb_extended,250,56,2025-04-02,2025-06-28,43.5821,57.1971,33.0920
+Onion,Lasalgaon(Vinchur),2,fold3,persistence,306,50,2025-07-01,2025-09-30,47.7000,72.2738,45.0000
+Onion,Lasalgaon(Vinchur),2,fold3,rolling_mean_7d,306,50,2025-07-01,2025-09-30,66.3433,93.5082,48.0000
+Onion,Lasalgaon(Vinchur),2,fold3,ridge_core,306,50,2025-07-01,2025-09-30,48.0643,71.2368,42.7121
+Onion,Lasalgaon(Vinchur),2,fold3,ridge_extended,306,50,2025-07-01,2025-09-30,48.3493,71.0905,42.9662
+Onion,Lasalgaon(Vinchur),2,fold3,rf_core,306,50,2025-07-01,2025-09-30,52.1179,69.7256,42.3416
+Onion,Lasalgaon(Vinchur),2,fold3,rf_extended,306,50,2025-07-01,2025-09-30,55.0183,73.3698,42.9669
+Onion,Lasalgaon(Vinchur),2,fold3,xgb_core,306,50,2025-07-01,2025-09-30,54.8583,72.8420,37.1546
+Onion,Lasalgaon(Vinchur),2,fold3,xgb_extended,306,50,2025-07-01,2025-09-30,61.6556,81.1580,52.4451
+Onion,Lasalgaon(Vinchur),2,fold4,persistence,354,50,2025-10-01,2025-12-31,108.5874,149.3335,65.3000
+Onion,Lasalgaon(Vinchur),2,fold4,rolling_mean_7d,354,50,2025-10-01,2025-12-31,180.2500,237.0677,123.1508
+Onion,Lasalgaon(Vinchur),2,fold4,ridge_core,354,50,2025-10-01,2025-12-31,107.8532,147.8834,61.8958
+Onion,Lasalgaon(Vinchur),2,fold4,ridge_extended,354,50,2025-10-01,2025-12-31,106.6018,147.2239,62.4405
+Onion,Lasalgaon(Vinchur),2,fold4,rf_core,354,50,2025-10-01,2025-12-31,123.4191,168.5678,76.6490
+Onion,Lasalgaon(Vinchur),2,fold4,rf_extended,354,50,2025-10-01,2025-12-31,116.2809,164.7527,84.5558
+Onion,Lasalgaon(Vinchur),2,fold4,xgb_core,354,50,2025-10-01,2025-12-31,135.5599,183.9954,86.8267
+Onion,Lasalgaon(Vinchur),2,fold4,xgb_extended,354,50,2025-10-01,2025-12-31,135.5134,196.1150,92.6693
+Onion,Lasalgaon(Vinchur),2,fold5,persistence,404,47,2026-01-01,2026-03-25,54.0851,78.3929,40.0000
+Onion,Lasalgaon(Vinchur),2,fold5,rolling_mean_7d,404,47,2026-01-01,2026-03-25,86.7947,113.2366,67.5000
+Onion,Lasalgaon(Vinchur),2,fold5,ridge_core,404,47,2026-01-01,2026-03-25,56.0042,76.5279,32.9994
+Onion,Lasalgaon(Vinchur),2,fold5,ridge_extended,404,47,2026-01-01,2026-03-25,55.5500,74.9101,33.2282
+Onion,Lasalgaon(Vinchur),2,fold5,rf_core,404,47,2026-01-01,2026-03-25,57.2077,72.8890,45.0312
+Onion,Lasalgaon(Vinchur),2,fold5,rf_extended,404,47,2026-01-01,2026-03-25,55.3161,70.6631,39.4359
+Onion,Lasalgaon(Vinchur),2,fold5,xgb_core,404,47,2026-01-01,2026-03-25,60.5879,77.7245,47.4137
+Onion,Lasalgaon(Vinchur),2,fold5,xgb_extended,404,47,2026-01-01,2026-03-25,56.3496,70.9936,44.2954
+Onion,Lasalgaon(Vinchur),2,holdout,persistence,453,114,2026-04-02,2026-10-03,93.1925,142.3223,50.0000
+Onion,Lasalgaon(Vinchur),2,holdout,rolling_mean_7d,453,114,2026-04-02,2026-10-03,135.0208,207.5061,74.1575
+Onion,Lasalgaon(Vinchur),2,holdout,ridge_core,453,114,2026-04-02,2026-10-03,92.6518,139.6949,54.4820
+Onion,Lasalgaon(Vinchur),2,holdout,ridge_extended,453,114,2026-04-02,2026-10-03,90.6730,136.4917,57.1058
+Onion,Lasalgaon(Vinchur),2,holdout,rf_core,453,114,2026-04-02,2026-10-03,94.9938,142.4034,59.7945
+Onion,Lasalgaon(Vinchur),2,holdout,rf_extended,453,114,2026-04-02,2026-10-03,90.2667,132.3202,59.9174
+Onion,Lasalgaon(Vinchur),2,holdout,xgb_core,453,114,2026-04-02,2026-10-03,94.0117,141.2036,60.6852
+Onion,Lasalgaon(Vinchur),2,holdout,xgb_extended,453,114,2026-04-02,2026-10-03,89.4286,130.0723,59.9200
+Onion,Lasalgaon(Vinchur),3,fold1,persistence,201,43,2025-01-01,2025-03-22,181.9070,252.9621,125.0000
+Onion,Lasalgaon(Vinchur),3,fold1,rolling_mean_7d,201,43,2025-01-01,2025-03-22,218.6314,300.3141,133.3333
+Onion,Lasalgaon(Vinchur),3,fold1,ridge_core,201,43,2025-01-01,2025-03-22,183.9958,256.0567,133.0850
+Onion,Lasalgaon(Vinchur),3,fold1,ridge_extended,201,43,2025-01-01,2025-03-22,184.2860,255.5062,132.7997
+Onion,Lasalgaon(Vinchur),3,fold1,rf_core,201,43,2025-01-01,2025-03-22,199.2141,263.1943,145.8767
+Onion,Lasalgaon(Vinchur),3,fold1,rf_extended,201,43,2025-01-01,2025-03-22,192.9666,253.9879,134.7163
+Onion,Lasalgaon(Vinchur),3,fold1,xgb_core,201,43,2025-01-01,2025-03-22,198.3763,262.8687,159.1149
+Onion,Lasalgaon(Vinchur),3,fold1,xgb_extended,201,43,2025-01-01,2025-03-22,194.8383,249.9518,171.6681
+Onion,Lasalgaon(Vinchur),3,fold2,persistence,246,58,2025-04-02,2025-06-30,46.3707,60.4688,40.0000
+Onion,Lasalgaon(Vinchur),3,fold2,rolling_mean_7d,246,58,2025-04-02,2025-06-30,52.4912,75.0801,29.0167
+Onion,Lasalgaon(Vinchur),3,fold2,ridge_core,246,58,2025-04-02,2025-06-30,47.4916,59.6620,36.9890
+Onion,Lasalgaon(Vinchur),3,fold2,ridge_extended,246,58,2025-04-02,2025-06-30,45.8723,58.8321,35.6209
+Onion,Lasalgaon(Vinchur),3,fold2,rf_core,246,58,2025-04-02,2025-06-30,58.2024,70.3796,48.4885
+Onion,Lasalgaon(Vinchur),3,fold2,rf_extended,246,58,2025-04-02,2025-06-30,53.4869,65.3562,49.3591
+Onion,Lasalgaon(Vinchur),3,fold2,xgb_core,246,58,2025-04-02,2025-06-30,68.7366,81.7540,70.0195
+Onion,Lasalgaon(Vinchur),3,fold2,xgb_extended,246,58,2025-04-02,2025-06-30,58.9919,71.6000,52.1378
+Onion,Lasalgaon(Vinchur),3,fold3,persistence,302,49,2025-07-01,2025-09-30,51.6327,76.7184,50.0000
+Onion,Lasalgaon(Vinchur),3,fold3,rolling_mean_7d,302,49,2025-07-01,2025-09-30,69.1139,91.5775,51.2500
+Onion,Lasalgaon(Vinchur),3,fold3,ridge_core,302,49,2025-07-01,2025-09-30,60.9825,81.0207,48.9043
+Onion,Lasalgaon(Vinchur),3,fold3,ridge_extended,302,49,2025-07-01,2025-09-30,56.8229,78.6301,38.1113
+Onion,Lasalgaon(Vinchur),3,fold3,rf_core,302,49,2025-07-01,2025-09-30,62.5739,83.9124,50.0986
+Onion,Lasalgaon(Vinchur),3,fold3,rf_extended,302,49,2025-07-01,2025-09-30,65.3835,87.3495,55.2144
+Onion,Lasalgaon(Vinchur),3,fold3,xgb_core,302,49,2025-07-01,2025-09-30,67.4872,87.0003,53.6823
+Onion,Lasalgaon(Vinchur),3,fold3,xgb_extended,302,49,2025-07-01,2025-09-30,73.4633,93.5896,62.3404
+Onion,Lasalgaon(Vinchur),3,fold4,persistence,351,48,2025-10-01,2025-12-31,149.1921,197.3770,116.1900
+Onion,Lasalgaon(Vinchur),3,fold4,rolling_mean_7d,351,48,2025-10-01,2025-12-31,217.0295,275.0013,182.0158
+Onion,Lasalgaon(Vinchur),3,fold4,ridge_core,351,48,2025-10-01,2025-12-31,144.8798,194.3659,117.5093
+Onion,Lasalgaon(Vinchur),3,fold4,ridge_extended,351,48,2025-10-01,2025-12-31,142.1142,192.5848,116.0833
+Onion,Lasalgaon(Vinchur),3,fold4,rf_core,351,48,2025-10-01,2025-12-31,162.6759,212.1720,119.3756
+Onion,Lasalgaon(Vinchur),3,fold4,rf_extended,351,48,2025-10-01,2025-12-31,154.1953,207.8344,114.1277
+Onion,Lasalgaon(Vinchur),3,fold4,xgb_core,351,48,2025-10-01,2025-12-31,179.1080,233.8486,121.4771
+Onion,Lasalgaon(Vinchur),3,fold4,xgb_extended,351,48,2025-10-01,2025-12-31,173.6742,238.1166,112.2892
+Onion,Lasalgaon(Vinchur),3,fold5,persistence,398,45,2026-01-02,2026-03-24,61.3644,86.9370,50.0000
+Onion,Lasalgaon(Vinchur),3,fold5,rolling_mean_7d,398,45,2026-01-02,2026-03-24,95.4765,126.1219,80.0000
+Onion,Lasalgaon(Vinchur),3,fold5,ridge_core,398,45,2026-01-02,2026-03-24,61.2697,83.9911,47.6126
+Onion,Lasalgaon(Vinchur),3,fold5,ridge_extended,398,45,2026-01-02,2026-03-24,59.2924,81.4235,44.5391
+Onion,Lasalgaon(Vinchur),3,fold5,rf_core,398,45,2026-01-02,2026-03-24,68.8247,87.7404,50.2863
+Onion,Lasalgaon(Vinchur),3,fold5,rf_extended,398,45,2026-01-02,2026-03-24,63.5079,82.1211,48.0671
+Onion,Lasalgaon(Vinchur),3,fold5,xgb_core,398,45,2026-01-02,2026-03-24,79.3615,101.8336,60.9375
+Onion,Lasalgaon(Vinchur),3,fold5,xgb_extended,398,45,2026-01-02,2026-03-24,70.9324,91.5452,54.1081
+Onion,Lasalgaon(Vinchur),3,holdout,persistence,446,111,2026-04-03,2026-10-03,120.7075,183.3209,100.0000
+Onion,Lasalgaon(Vinchur),3,holdout,rolling_mean_7d,446,111,2026-04-03,2026-10-03,157.5426,237.4755,87.5000
+Onion,Lasalgaon(Vinchur),3,holdout,ridge_core,446,111,2026-04-03,2026-10-03,118.8973,180.1925,79.7637
+Onion,Lasalgaon(Vinchur),3,holdout,ridge_extended,446,111,2026-04-03,2026-10-03,117.9915,178.0824,76.3001
+Onion,Lasalgaon(Vinchur),3,holdout,rf_core,446,111,2026-04-03,2026-10-03,122.2317,182.7490,76.9014
+Onion,Lasalgaon(Vinchur),3,holdout,rf_extended,446,111,2026-04-03,2026-10-03,120.6276,176.6776,81.5645
+Onion,Lasalgaon(Vinchur),3,holdout,xgb_core,446,111,2026-04-03,2026-10-03,122.4856,182.5873,73.2176
+Onion,Lasalgaon(Vinchur),3,holdout,xgb_extended,446,111,2026-04-03,2026-10-03,122.1762,179.6916,83.4862
+Onion,Lasalgaon(Vinchur),4,fold1,persistence,200,43,2025-01-02,2025-03-22,214.9535,294.7987,140.0000
+Onion,Lasalgaon(Vinchur),4,fold1,rolling_mean_7d,200,43,2025-01-02,2025-03-22,242.0213,327.3077,150.0000
+Onion,Lasalgaon(Vinchur),4,fold1,ridge_core,200,43,2025-01-02,2025-03-22,219.7050,296.2406,133.3360
+Onion,Lasalgaon(Vinchur),4,fold1,ridge_extended,200,43,2025-01-02,2025-03-22,220.1716,296.2991,131.1537
+Onion,Lasalgaon(Vinchur),4,fold1,rf_core,200,43,2025-01-02,2025-03-22,242.1882,311.1630,165.9110
+Onion,Lasalgaon(Vinchur),4,fold1,rf_extended,200,43,2025-01-02,2025-03-22,235.6866,304.6218,159.4169
+Onion,Lasalgaon(Vinchur),4,fold1,xgb_core,200,43,2025-01-02,2025-03-22,242.0709,307.8592,207.8424
+Onion,Lasalgaon(Vinchur),4,fold1,xgb_extended,200,43,2025-01-02,2025-03-22,250.5703,309.5294,192.1769
+Onion,Lasalgaon(Vinchur),4,fold2,persistence,246,57,2025-04-03,2025-06-30,54.5351,72.3581,40.0000
+Onion,Lasalgaon(Vinchur),4,fold2,rolling_mean_7d,246,57,2025-04-03,2025-06-30,61.3463,81.3813,48.3333
+Onion,Lasalgaon(Vinchur),4,fold2,ridge_core,246,57,2025-04-03,2025-06-30,60.4607,75.3013,52.0486
+Onion,Lasalgaon(Vinchur),4,fold2,ridge_extended,246,57,2025-04-03,2025-06-30,58.3914,73.8808,48.5734
+Onion,Lasalgaon(Vinchur),4,fold2,rf_core,246,57,2025-04-03,2025-06-30,70.4629,86.2089,63.1087
+Onion,Lasalgaon(Vinchur),4,fold2,rf_extended,246,57,2025-04-03,2025-06-30,63.8784,78.8033,53.4534
+Onion,Lasalgaon(Vinchur),4,fold2,xgb_core,246,57,2025-04-03,2025-06-30,80.2549,96.0151,72.6349
+Onion,Lasalgaon(Vinchur),4,fold2,xgb_extended,246,57,2025-04-03,2025-06-30,69.0100,84.6585,59.2599
+Onion,Lasalgaon(Vinchur),4,fold3,persistence,302,48,2025-07-01,2025-09-30,53.6458,73.1686,50.0000
+Onion,Lasalgaon(Vinchur),4,fold3,rolling_mean_7d,302,48,2025-07-01,2025-09-30,70.5851,91.0273,58.1250
+Onion,Lasalgaon(Vinchur),4,fold3,ridge_core,302,48,2025-07-01,2025-09-30,54.9672,73.5084,47.4148
+Onion,Lasalgaon(Vinchur),4,fold3,ridge_extended,302,48,2025-07-01,2025-09-30,56.1078,74.7940,42.6146
+Onion,Lasalgaon(Vinchur),4,fold3,rf_core,302,48,2025-07-01,2025-09-30,71.6317,90.8531,56.7071
+Onion,Lasalgaon(Vinchur),4,fold3,rf_extended,302,48,2025-07-01,2025-09-30,75.8204,94.3497,69.1010
+Onion,Lasalgaon(Vinchur),4,fold3,xgb_core,302,48,2025-07-01,2025-09-30,79.3062,99.7367,74.9377
+Onion,Lasalgaon(Vinchur),4,fold3,xgb_extended,302,48,2025-07-01,2025-09-30,80.7500,98.4956,75.4003
+Onion,Lasalgaon(Vinchur),4,fold4,persistence,348,47,2025-10-02,2025-12-30,183.5609,239.1380,132.3800
+Onion,Lasalgaon(Vinchur),4,fold4,rolling_mean_7d,348,47,2025-10-02,2025-12-30,240.0055,302.0293,193.2233
+Onion,Lasalgaon(Vinchur),4,fold4,ridge_core,348,47,2025-10-02,2025-12-30,180.4682,236.8372,134.8130
+Onion,Lasalgaon(Vinchur),4,fold4,ridge_extended,348,47,2025-10-02,2025-12-30,180.9523,236.1594,139.4263
+Onion,Lasalgaon(Vinchur),4,fold4,rf_core,348,47,2025-10-02,2025-12-30,207.6149,264.5411,165.3244
+Onion,Lasalgaon(Vinchur),4,fold4,rf_extended,348,47,2025-10-02,2025-12-30,200.4271,259.8832,162.4959
+Onion,Lasalgaon(Vinchur),4,fold4,xgb_core,348,47,2025-10-02,2025-12-30,221.5911,287.4408,171.9988
+Onion,Lasalgaon(Vinchur),4,fold4,xgb_extended,348,47,2025-10-02,2025-12-30,210.6346,278.3085,145.0372
+Onion,Lasalgaon(Vinchur),4,fold5,persistence,396,47,2026-01-01,2026-03-23,80.8638,103.3722,57.5600
+Onion,Lasalgaon(Vinchur),4,fold5,rolling_mean_7d,396,47,2026-01-01,2026-03-23,106.7835,139.0919,80.0000
+Onion,Lasalgaon(Vinchur),4,fold5,ridge_core,396,47,2026-01-01,2026-03-23,79.1670,98.9605,58.1529
+Onion,Lasalgaon(Vinchur),4,fold5,ridge_extended,396,47,2026-01-01,2026-03-23,76.6998,95.6023,58.8807
+Onion,Lasalgaon(Vinchur),4,fold5,rf_core,396,47,2026-01-01,2026-03-23,78.7661,98.2674,71.4016
+Onion,Lasalgaon(Vinchur),4,fold5,rf_extended,396,47,2026-01-01,2026-03-23,77.7579,96.1830,70.8530
+Onion,Lasalgaon(Vinchur),4,fold5,xgb_core,396,47,2026-01-01,2026-03-23,83.6401,104.1551,80.8242
+Onion,Lasalgaon(Vinchur),4,fold5,xgb_extended,396,47,2026-01-01,2026-03-23,87.9126,107.4509,67.5442
+Onion,Lasalgaon(Vinchur),4,holdout,persistence,445,112,2026-04-02,2026-10-01,142.8226,212.8705,100.0000
+Onion,Lasalgaon(Vinchur),4,holdout,rolling_mean_7d,445,112,2026-04-02,2026-10-01,176.7950,271.9459,100.0000
+Onion,Lasalgaon(Vinchur),4,holdout,ridge_core,445,112,2026-04-02,2026-10-01,140.7945,209.3260,98.8611
+Onion,Lasalgaon(Vinchur),4,holdout,ridge_extended,445,112,2026-04-02,2026-10-01,138.8783,206.4306,96.3660
+Onion,Lasalgaon(Vinchur),4,holdout,rf_core,445,112,2026-04-02,2026-10-01,141.6209,211.0482,83.0608
+Onion,Lasalgaon(Vinchur),4,holdout,rf_extended,445,112,2026-04-02,2026-10-01,133.5978,198.2330,84.3685
+Onion,Lasalgaon(Vinchur),4,holdout,xgb_core,445,112,2026-04-02,2026-10-01,147.4325,225.2300,93.0321
+Onion,Lasalgaon(Vinchur),4,holdout,xgb_extended,445,112,2026-04-02,2026-10-01,132.8813,202.8076,80.0753
+Onion,Lasalgaon(Vinchur),5,fold1,persistence,201,42,2025-01-01,2025-03-22,227.7381,319.5617,116.2500
+Onion,Lasalgaon(Vinchur),5,fold1,rolling_mean_7d,201,42,2025-01-01,2025-03-22,258.1881,343.3212,167.5000
+Onion,Lasalgaon(Vinchur),5,fold1,ridge_core,201,42,2025-01-01,2025-03-22,230.5385,323.2517,118.3483
+Onion,Lasalgaon(Vinchur),5,fold1,ridge_extended,201,42,2025-01-01,2025-03-22,229.7366,322.5516,123.6663
+Onion,Lasalgaon(Vinchur),5,fold1,rf_core,201,42,2025-01-01,2025-03-22,249.4611,337.7382,173.3282
+Onion,Lasalgaon(Vinchur),5,fold1,rf_extended,201,42,2025-01-01,2025-03-22,245.2303,334.7928,143.3395
+Onion,Lasalgaon(Vinchur),5,fold1,xgb_core,201,42,2025-01-01,2025-03-22,277.9328,351.6515,211.0570
+Onion,Lasalgaon(Vinchur),5,fold1,xgb_extended,201,42,2025-01-01,2025-03-22,283.2762,358.8742,211.4303
+Onion,Lasalgaon(Vinchur),5,fold2,persistence,246,58,2025-04-02,2025-06-30,56.6810,76.5619,40.0000
+Onion,Lasalgaon(Vinchur),5,fold2,rolling_mean_7d,246,58,2025-04-02,2025-06-30,65.4122,87.0410,49.1667
+Onion,Lasalgaon(Vinchur),5,fold2,ridge_core,246,58,2025-04-02,2025-06-30,62.9881,77.3393,56.6525
+Onion,Lasalgaon(Vinchur),5,fold2,ridge_extended,246,58,2025-04-02,2025-06-30,61.8866,76.8593,52.4454
+Onion,Lasalgaon(Vinchur),5,fold2,rf_core,246,58,2025-04-02,2025-06-30,77.0661,97.3785,59.9362
+Onion,Lasalgaon(Vinchur),5,fold2,rf_extended,246,58,2025-04-02,2025-06-30,66.3671,85.0267,53.7575
+Onion,Lasalgaon(Vinchur),5,fold2,xgb_core,246,58,2025-04-02,2025-06-30,80.3579,102.6889,63.5148
+Onion,Lasalgaon(Vinchur),5,fold2,xgb_extended,246,58,2025-04-02,2025-06-30,68.6043,89.4648,52.6075
+Onion,Lasalgaon(Vinchur),5,fold3,persistence,301,48,2025-07-03,2025-09-29,60.7292,86.0565,50.0000
+Onion,Lasalgaon(Vinchur),5,fold3,rolling_mean_7d,301,48,2025-07-03,2025-09-29,83.7795,105.2950,66.1667
+Onion,Lasalgaon(Vinchur),5,fold3,ridge_core,301,48,2025-07-03,2025-09-29,74.0782,92.6882,57.3587
+Onion,Lasalgaon(Vinchur),5,fold3,ridge_extended,301,48,2025-07-03,2025-09-29,69.2590,90.5070,47.9795
+Onion,Lasalgaon(Vinchur),5,fold3,rf_core,301,48,2025-07-03,2025-09-29,89.1991,111.9813,75.8833
+Onion,Lasalgaon(Vinchur),5,fold3,rf_extended,301,48,2025-07-03,2025-09-29,96.5959,117.8172,85.6795
+Onion,Lasalgaon(Vinchur),5,fold3,xgb_core,301,48,2025-07-03,2025-09-29,87.6811,113.4409,67.9546
+Onion,Lasalgaon(Vinchur),5,fold3,xgb_extended,301,48,2025-07-03,2025-09-29,103.1345,126.7571,83.5827
+Onion,Lasalgaon(Vinchur),5,fold4,persistence,349,49,2025-10-01,2025-12-31,209.5222,265.2782,200.0000
+Onion,Lasalgaon(Vinchur),5,fold4,rolling_mean_7d,349,49,2025-10-01,2025-12-31,249.1977,324.1798,172.5950
+Onion,Lasalgaon(Vinchur),5,fold4,ridge_core,349,49,2025-10-01,2025-12-31,205.2453,262.4416,175.2327
+Onion,Lasalgaon(Vinchur),5,fold4,ridge_extended,349,49,2025-10-01,2025-12-31,203.9972,260.0336,171.7901
+Onion,Lasalgaon(Vinchur),5,fold4,rf_core,349,49,2025-10-01,2025-12-31,210.9516,281.1816,162.4148
+Onion,Lasalgaon(Vinchur),5,fold4,rf_extended,349,49,2025-10-01,2025-12-31,206.1173,279.7714,147.9315
+Onion,Lasalgaon(Vinchur),5,fold4,xgb_core,349,49,2025-10-01,2025-12-31,210.9236,294.0426,152.8067
+Onion,Lasalgaon(Vinchur),5,fold4,xgb_extended,349,49,2025-10-01,2025-12-31,216.0051,303.7009,129.1680
+Onion,Lasalgaon(Vinchur),5,fold5,persistence,398,44,2026-01-01,2026-03-20,93.3927,116.8283,85.0000
+Onion,Lasalgaon(Vinchur),5,fold5,rolling_mean_7d,398,44,2026-01-01,2026-03-20,113.4167,146.2248,94.5833
+Onion,Lasalgaon(Vinchur),5,fold5,ridge_core,398,44,2026-01-01,2026-03-20,89.6640,111.9795,70.8830
+Onion,Lasalgaon(Vinchur),5,fold5,ridge_extended,398,44,2026-01-01,2026-03-20,85.2562,106.7294,62.8667
+Onion,Lasalgaon(Vinchur),5,fold5,rf_core,398,44,2026-01-01,2026-03-20,91.6045,113.2823,79.0766
+Onion,Lasalgaon(Vinchur),5,fold5,rf_extended,398,44,2026-01-01,2026-03-20,93.8301,117.8283,80.1914
+Onion,Lasalgaon(Vinchur),5,fold5,xgb_core,398,44,2026-01-01,2026-03-20,98.4172,124.8035,91.7585
+Onion,Lasalgaon(Vinchur),5,fold5,xgb_extended,398,44,2026-01-01,2026-03-20,95.2605,118.4275,81.4143
+Onion,Lasalgaon(Vinchur),5,holdout,persistence,445,114,2026-04-02,2026-10-01,168.7758,255.2758,100.0000
+Onion,Lasalgaon(Vinchur),5,holdout,rolling_mean_7d,445,114,2026-04-02,2026-10-01,198.7540,308.7251,100.0000
+Onion,Lasalgaon(Vinchur),5,holdout,ridge_core,445,114,2026-04-02,2026-10-01,164.1352,248.0467,91.7242
+Onion,Lasalgaon(Vinchur),5,holdout,ridge_extended,445,114,2026-04-02,2026-10-01,157.1838,240.4492,88.8719
+Onion,Lasalgaon(Vinchur),5,holdout,rf_core,445,114,2026-04-02,2026-10-01,163.9697,252.0957,92.7637
+Onion,Lasalgaon(Vinchur),5,holdout,rf_extended,445,114,2026-04-02,2026-10-01,154.0945,239.6099,81.0774
+Onion,Lasalgaon(Vinchur),5,holdout,xgb_core,445,114,2026-04-02,2026-10-01,161.4302,248.0011,100.5618
+Onion,Lasalgaon(Vinchur),5,holdout,xgb_extended,445,114,2026-04-02,2026-10-01,153.7395,240.0628,90.6340
+Onion,Lasalgaon(Vinchur),6,fold1,persistence,199,41,2025-01-01,2025-03-27,238.7195,342.7470,150.0000
+Onion,Lasalgaon(Vinchur),6,fold1,rolling_mean_7d,199,41,2025-01-01,2025-03-27,280.2252,370.9682,233.3333
+Onion,Lasalgaon(Vinchur),6,fold1,ridge_core,199,41,2025-01-01,2025-03-27,243.0014,348.0332,143.9699
+Onion,Lasalgaon(Vinchur),6,fold1,ridge_extended,199,41,2025-01-01,2025-03-27,242.4509,347.8146,141.1521
+Onion,Lasalgaon(Vinchur),6,fold1,rf_core,199,41,2025-01-01,2025-03-27,283.9696,387.4914,170.3600
+Onion,Lasalgaon(Vinchur),6,fold1,rf_extended,199,41,2025-01-01,2025-03-27,269.8239,369.1609,172.3170
+Onion,Lasalgaon(Vinchur),6,fold1,xgb_core,199,41,2025-01-01,2025-03-27,328.2671,426.5992,228.6855
+Onion,Lasalgaon(Vinchur),6,fold1,xgb_extended,199,41,2025-01-01,2025-03-27,316.9695,412.8043,229.2757
+Onion,Lasalgaon(Vinchur),6,fold2,persistence,243,56,2025-04-02,2025-06-28,63.0625,89.4228,44.5000
+Onion,Lasalgaon(Vinchur),6,fold2,rolling_mean_7d,243,56,2025-04-02,2025-06-28,77.3385,102.1386,52.5000
+Onion,Lasalgaon(Vinchur),6,fold2,ridge_core,243,56,2025-04-02,2025-06-28,69.3101,87.8485,56.3845
+Onion,Lasalgaon(Vinchur),6,fold2,ridge_extended,243,56,2025-04-02,2025-06-28,69.1517,88.9691,53.9259
+Onion,Lasalgaon(Vinchur),6,fold2,rf_core,243,56,2025-04-02,2025-06-28,86.1082,107.6546,72.1750
+Onion,Lasalgaon(Vinchur),6,fold2,rf_extended,243,56,2025-04-02,2025-06-28,74.5931,95.0357,61.6317
+Onion,Lasalgaon(Vinchur),6,fold2,xgb_core,243,56,2025-04-02,2025-06-28,97.8925,119.6019,83.2448
+Onion,Lasalgaon(Vinchur),6,fold2,xgb_extended,243,56,2025-04-02,2025-06-28,82.1772,104.8528,69.9915
+Onion,Lasalgaon(Vinchur),6,fold3,persistence,298,51,2025-07-01,2025-09-30,69.6078,92.7785,50.0000
+Onion,Lasalgaon(Vinchur),6,fold3,rolling_mean_7d,298,51,2025-07-01,2025-09-30,89.5621,110.5989,75.0000
+Onion,Lasalgaon(Vinchur),6,fold3,ridge_core,298,51,2025-07-01,2025-09-30,74.6353,96.0889,63.5882
+Onion,Lasalgaon(Vinchur),6,fold3,ridge_extended,298,51,2025-07-01,2025-09-30,79.0911,99.4141,67.3877
+Onion,Lasalgaon(Vinchur),6,fold3,rf_core,298,51,2025-07-01,2025-09-30,90.2609,113.9424,76.1269
+Onion,Lasalgaon(Vinchur),6,fold3,rf_extended,298,51,2025-07-01,2025-09-30,104.3381,127.2891,98.0898
+Onion,Lasalgaon(Vinchur),6,fold3,xgb_core,298,51,2025-07-01,2025-09-30,99.8813,121.7032,83.8020
+Onion,Lasalgaon(Vinchur),6,fold3,xgb_extended,298,51,2025-07-01,2025-09-30,118.4345,138.0323,113.7838
+Onion,Lasalgaon(Vinchur),6,fold4,persistence,348,48,2025-10-01,2025-12-31,232.1271,299.3639,212.8600
+Onion,Lasalgaon(Vinchur),6,fold4,rolling_mean_7d,348,48,2025-10-01,2025-12-31,283.4902,362.3169,237.6658
+Onion,Lasalgaon(Vinchur),6,fold4,ridge_core,348,48,2025-10-01,2025-12-31,226.1940,297.4759,225.0033
+Onion,Lasalgaon(Vinchur),6,fold4,ridge_extended,348,48,2025-10-01,2025-12-31,225.7365,296.6078,216.3439
+Onion,Lasalgaon(Vinchur),6,fold4,rf_core,348,48,2025-10-01,2025-12-31,249.4937,326.8466,206.5532
+Onion,Lasalgaon(Vinchur),6,fold4,rf_extended,348,48,2025-10-01,2025-12-31,240.7508,318.7751,199.1871
+Onion,Lasalgaon(Vinchur),6,fold4,xgb_core,348,48,2025-10-01,2025-12-31,257.3153,349.0723,207.0669
+Onion,Lasalgaon(Vinchur),6,fold4,xgb_extended,348,48,2025-10-01,2025-12-31,255.9779,354.6387,163.2581
+Onion,Lasalgaon(Vinchur),6,fold5,persistence,395,47,2026-01-01,2026-03-27,98.9398,118.8531,100.0000
+Onion,Lasalgaon(Vinchur),6,fold5,rolling_mean_7d,395,47,2026-01-01,2026-03-27,117.3349,152.4946,80.0000
+Onion,Lasalgaon(Vinchur),6,fold5,ridge_core,395,47,2026-01-01,2026-03-27,95.1244,113.9456,87.7203
+Onion,Lasalgaon(Vinchur),6,fold5,ridge_extended,395,47,2026-01-01,2026-03-27,92.1733,110.1273,79.7360
+Onion,Lasalgaon(Vinchur),6,fold5,rf_core,395,47,2026-01-01,2026-03-27,95.6071,111.5336,88.9337
+Onion,Lasalgaon(Vinchur),6,fold5,rf_extended,395,47,2026-01-01,2026-03-27,98.2086,115.6894,92.6795
+Onion,Lasalgaon(Vinchur),6,fold5,xgb_core,395,47,2026-01-01,2026-03-27,119.5423,143.0356,108.1790
+Onion,Lasalgaon(Vinchur),6,fold5,xgb_extended,395,47,2026-01-01,2026-03-27,107.3899,131.0604,85.6605
+Onion,Lasalgaon(Vinchur),6,holdout,persistence,445,115,2026-04-02,2026-09-30,183.0660,275.9382,100.0000
+Onion,Lasalgaon(Vinchur),6,holdout,rolling_mean_7d,445,115,2026-04-02,2026-09-30,224.0364,346.2209,125.0000
+Onion,Lasalgaon(Vinchur),6,holdout,ridge_core,445,115,2026-04-02,2026-09-30,171.2579,260.4865,104.1300
+Onion,Lasalgaon(Vinchur),6,holdout,ridge_extended,445,115,2026-04-02,2026-09-30,169.8120,256.5587,104.9003
+Onion,Lasalgaon(Vinchur),6,holdout,rf_core,445,115,2026-04-02,2026-09-30,173.9653,264.6682,104.8053
+Onion,Lasalgaon(Vinchur),6,holdout,rf_extended,445,115,2026-04-02,2026-09-30,165.9328,256.1259,94.4545
+Onion,Lasalgaon(Vinchur),6,holdout,xgb_core,445,115,2026-04-02,2026-09-30,171.1420,258.5312,106.4258
+Onion,Lasalgaon(Vinchur),6,holdout,xgb_extended,445,115,2026-04-02,2026-09-30,164.2032,250.2833,105.4826
+Onion,Lasalgaon(Vinchur),7,fold1,persistence,239,49,2025-01-01,2025-03-27,278.2143,366.5958,200.0000
+Onion,Lasalgaon(Vinchur),7,fold1,rolling_mean_7d,239,49,2025-01-01,2025-03-27,313.0901,392.3310,258.3333
+Onion,Lasalgaon(Vinchur),7,fold1,ridge_core,239,49,2025-01-01,2025-03-27,284.5118,372.4875,201.6919
+Onion,Lasalgaon(Vinchur),7,fold1,ridge_extended,239,49,2025-01-01,2025-03-27,284.5940,372.6883,191.2596
+Onion,Lasalgaon(Vinchur),7,fold1,rf_core,239,49,2025-01-01,2025-03-27,319.8873,420.1203,213.7894
+Onion,Lasalgaon(Vinchur),7,fold1,rf_extended,239,49,2025-01-01,2025-03-27,299.5500,394.4915,187.8269
+Onion,Lasalgaon(Vinchur),7,fold1,xgb_core,239,49,2025-01-01,2025-03-27,339.4784,448.2881,204.9533
+Onion,Lasalgaon(Vinchur),7,fold1,xgb_extended,239,49,2025-01-01,2025-03-27,342.3703,440.5406,247.2638
+Onion,Lasalgaon(Vinchur),7,fold2,persistence,292,68,2025-04-02,2025-06-30,71.6397,95.6360,50.0000
+Onion,Lasalgaon(Vinchur),7,fold2,rolling_mean_7d,292,68,2025-04-02,2025-06-30,83.3528,108.9250,63.1458
+Onion,Lasalgaon(Vinchur),7,fold2,ridge_core,292,68,2025-04-02,2025-06-30,75.3255,94.0382,65.0683
+Onion,Lasalgaon(Vinchur),7,fold2,ridge_extended,292,68,2025-04-02,2025-06-30,74.2955,93.1963,60.2085
+Onion,Lasalgaon(Vinchur),7,fold2,rf_core,292,68,2025-04-02,2025-06-30,109.8316,134.9765,91.1328
+Onion,Lasalgaon(Vinchur),7,fold2,rf_extended,292,68,2025-04-02,2025-06-30,87.2409,107.1749,70.5651
+Onion,Lasalgaon(Vinchur),7,fold2,xgb_core,292,68,2025-04-02,2025-06-30,126.5295,146.9089,114.5997
+Onion,Lasalgaon(Vinchur),7,fold2,xgb_extended,292,68,2025-04-02,2025-06-30,105.5812,128.2348,89.9599
+Onion,Lasalgaon(Vinchur),7,fold3,persistence,358,61,2025-07-01,2025-09-30,84.0984,107.3603,75.0000
+Onion,Lasalgaon(Vinchur),7,fold3,rolling_mean_7d,358,61,2025-07-01,2025-09-30,102.9932,125.1283,91.6667
+Onion,Lasalgaon(Vinchur),7,fold3,ridge_core,358,61,2025-07-01,2025-09-30,90.6893,111.3286,81.2081
+Onion,Lasalgaon(Vinchur),7,fold3,ridge_extended,358,61,2025-07-01,2025-09-30,96.0415,115.5267,87.7134
+Onion,Lasalgaon(Vinchur),7,fold3,rf_core,358,61,2025-07-01,2025-09-30,106.4568,129.0988,86.2451
+Onion,Lasalgaon(Vinchur),7,fold3,rf_extended,358,61,2025-07-01,2025-09-30,123.9806,141.6987,105.9638
+Onion,Lasalgaon(Vinchur),7,fold3,xgb_core,358,61,2025-07-01,2025-09-30,111.5581,133.4125,103.7648
+Onion,Lasalgaon(Vinchur),7,fold3,xgb_extended,358,61,2025-07-01,2025-09-30,144.5837,162.0827,132.0468
+Onion,Lasalgaon(Vinchur),7,fold4,persistence,418,58,2025-10-01,2025-12-31,252.5145,326.7873,175.0000
+Onion,Lasalgaon(Vinchur),7,fold4,rolling_mean_7d,418,58,2025-10-01,2025-12-31,286.7121,379.2098,230.5342
+Onion,Lasalgaon(Vinchur),7,fold4,ridge_core,418,58,2025-10-01,2025-12-31,243.1815,324.5410,188.9041
+Onion,Lasalgaon(Vinchur),7,fold4,ridge_extended,418,58,2025-10-01,2025-12-31,240.7179,323.3494,210.0429
+Onion,Lasalgaon(Vinchur),7,fold4,rf_core,418,58,2025-10-01,2025-12-31,259.8028,357.7197,181.4383
+Onion,Lasalgaon(Vinchur),7,fold4,rf_extended,418,58,2025-10-01,2025-12-31,248.2792,352.9592,166.6300
+Onion,Lasalgaon(Vinchur),7,fold4,xgb_core,418,58,2025-10-01,2025-12-31,260.5386,369.4510,145.7713
+Onion,Lasalgaon(Vinchur),7,fold4,xgb_extended,418,58,2025-10-01,2025-12-31,257.8004,374.1913,136.4862
+Onion,Lasalgaon(Vinchur),7,fold5,persistence,475,54,2026-01-01,2026-03-27,103.7152,129.5785,100.0000
+Onion,Lasalgaon(Vinchur),7,fold5,rolling_mean_7d,475,54,2026-01-01,2026-03-27,119.6960,162.8556,75.0000
+Onion,Lasalgaon(Vinchur),7,fold5,ridge_core,475,54,2026-01-01,2026-03-27,99.1062,121.6292,89.7792
+Onion,Lasalgaon(Vinchur),7,fold5,ridge_extended,475,54,2026-01-01,2026-03-27,96.2414,116.7474,86.9891
+Onion,Lasalgaon(Vinchur),7,fold5,rf_core,475,54,2026-01-01,2026-03-27,116.6107,134.9932,119.3324
+Onion,Lasalgaon(Vinchur),7,fold5,rf_extended,475,54,2026-01-01,2026-03-27,109.2312,131.4321,93.3388
+Onion,Lasalgaon(Vinchur),7,fold5,xgb_core,475,54,2026-01-01,2026-03-27,136.5879,158.1317,122.1337
+Onion,Lasalgaon(Vinchur),7,fold5,xgb_extended,475,54,2026-01-01,2026-03-27,123.6017,150.5796,96.1947
+Onion,Lasalgaon(Vinchur),7,holdout,persistence,534,136,2026-04-02,2026-09-29,192.5126,297.3205,100.0000
+Onion,Lasalgaon(Vinchur),7,holdout,rolling_mean_7d,534,136,2026-04-02,2026-09-29,236.0047,367.2152,118.7500
+Onion,Lasalgaon(Vinchur),7,holdout,ridge_core,534,136,2026-04-02,2026-09-29,190.0758,293.2114,117.4756
+Onion,Lasalgaon(Vinchur),7,holdout,ridge_extended,534,136,2026-04-02,2026-09-29,188.5206,291.1660,114.8759
+Onion,Lasalgaon(Vinchur),7,holdout,rf_core,534,136,2026-04-02,2026-09-29,183.8502,289.2424,105.2409
+Onion,Lasalgaon(Vinchur),7,holdout,rf_extended,534,136,2026-04-02,2026-09-29,175.3359,282.6294,93.1032
+Onion,Lasalgaon(Vinchur),7,holdout,xgb_core,534,136,2026-04-02,2026-09-29,185.8000,286.6427,119.4422
+Onion,Lasalgaon(Vinchur),7,holdout,xgb_extended,534,136,2026-04-02,2026-09-29,182.5638,286.9348,115.2508
+Tomato,APMC Pimpalgaon Baswant,1,fold1,persistence,212,81,2025-01-01,2025-03-31,73.8272,99.3435,50.0000
+Tomato,APMC Pimpalgaon Baswant,1,fold1,rolling_mean_7d,212,81,2025-01-01,2025-03-31,73.6064,101.9894,52.8571
+Tomato,APMC Pimpalgaon Baswant,1,fold1,ridge_core,212,81,2025-01-01,2025-03-31,65.5476,93.4301,50.8488
+Tomato,APMC Pimpalgaon Baswant,1,fold1,ridge_extended,212,81,2025-01-01,2025-03-31,68.4073,94.9953,49.5984
+Tomato,APMC Pimpalgaon Baswant,1,fold1,rf_core,212,81,2025-01-01,2025-03-31,70.2529,98.6476,53.0022
+Tomato,APMC Pimpalgaon Baswant,1,fold1,rf_extended,212,81,2025-01-01,2025-03-31,68.3448,97.8195,53.4711
+Tomato,APMC Pimpalgaon Baswant,1,fold1,xgb_core,212,81,2025-01-01,2025-03-31,75.7157,102.6868,61.2573
+Tomato,APMC Pimpalgaon Baswant,1,fold1,xgb_extended,212,81,2025-01-01,2025-03-31,75.3130,103.2365,59.6375
+Tomato,APMC Pimpalgaon Baswant,1,fold2,persistence,292,63,2025-04-01,2025-06-27,131.9048,182.0780,95.0000
+Tomato,APMC Pimpalgaon Baswant,1,fold2,rolling_mean_7d,292,63,2025-04-01,2025-06-27,156.8424,209.4375,112.1429
+Tomato,APMC Pimpalgaon Baswant,1,fold2,ridge_core,292,63,2025-04-01,2025-06-27,128.1758,177.0899,76.4459
+Tomato,APMC Pimpalgaon Baswant,1,fold2,ridge_extended,292,63,2025-04-01,2025-06-27,127.9826,176.7734,76.3490
+Tomato,APMC Pimpalgaon Baswant,1,fold2,rf_core,292,63,2025-04-01,2025-06-27,134.6237,177.5740,96.4906
+Tomato,APMC Pimpalgaon Baswant,1,fold2,rf_extended,292,63,2025-04-01,2025-06-27,134.2275,178.7310,94.0106
+Tomato,APMC Pimpalgaon Baswant,1,fold2,xgb_core,292,63,2025-04-01,2025-06-27,148.8569,189.6904,113.0132
+Tomato,APMC Pimpalgaon Baswant,1,fold2,xgb_extended,292,63,2025-04-01,2025-06-27,146.4818,193.6779,98.7006
+Tomato,APMC Pimpalgaon Baswant,1,fold3,persistence,356,75,2025-07-02,2025-09-29,283.6000,411.9636,230.0000
+Tomato,APMC Pimpalgaon Baswant,1,fold3,rolling_mean_7d,356,75,2025-07-02,2025-09-29,409.2279,552.5225,306.4286
+Tomato,APMC Pimpalgaon Baswant,1,fold3,ridge_core,356,75,2025-07-02,2025-09-29,292.0447,396.3671,238.0563
+Tomato,APMC Pimpalgaon Baswant,1,fold3,ridge_extended,356,75,2025-07-02,2025-09-29,290.6957,392.1721,234.7831
+Tomato,APMC Pimpalgaon Baswant,1,fold3,rf_core,356,75,2025-07-02,2025-09-29,286.8987,373.9447,254.0134
+Tomato,APMC Pimpalgaon Baswant,1,fold3,rf_extended,356,75,2025-07-02,2025-09-29,286.2734,377.3136,224.6481
+Tomato,APMC Pimpalgaon Baswant,1,fold3,xgb_core,356,75,2025-07-02,2025-09-29,292.2033,370.7320,248.3799
+Tomato,APMC Pimpalgaon Baswant,1,fold3,xgb_extended,356,75,2025-07-02,2025-09-29,280.7247,368.5867,228.8017
+Tomato,APMC Pimpalgaon Baswant,1,fold4,persistence,431,47,2025-10-02,2025-12-31,307.6596,420.8793,200.0000
+Tomato,APMC Pimpalgaon Baswant,1,fold4,rolling_mean_7d,431,47,2025-10-02,2025-12-31,331.2500,474.1704,255.0000
+Tomato,APMC Pimpalgaon Baswant,1,fold4,ridge_core,431,47,2025-10-02,2025-12-31,303.7776,402.1699,224.3893
+Tomato,APMC Pimpalgaon Baswant,1,fold4,ridge_extended,431,47,2025-10-02,2025-12-31,304.0213,401.7500,229.1861
+Tomato,APMC Pimpalgaon Baswant,1,fold4,rf_core,431,47,2025-10-02,2025-12-31,315.9573,410.7188,241.7029
+Tomato,APMC Pimpalgaon Baswant,1,fold4,rf_extended,431,47,2025-10-02,2025-12-31,309.6200,406.3276,217.8053
+Tomato,APMC Pimpalgaon Baswant,1,fold4,xgb_core,431,47,2025-10-02,2025-12-31,322.1834,423.9640,248.5352
+Tomato,APMC Pimpalgaon Baswant,1,fold4,xgb_extended,431,47,2025-10-02,2025-12-31,304.9066,414.3688,183.0078
+Tomato,APMC Pimpalgaon Baswant,1,fold5,persistence,477,46,2026-01-01,2026-03-31,160.0000,236.2317,100.0000
+Tomato,APMC Pimpalgaon Baswant,1,fold5,rolling_mean_7d,477,46,2026-01-01,2026-03-31,248.4819,375.8895,170.8333
+Tomato,APMC Pimpalgaon Baswant,1,fold5,ridge_core,477,46,2026-01-01,2026-03-31,161.7910,234.9513,113.4915
+Tomato,APMC Pimpalgaon Baswant,1,fold5,ridge_extended,477,46,2026-01-01,2026-03-31,160.4296,233.9287,117.5806
+Tomato,APMC Pimpalgaon Baswant,1,fold5,rf_core,477,46,2026-01-01,2026-03-31,169.1673,240.2776,139.0336
+Tomato,APMC Pimpalgaon Baswant,1,fold5,rf_extended,477,46,2026-01-01,2026-03-31,165.5251,234.9636,140.8566
+Tomato,APMC Pimpalgaon Baswant,1,fold5,xgb_core,477,46,2026-01-01,2026-03-31,164.2655,234.6534,139.6027
+Tomato,APMC Pimpalgaon Baswant,1,fold5,xgb_extended,477,46,2026-01-01,2026-03-31,155.7941,225.0761,132.9228
+Tomato,APMC Pimpalgaon Baswant,1,holdout,persistence,523,133,2026-04-05,2026-10-05,238.1579,312.7549,150.0000
+Tomato,APMC Pimpalgaon Baswant,1,holdout,rolling_mean_7d,523,133,2026-04-05,2026-10-05,355.8539,443.9169,305.7143
+Tomato,APMC Pimpalgaon Baswant,1,holdout,ridge_core,523,133,2026-04-05,2026-10-05,233.5058,307.0634,191.0670
+Tomato,APMC Pimpalgaon Baswant,1,holdout,ridge_extended,523,133,2026-04-05,2026-10-05,232.9401,305.9511,190.9500
+Tomato,APMC Pimpalgaon Baswant,1,holdout,rf_core,523,133,2026-04-05,2026-10-05,244.7271,313.2611,207.8609
+Tomato,APMC Pimpalgaon Baswant,1,holdout,rf_extended,523,133,2026-04-05,2026-10-05,242.4826,310.3501,194.2679
+Tomato,APMC Pimpalgaon Baswant,1,holdout,xgb_core,523,133,2026-04-05,2026-10-05,247.5115,326.1947,191.3132
+Tomato,APMC Pimpalgaon Baswant,1,holdout,xgb_extended,523,133,2026-04-05,2026-10-05,246.1884,322.9663,196.7379
+Tomato,APMC Pimpalgaon Baswant,2,fold1,persistence,199,80,2025-01-01,2025-03-31,86.0000,124.0136,50.0000
+Tomato,APMC Pimpalgaon Baswant,2,fold1,rolling_mean_7d,199,80,2025-01-01,2025-03-31,75.5747,105.2499,50.3571
+Tomato,APMC Pimpalgaon Baswant,2,fold1,ridge_core,199,80,2025-01-01,2025-03-31,78.7171,113.5686,51.8875
+Tomato,APMC Pimpalgaon Baswant,2,fold1,ridge_extended,199,80,2025-01-01,2025-03-31,81.5872,117.0197,56.4935
+Tomato,APMC Pimpalgaon Baswant,2,fold1,rf_core,199,80,2025-01-01,2025-03-31,87.6819,117.7159,68.0685
+Tomato,APMC Pimpalgaon Baswant,2,fold1,rf_extended,199,80,2025-01-01,2025-03-31,81.5422,112.8967,59.2907
+Tomato,APMC Pimpalgaon Baswant,2,fold1,xgb_core,199,80,2025-01-01,2025-03-31,93.0833,122.1079,78.8673
+Tomato,APMC Pimpalgaon Baswant,2,fold1,xgb_extended,199,80,2025-01-01,2025-03-31,90.7120,120.0561,71.6721
+Tomato,APMC Pimpalgaon Baswant,2,fold2,persistence,278,63,2025-04-01,2025-06-30,148.4921,205.1045,100.0000
+Tomato,APMC Pimpalgaon Baswant,2,fold2,rolling_mean_7d,278,63,2025-04-01,2025-06-30,182.7460,239.2732,129.2857
+Tomato,APMC Pimpalgaon Baswant,2,fold2,ridge_core,278,63,2025-04-01,2025-06-30,163.2502,217.4235,117.2506
+Tomato,APMC Pimpalgaon Baswant,2,fold2,ridge_extended,278,63,2025-04-01,2025-06-30,152.3380,208.5652,107.8028
+Tomato,APMC Pimpalgaon Baswant,2,fold2,rf_core,278,63,2025-04-01,2025-06-30,166.4996,219.2650,121.3036
+Tomato,APMC Pimpalgaon Baswant,2,fold2,rf_extended,278,63,2025-04-01,2025-06-30,162.4438,215.8519,112.8536
+Tomato,APMC Pimpalgaon Baswant,2,fold2,xgb_core,278,63,2025-04-01,2025-06-30,174.7034,226.5009,132.9908
+Tomato,APMC Pimpalgaon Baswant,2,fold2,xgb_extended,278,63,2025-04-01,2025-06-30,175.2926,228.8007,142.7043
+Tomato,APMC Pimpalgaon Baswant,2,fold3,persistence,342,74,2025-07-02,2025-09-30,407.7703,531.3506,320.0000
+Tomato,APMC Pimpalgaon Baswant,2,fold3,rolling_mean_7d,342,74,2025-07-02,2025-09-30,456.5035,612.1622,336.4881
+Tomato,APMC Pimpalgaon Baswant,2,fold3,ridge_core,342,74,2025-07-02,2025-09-30,405.8516,517.8151,346.6743
+Tomato,APMC Pimpalgaon Baswant,2,fold3,ridge_extended,342,74,2025-07-02,2025-09-30,396.3857,506.2918,330.7024
+Tomato,APMC Pimpalgaon Baswant,2,fold3,rf_core,342,74,2025-07-02,2025-09-30,395.4788,501.1176,313.0721
+Tomato,APMC Pimpalgaon Baswant,2,fold3,rf_extended,342,74,2025-07-02,2025-09-30,392.4443,495.7910,307.2706
+Tomato,APMC Pimpalgaon Baswant,2,fold3,xgb_core,342,74,2025-07-02,2025-09-30,409.1423,517.3120,328.7114
+Tomato,APMC Pimpalgaon Baswant,2,fold3,xgb_extended,342,74,2025-07-02,2025-09-30,395.2866,498.3277,342.1315
+Tomato,APMC Pimpalgaon Baswant,2,fold4,persistence,416,47,2025-10-07,2025-12-31,406.5957,547.6264,250.0000
+Tomato,APMC Pimpalgaon Baswant,2,fold4,rolling_mean_7d,416,47,2025-10-07,2025-12-31,399.7462,549.2982,258.3333
+Tomato,APMC Pimpalgaon Baswant,2,fold4,ridge_core,416,47,2025-10-07,2025-12-31,410.4865,531.5896,375.5879
+Tomato,APMC Pimpalgaon Baswant,2,fold4,ridge_extended,416,47,2025-10-07,2025-12-31,407.1140,532.3549,326.7838
+Tomato,APMC Pimpalgaon Baswant,2,fold4,rf_core,416,47,2025-10-07,2025-12-31,420.4321,553.9112,362.7456
+Tomato,APMC Pimpalgaon Baswant,2,fold4,rf_extended,416,47,2025-10-07,2025-12-31,423.5300,554.4645,372.4501
+Tomato,APMC Pimpalgaon Baswant,2,fold4,xgb_core,416,47,2025-10-07,2025-12-31,436.8072,572.4411,310.5917
+Tomato,APMC Pimpalgaon Baswant,2,fold4,xgb_extended,416,47,2025-10-07,2025-12-31,417.9769,545.6805,325.1552
+Tomato,APMC Pimpalgaon Baswant,2,fold5,persistence,462,46,2026-01-02,2026-03-29,216.8478,327.5610,150.0000
+Tomato,APMC Pimpalgaon Baswant,2,fold5,rolling_mean_7d,462,46,2026-01-02,2026-03-29,252.2500,396.5453,170.8333
+Tomato,APMC Pimpalgaon Baswant,2,fold5,ridge_core,462,46,2026-01-02,2026-03-29,211.2844,309.7577,138.1528
+Tomato,APMC Pimpalgaon Baswant,2,fold5,ridge_extended,462,46,2026-01-02,2026-03-29,211.4325,310.3746,136.9850
+Tomato,APMC Pimpalgaon Baswant,2,fold5,rf_core,462,46,2026-01-02,2026-03-29,193.6694,290.5447,110.3385
+Tomato,APMC Pimpalgaon Baswant,2,fold5,rf_extended,462,46,2026-01-02,2026-03-29,190.6292,281.4286,111.5691
+Tomato,APMC Pimpalgaon Baswant,2,fold5,xgb_core,462,46,2026-01-02,2026-03-29,195.4292,297.9354,114.5437
+Tomato,APMC Pimpalgaon Baswant,2,fold5,xgb_extended,462,46,2026-01-02,2026-03-29,189.7674,280.0842,108.4240
+Tomato,APMC Pimpalgaon Baswant,2,holdout,persistence,510,133,2026-04-01,2026-10-04,312.4812,416.8865,250.0000
+Tomato,APMC Pimpalgaon Baswant,2,holdout,rolling_mean_7d,510,133,2026-04-01,2026-10-04,402.1205,499.4500,375.0000
+Tomato,APMC Pimpalgaon Baswant,2,holdout,ridge_core,510,133,2026-04-01,2026-10-04,307.1269,402.5592,246.7174
+Tomato,APMC Pimpalgaon Baswant,2,holdout,ridge_extended,510,133,2026-04-01,2026-10-04,304.0063,402.0639,248.1206
+Tomato,APMC Pimpalgaon Baswant,2,holdout,rf_core,510,133,2026-04-01,2026-10-04,328.3560,418.2195,277.2060
+Tomato,APMC Pimpalgaon Baswant,2,holdout,rf_extended,510,133,2026-04-01,2026-10-04,320.7899,409.5386,275.6896
+Tomato,APMC Pimpalgaon Baswant,2,holdout,xgb_core,510,133,2026-04-01,2026-10-04,334.1849,424.9208,283.8042
+Tomato,APMC Pimpalgaon Baswant,2,holdout,xgb_extended,510,133,2026-04-01,2026-10-04,331.4582,421.2925,291.5343
+Tomato,APMC Pimpalgaon Baswant,3,fold1,persistence,194,79,2025-01-01,2025-03-31,91.7089,131.0389,50.0000
+Tomato,APMC Pimpalgaon Baswant,3,fold1,rolling_mean_7d,194,79,2025-01-01,2025-03-31,74.8038,104.0874,50.0000
+Tomato,APMC Pimpalgaon Baswant,3,fold1,ridge_core,194,79,2025-01-01,2025-03-31,92.3808,124.0179,62.1473
+Tomato,APMC Pimpalgaon Baswant,3,fold1,ridge_extended,194,79,2025-01-01,2025-03-31,87.0319,120.1826,62.1472
+Tomato,APMC Pimpalgaon Baswant,3,fold1,rf_core,194,79,2025-01-01,2025-03-31,98.8546,127.4038,79.1381
+Tomato,APMC Pimpalgaon Baswant,3,fold1,rf_extended,194,79,2025-01-01,2025-03-31,93.9014,122.7312,67.6652
+Tomato,APMC Pimpalgaon Baswant,3,fold1,xgb_core,194,79,2025-01-01,2025-03-31,95.9712,126.1758,81.7787
+Tomato,APMC Pimpalgaon Baswant,3,fold1,xgb_extended,194,79,2025-01-01,2025-03-31,94.1961,123.6787,74.4944
+Tomato,APMC Pimpalgaon Baswant,3,fold2,persistence,272,64,2025-04-01,2025-06-30,156.7188,203.6771,122.5000
+Tomato,APMC Pimpalgaon Baswant,3,fold2,rolling_mean_7d,272,64,2025-04-01,2025-06-30,188.5729,241.8939,140.5833
+Tomato,APMC Pimpalgaon Baswant,3,fold2,ridge_core,272,64,2025-04-01,2025-06-30,165.0463,211.1985,111.1825
+Tomato,APMC Pimpalgaon Baswant,3,fold2,ridge_extended,272,64,2025-04-01,2025-06-30,165.0802,211.1524,114.9184
+Tomato,APMC Pimpalgaon Baswant,3,fold2,rf_core,272,64,2025-04-01,2025-06-30,178.4185,238.5786,125.0975
+Tomato,APMC Pimpalgaon Baswant,3,fold2,rf_extended,272,64,2025-04-01,2025-06-30,172.3694,228.2398,138.4959
+Tomato,APMC Pimpalgaon Baswant,3,fold2,xgb_core,272,64,2025-04-01,2025-06-30,176.9211,238.9136,116.3211
+Tomato,APMC Pimpalgaon Baswant,3,fold2,xgb_extended,272,64,2025-04-01,2025-06-30,179.5285,236.2066,132.1269
+Tomato,APMC Pimpalgaon Baswant,3,fold3,persistence,338,74,2025-07-02,2025-09-30,475.4730,620.6070,425.0000
+Tomato,APMC Pimpalgaon Baswant,3,fold3,rolling_mean_7d,338,74,2025-07-02,2025-09-30,497.2365,676.8192,348.5119
+Tomato,APMC Pimpalgaon Baswant,3,fold3,ridge_core,338,74,2025-07-02,2025-09-30,459.0409,593.2839,395.2077
+Tomato,APMC Pimpalgaon Baswant,3,fold3,ridge_extended,338,74,2025-07-02,2025-09-30,454.9660,585.4670,407.6932
+Tomato,APMC Pimpalgaon Baswant,3,fold3,rf_core,338,74,2025-07-02,2025-09-30,465.1429,592.4375,348.5710
+Tomato,APMC Pimpalgaon Baswant,3,fold3,rf_extended,338,74,2025-07-02,2025-09-30,451.0231,568.6173,401.4881
+Tomato,APMC Pimpalgaon Baswant,3,fold3,xgb_core,338,74,2025-07-02,2025-09-30,477.4358,614.8353,371.7261
+Tomato,APMC Pimpalgaon Baswant,3,fold3,xgb_extended,338,74,2025-07-02,2025-09-30,450.0214,572.7972,369.3663
+Tomato,APMC Pimpalgaon Baswant,3,fold4,persistence,411,44,2025-10-08,2025-12-30,423.4091,599.2372,275.0000
+Tomato,APMC Pimpalgaon Baswant,3,fold4,rolling_mean_7d,411,44,2025-10-08,2025-12-30,389.8103,533.2732,264.1667
+Tomato,APMC Pimpalgaon Baswant,3,fold4,ridge_core,411,44,2025-10-08,2025-12-30,446.8608,575.9361,415.5945
+Tomato,APMC Pimpalgaon Baswant,3,fold4,ridge_extended,411,44,2025-10-08,2025-12-30,453.4557,580.3339,407.7310
+Tomato,APMC Pimpalgaon Baswant,3,fold4,rf_core,411,44,2025-10-08,2025-12-30,512.8784,631.5094,471.3740
+Tomato,APMC Pimpalgaon Baswant,3,fold4,rf_extended,411,44,2025-10-08,2025-12-30,509.7879,629.7831,477.4935
+Tomato,APMC Pimpalgaon Baswant,3,fold4,xgb_core,411,44,2025-10-08,2025-12-30,562.4375,683.0146,526.5640
+Tomato,APMC Pimpalgaon Baswant,3,fold4,xgb_extended,411,44,2025-10-08,2025-12-30,557.0868,675.6378,516.8778
+Tomato,APMC Pimpalgaon Baswant,3,fold5,persistence,455,48,2026-01-01,2026-03-31,252.3958,392.9622,200.0000
+Tomato,APMC Pimpalgaon Baswant,3,fold5,rolling_mean_7d,455,48,2026-01-01,2026-03-31,307.4167,466.7874,175.4167
+Tomato,APMC Pimpalgaon Baswant,3,fold5,ridge_core,455,48,2026-01-01,2026-03-31,258.5334,383.7615,185.7463
+Tomato,APMC Pimpalgaon Baswant,3,fold5,ridge_extended,455,48,2026-01-01,2026-03-31,258.4028,383.3805,185.4037
+Tomato,APMC Pimpalgaon Baswant,3,fold5,rf_core,455,48,2026-01-01,2026-03-31,269.1150,390.1741,185.6863
+Tomato,APMC Pimpalgaon Baswant,3,fold5,rf_extended,455,48,2026-01-01,2026-03-31,263.1811,375.8896,165.0595
+Tomato,APMC Pimpalgaon Baswant,3,fold5,xgb_core,455,48,2026-01-01,2026-03-31,265.2355,377.0636,185.2463
+Tomato,APMC Pimpalgaon Baswant,3,fold5,xgb_extended,455,48,2026-01-01,2026-03-31,254.7747,364.1630,162.2977
+Tomato,APMC Pimpalgaon Baswant,3,holdout,persistence,503,131,2026-04-03,2026-10-03,405.8779,505.2847,350.0000
+Tomato,APMC Pimpalgaon Baswant,3,holdout,rolling_mean_7d,503,131,2026-04-03,2026-10-03,433.2234,528.9909,391.6667
+Tomato,APMC Pimpalgaon Baswant,3,holdout,ridge_core,503,131,2026-04-03,2026-10-03,388.1329,477.4038,328.4795
+Tomato,APMC Pimpalgaon Baswant,3,holdout,ridge_extended,503,131,2026-04-03,2026-10-03,387.4837,475.0323,338.6005
+Tomato,APMC Pimpalgaon Baswant,3,holdout,rf_core,503,131,2026-04-03,2026-10-03,397.1527,484.0833,341.3066
+Tomato,APMC Pimpalgaon Baswant,3,holdout,rf_extended,503,131,2026-04-03,2026-10-03,392.8190,477.7347,371.0799
+Tomato,APMC Pimpalgaon Baswant,3,holdout,xgb_core,503,131,2026-04-03,2026-10-03,386.8452,477.7363,349.9608
+Tomato,APMC Pimpalgaon Baswant,3,holdout,xgb_extended,503,131,2026-04-03,2026-10-03,386.8261,469.2593,375.7605
+Tomato,APMC Pimpalgaon Baswant,4,fold1,persistence,189,78,2025-01-01,2025-03-31,99.5513,137.1143,75.0000
+Tomato,APMC Pimpalgaon Baswant,4,fold1,rolling_mean_7d,189,78,2025-01-01,2025-03-31,82.6590,118.9762,52.1429
+Tomato,APMC Pimpalgaon Baswant,4,fold1,ridge_core,189,78,2025-01-01,2025-03-31,93.8561,126.2115,66.6027
+Tomato,APMC Pimpalgaon Baswant,4,fold1,ridge_extended,189,78,2025-01-01,2025-03-31,93.2613,126.4863,71.5181
+Tomato,APMC Pimpalgaon Baswant,4,fold1,rf_core,189,78,2025-01-01,2025-03-31,93.1108,118.2629,92.6523
+Tomato,APMC Pimpalgaon Baswant,4,fold1,rf_extended,189,78,2025-01-01,2025-03-31,88.8907,116.3395,80.7860
+Tomato,APMC Pimpalgaon Baswant,4,fold1,xgb_core,189,78,2025-01-01,2025-03-31,93.6063,117.1735,70.9463
+Tomato,APMC Pimpalgaon Baswant,4,fold1,xgb_extended,189,78,2025-01-01,2025-03-31,84.6926,113.9283,56.1736
+Tomato,APMC Pimpalgaon Baswant,4,fold2,persistence,266,63,2025-04-01,2025-06-30,200.5556,259.7076,150.0000
+Tomato,APMC Pimpalgaon Baswant,4,fold2,rolling_mean_7d,266,63,2025-04-01,2025-06-30,191.5155,255.6401,142.0000
+Tomato,APMC Pimpalgaon Baswant,4,fold2,ridge_core,266,63,2025-04-01,2025-06-30,200.4849,257.8354,156.1261
+Tomato,APMC Pimpalgaon Baswant,4,fold2,ridge_extended,266,63,2025-04-01,2025-06-30,201.8042,258.2150,157.3229
+Tomato,APMC Pimpalgaon Baswant,4,fold2,rf_core,266,63,2025-04-01,2025-06-30,219.4746,282.1372,162.1711
+Tomato,APMC Pimpalgaon Baswant,4,fold2,rf_extended,266,63,2025-04-01,2025-06-30,210.9107,270.0001,161.1020
+Tomato,APMC Pimpalgaon Baswant,4,fold2,xgb_core,266,63,2025-04-01,2025-06-30,223.0230,287.9124,163.9461
+Tomato,APMC Pimpalgaon Baswant,4,fold2,xgb_extended,266,63,2025-04-01,2025-06-30,216.1492,271.5567,180.5601
+Tomato,APMC Pimpalgaon Baswant,4,fold3,persistence,331,73,2025-07-03,2025-09-29,502.3288,670.2356,430.0000
+Tomato,APMC Pimpalgaon Baswant,4,fold3,rolling_mean_7d,331,73,2025-07-03,2025-09-29,571.1520,779.1910,391.6667
+Tomato,APMC Pimpalgaon Baswant,4,fold3,ridge_core,331,73,2025-07-03,2025-09-29,504.8927,672.0562,418.4488
+Tomato,APMC Pimpalgaon Baswant,4,fold3,ridge_extended,331,73,2025-07-03,2025-09-29,487.2022,658.7684,405.4622
+Tomato,APMC Pimpalgaon Baswant,4,fold3,rf_core,331,73,2025-07-03,2025-09-29,558.5233,723.2767,451.8757
+Tomato,APMC Pimpalgaon Baswant,4,fold3,rf_extended,331,73,2025-07-03,2025-09-29,525.1036,690.7452,409.6477
+Tomato,APMC Pimpalgaon Baswant,4,fold3,xgb_core,331,73,2025-07-03,2025-09-29,605.5754,780.2678,468.6056
+Tomato,APMC Pimpalgaon Baswant,4,fold3,xgb_extended,331,73,2025-07-03,2025-09-29,569.8241,730.5246,451.9952
+Tomato,APMC Pimpalgaon Baswant,4,fold4,persistence,404,45,2025-10-03,2025-12-31,426.8889,583.5323,350.0000
+Tomato,APMC Pimpalgaon Baswant,4,fold4,rolling_mean_7d,404,45,2025-10-03,2025-12-31,442.3701,572.7277,330.0000
+Tomato,APMC Pimpalgaon Baswant,4,fold4,ridge_core,404,45,2025-10-03,2025-12-31,425.7258,568.0107,330.8943
+Tomato,APMC Pimpalgaon Baswant,4,fold4,ridge_extended,404,45,2025-10-03,2025-12-31,429.0972,573.2371,294.6123
+Tomato,APMC Pimpalgaon Baswant,4,fold4,rf_core,404,45,2025-10-03,2025-12-31,525.9934,682.9516,371.0425
+Tomato,APMC Pimpalgaon Baswant,4,fold4,rf_extended,404,45,2025-10-03,2025-12-31,525.3770,691.8830,382.1567
+Tomato,APMC Pimpalgaon Baswant,4,fold4,xgb_core,404,45,2025-10-03,2025-12-31,604.3939,769.0197,455.0409
+Tomato,APMC Pimpalgaon Baswant,4,fold4,xgb_extended,404,45,2025-10-03,2025-12-31,574.8059,753.8051,425.1908
+Tomato,APMC Pimpalgaon Baswant,4,fold5,persistence,448,46,2026-01-01,2026-03-27,296.9565,435.8438,200.0000
+Tomato,APMC Pimpalgaon Baswant,4,fold5,rolling_mean_7d,448,46,2026-01-01,2026-03-27,306.9348,459.3305,209.1667
+Tomato,APMC Pimpalgaon Baswant,4,fold5,ridge_core,448,46,2026-01-01,2026-03-27,288.2354,410.2693,227.3227
+Tomato,APMC Pimpalgaon Baswant,4,fold5,ridge_extended,448,46,2026-01-01,2026-03-27,286.4891,407.2491,227.1389
+Tomato,APMC Pimpalgaon Baswant,4,fold5,rf_core,448,46,2026-01-01,2026-03-27,281.7300,376.9777,207.8797
+Tomato,APMC Pimpalgaon Baswant,4,fold5,rf_extended,448,46,2026-01-01,2026-03-27,270.9563,360.3445,205.8374
+Tomato,APMC Pimpalgaon Baswant,4,fold5,xgb_core,448,46,2026-01-01,2026-03-27,281.7908,368.0271,226.3929
+Tomato,APMC Pimpalgaon Baswant,4,fold5,xgb_extended,448,46,2026-01-01,2026-03-27,260.7210,340.6495,211.6292
+Tomato,APMC Pimpalgaon Baswant,4,holdout,persistence,497,131,2026-04-01,2026-10-02,447.4809,567.0127,400.0000
+Tomato,APMC Pimpalgaon Baswant,4,holdout,rolling_mean_7d,497,131,2026-04-01,2026-10-02,460.2013,580.4758,410.0000
+Tomato,APMC Pimpalgaon Baswant,4,holdout,ridge_core,497,131,2026-04-01,2026-10-02,427.9803,541.6279,385.1515
+Tomato,APMC Pimpalgaon Baswant,4,holdout,ridge_extended,497,131,2026-04-01,2026-10-02,427.2188,539.0067,391.1277
+Tomato,APMC Pimpalgaon Baswant,4,holdout,rf_core,497,131,2026-04-01,2026-10-02,420.4883,521.3757,382.5822
+Tomato,APMC Pimpalgaon Baswant,4,holdout,rf_extended,497,131,2026-04-01,2026-10-02,419.5144,521.7555,360.7918
+Tomato,APMC Pimpalgaon Baswant,4,holdout,xgb_core,497,131,2026-04-01,2026-10-02,425.9427,532.9042,409.2022
+Tomato,APMC Pimpalgaon Baswant,4,holdout,xgb_extended,497,131,2026-04-01,2026-10-02,417.2786,523.0638,394.8952
+Tomato,APMC Pimpalgaon Baswant,5,fold1,persistence,186,78,2025-01-01,2025-03-31,95.3846,130.0715,62.5000
+Tomato,APMC Pimpalgaon Baswant,5,fold1,rolling_mean_7d,186,78,2025-01-01,2025-03-31,88.4704,125.7466,58.8095
+Tomato,APMC Pimpalgaon Baswant,5,fold1,ridge_core,186,78,2025-01-01,2025-03-31,90.4725,119.8625,63.3915
+Tomato,APMC Pimpalgaon Baswant,5,fold1,ridge_extended,186,78,2025-01-01,2025-03-31,90.4202,119.1571,64.3914
+Tomato,APMC Pimpalgaon Baswant,5,fold1,rf_core,186,78,2025-01-01,2025-03-31,87.8362,111.8086,74.8808
+Tomato,APMC Pimpalgaon Baswant,5,fold1,rf_extended,186,78,2025-01-01,2025-03-31,98.2973,121.3664,88.3741
+Tomato,APMC Pimpalgaon Baswant,5,fold1,xgb_core,186,78,2025-01-01,2025-03-31,90.1938,112.5753,75.5229
+Tomato,APMC Pimpalgaon Baswant,5,fold1,xgb_extended,186,78,2025-01-01,2025-03-31,102.2447,127.0293,90.1047
+Tomato,APMC Pimpalgaon Baswant,5,fold2,persistence,263,62,2025-04-02,2025-06-30,213.9516,276.4879,175.0000
+Tomato,APMC Pimpalgaon Baswant,5,fold2,rolling_mean_7d,263,62,2025-04-02,2025-06-30,201.9858,263.3952,158.3333
+Tomato,APMC Pimpalgaon Baswant,5,fold2,ridge_core,263,62,2025-04-02,2025-06-30,212.2742,271.0359,166.8598
+Tomato,APMC Pimpalgaon Baswant,5,fold2,ridge_extended,263,62,2025-04-02,2025-06-30,213.5310,271.2690,161.0301
+Tomato,APMC Pimpalgaon Baswant,5,fold2,rf_core,263,62,2025-04-02,2025-06-30,234.6313,308.6469,197.6272
+Tomato,APMC Pimpalgaon Baswant,5,fold2,rf_extended,263,62,2025-04-02,2025-06-30,233.2697,307.7984,198.6488
+Tomato,APMC Pimpalgaon Baswant,5,fold2,xgb_core,263,62,2025-04-02,2025-06-30,240.3224,319.0823,178.2702
+Tomato,APMC Pimpalgaon Baswant,5,fold2,xgb_extended,263,62,2025-04-02,2025-06-30,229.8939,300.6877,188.4776
+Tomato,APMC Pimpalgaon Baswant,5,fold3,persistence,327,75,2025-07-02,2025-09-28,601.0000,803.3528,450.0000
+Tomato,APMC Pimpalgaon Baswant,5,fold3,rolling_mean_7d,327,75,2025-07-02,2025-09-28,647.7873,897.6965,450.8333
+Tomato,APMC Pimpalgaon Baswant,5,fold3,ridge_core,327,75,2025-07-02,2025-09-28,653.6946,849.5515,542.7358
+Tomato,APMC Pimpalgaon Baswant,5,fold3,ridge_extended,327,75,2025-07-02,2025-09-28,657.6332,850.5353,547.1452
+Tomato,APMC Pimpalgaon Baswant,5,fold3,rf_core,327,75,2025-07-02,2025-09-28,663.3309,860.7633,524.0918
+Tomato,APMC Pimpalgaon Baswant,5,fold3,rf_extended,327,75,2025-07-02,2025-09-28,662.8085,857.8279,506.5925
+Tomato,APMC Pimpalgaon Baswant,5,fold3,xgb_core,327,75,2025-07-02,2025-09-28,716.1065,908.0568,600.0434
+Tomato,APMC Pimpalgaon Baswant,5,fold3,xgb_extended,327,75,2025-07-02,2025-09-28,752.8739,936.1560,628.8764
+Tomato,APMC Pimpalgaon Baswant,5,fold4,persistence,403,47,2025-10-02,2025-12-31,444.6809,574.5535,350.0000
+Tomato,APMC Pimpalgaon Baswant,5,fold4,rolling_mean_7d,403,47,2025-10-02,2025-12-31,421.8050,534.9131,350.0000
+Tomato,APMC Pimpalgaon Baswant,5,fold4,ridge_core,403,47,2025-10-02,2025-12-31,426.1710,548.0105,295.5258
+Tomato,APMC Pimpalgaon Baswant,5,fold4,ridge_extended,403,47,2025-10-02,2025-12-31,431.0698,553.2666,345.8785
+Tomato,APMC Pimpalgaon Baswant,5,fold4,rf_core,403,47,2025-10-02,2025-12-31,582.3404,732.2008,473.7583
+Tomato,APMC Pimpalgaon Baswant,5,fold4,rf_extended,403,47,2025-10-02,2025-12-31,588.7830,741.0500,482.6181
+Tomato,APMC Pimpalgaon Baswant,5,fold4,xgb_core,403,47,2025-10-02,2025-12-31,657.3659,815.0666,538.9333
+Tomato,APMC Pimpalgaon Baswant,5,fold4,xgb_extended,403,47,2025-10-02,2025-12-31,662.7378,827.5054,515.0120
+Tomato,APMC Pimpalgaon Baswant,5,fold5,persistence,449,49,2026-01-01,2026-03-31,331.8367,487.2067,150.0000
+Tomato,APMC Pimpalgaon Baswant,5,fold5,rolling_mean_7d,449,49,2026-01-01,2026-03-31,327.1361,493.2966,216.6667
+Tomato,APMC Pimpalgaon Baswant,5,fold5,ridge_core,449,49,2026-01-01,2026-03-31,323.2141,460.2365,176.4605
+Tomato,APMC Pimpalgaon Baswant,5,fold5,ridge_extended,449,49,2026-01-01,2026-03-31,319.9060,454.9989,177.0008
+Tomato,APMC Pimpalgaon Baswant,5,fold5,rf_core,449,49,2026-01-01,2026-03-31,312.3316,426.6457,219.2240
+Tomato,APMC Pimpalgaon Baswant,5,fold5,rf_extended,449,49,2026-01-01,2026-03-31,312.3038,422.5033,239.8094
+Tomato,APMC Pimpalgaon Baswant,5,fold5,xgb_core,449,49,2026-01-01,2026-03-31,317.1645,416.1929,235.8342
+Tomato,APMC Pimpalgaon Baswant,5,fold5,xgb_extended,449,49,2026-01-01,2026-03-31,311.4482,420.8213,230.7756
+Tomato,APMC Pimpalgaon Baswant,5,holdout,persistence,498,128,2026-04-01,2026-10-01,469.3750,590.4576,400.0000
+Tomato,APMC Pimpalgaon Baswant,5,holdout,rolling_mean_7d,498,128,2026-04-01,2026-10-01,457.6702,577.1838,386.6667
+Tomato,APMC Pimpalgaon Baswant,5,holdout,ridge_core,498,128,2026-04-01,2026-10-01,446.4061,559.9106,374.1456
+Tomato,APMC Pimpalgaon Baswant,5,holdout,ridge_extended,498,128,2026-04-01,2026-10-01,445.0624,559.3002,375.3421
+Tomato,APMC Pimpalgaon Baswant,5,holdout,rf_core,498,128,2026-04-01,2026-10-01,433.6905,547.8999,340.3906
+Tomato,APMC Pimpalgaon Baswant,5,holdout,rf_extended,498,128,2026-04-01,2026-10-01,430.4953,540.9711,348.5951
+Tomato,APMC Pimpalgaon Baswant,5,holdout,xgb_core,498,128,2026-04-01,2026-10-01,438.4429,546.0398,351.4282
+Tomato,APMC Pimpalgaon Baswant,5,holdout,xgb_extended,498,128,2026-04-01,2026-10-01,426.1707,536.5059,330.6461
+Tomato,APMC Pimpalgaon Baswant,6,fold1,persistence,186,77,2025-01-01,2025-03-30,94.3506,125.0208,55.0000
+Tomato,APMC Pimpalgaon Baswant,6,fold1,rolling_mean_7d,186,77,2025-01-01,2025-03-30,96.4474,137.8322,65.0000
+Tomato,APMC Pimpalgaon Baswant,6,fold1,ridge_core,186,77,2025-01-01,2025-03-30,89.8821,117.5574,72.1892
+Tomato,APMC Pimpalgaon Baswant,6,fold1,ridge_extended,186,77,2025-01-01,2025-03-30,90.4723,117.0590,76.1085
+Tomato,APMC Pimpalgaon Baswant,6,fold1,rf_core,186,77,2025-01-01,2025-03-30,96.6551,122.5456,79.8984
+Tomato,APMC Pimpalgaon Baswant,6,fold1,rf_extended,186,77,2025-01-01,2025-03-30,104.0365,127.2014,93.7044
+Tomato,APMC Pimpalgaon Baswant,6,fold1,xgb_core,186,77,2025-01-01,2025-03-30,101.3149,129.6870,91.8445
+Tomato,APMC Pimpalgaon Baswant,6,fold1,xgb_extended,186,77,2025-01-01,2025-03-30,113.5596,136.3956,95.1027
+Tomato,APMC Pimpalgaon Baswant,6,fold2,persistence,263,62,2025-04-01,2025-06-28,227.2581,299.1170,185.0000
+Tomato,APMC Pimpalgaon Baswant,6,fold2,rolling_mean_7d,263,62,2025-04-01,2025-06-28,207.6694,275.5547,152.5000
+Tomato,APMC Pimpalgaon Baswant,6,fold2,ridge_core,263,62,2025-04-01,2025-06-28,223.4523,291.7646,166.1865
+Tomato,APMC Pimpalgaon Baswant,6,fold2,ridge_extended,263,62,2025-04-01,2025-06-28,223.3732,292.1250,166.0892
+Tomato,APMC Pimpalgaon Baswant,6,fold2,rf_core,263,62,2025-04-01,2025-06-28,242.4450,318.3919,187.2066
+Tomato,APMC Pimpalgaon Baswant,6,fold2,rf_extended,263,62,2025-04-01,2025-06-28,236.7919,310.4973,175.0078
+Tomato,APMC Pimpalgaon Baswant,6,fold2,xgb_core,263,62,2025-04-01,2025-06-28,259.5465,344.4138,212.1658
+Tomato,APMC Pimpalgaon Baswant,6,fold2,xgb_extended,263,62,2025-04-01,2025-06-28,249.5665,325.9577,198.0859
+Tomato,APMC Pimpalgaon Baswant,6,fold3,persistence,327,72,2025-07-02,2025-09-27,641.2500,863.3450,450.0000
+Tomato,APMC Pimpalgaon Baswant,6,fold3,rolling_mean_7d,327,72,2025-07-02,2025-09-27,673.0060,917.0641,523.5119
+Tomato,APMC Pimpalgaon Baswant,6,fold3,ridge_core,327,72,2025-07-02,2025-09-27,721.8637,929.2121,652.0733
+Tomato,APMC Pimpalgaon Baswant,6,fold3,ridge_extended,327,72,2025-07-02,2025-09-27,664.4219,878.2996,537.7535
+Tomato,APMC Pimpalgaon Baswant,6,fold3,rf_core,327,72,2025-07-02,2025-09-27,744.8247,945.8040,697.4813
+Tomato,APMC Pimpalgaon Baswant,6,fold3,rf_extended,327,72,2025-07-02,2025-09-27,734.6182,934.4834,695.0142
+Tomato,APMC Pimpalgaon Baswant,6,fold3,xgb_core,327,72,2025-07-02,2025-09-27,762.4941,962.6914,654.3922
+Tomato,APMC Pimpalgaon Baswant,6,fold3,xgb_extended,327,72,2025-07-02,2025-09-27,814.6585,1015.7266,715.0203
+Tomato,APMC Pimpalgaon Baswant,6,fold4,persistence,401,43,2025-10-02,2025-12-31,516.0465,668.9692,380.0000
+Tomato,APMC Pimpalgaon Baswant,6,fold4,rolling_mean_7d,401,43,2025-10-02,2025-12-31,508.1647,635.4507,425.0000
+Tomato,APMC Pimpalgaon Baswant,6,fold4,ridge_core,401,43,2025-10-02,2025-12-31,506.7403,649.7777,421.0977
+Tomato,APMC Pimpalgaon Baswant,6,fold4,ridge_extended,401,43,2025-10-02,2025-12-31,512.9474,656.0350,469.3719
+Tomato,APMC Pimpalgaon Baswant,6,fold4,rf_core,401,43,2025-10-02,2025-12-31,706.8471,847.6540,635.9084
+Tomato,APMC Pimpalgaon Baswant,6,fold4,rf_extended,401,43,2025-10-02,2025-12-31,744.7982,901.4396,699.7165
+Tomato,APMC Pimpalgaon Baswant,6,fold4,xgb_core,401,43,2025-10-02,2025-12-31,805.6831,967.1641,773.2767
+Tomato,APMC Pimpalgaon Baswant,6,fold4,xgb_extended,401,43,2025-10-02,2025-12-31,802.0896,970.6743,792.6593
+Tomato,APMC Pimpalgaon Baswant,6,fold5,persistence,441,44,2026-01-01,2026-03-31,318.1818,494.3913,200.0000
+Tomato,APMC Pimpalgaon Baswant,6,fold5,rolling_mean_7d,441,44,2026-01-01,2026-03-31,343.8977,521.9101,195.0000
+Tomato,APMC Pimpalgaon Baswant,6,fold5,ridge_core,441,44,2026-01-01,2026-03-31,303.8449,456.1689,198.7878
+Tomato,APMC Pimpalgaon Baswant,6,fold5,ridge_extended,441,44,2026-01-01,2026-03-31,299.1206,444.0593,198.4421
+Tomato,APMC Pimpalgaon Baswant,6,fold5,rf_core,441,44,2026-01-01,2026-03-31,294.1654,415.6750,186.5671
+Tomato,APMC Pimpalgaon Baswant,6,fold5,rf_extended,441,44,2026-01-01,2026-03-31,282.5890,394.4021,190.0303
+Tomato,APMC Pimpalgaon Baswant,6,fold5,xgb_core,441,44,2026-01-01,2026-03-31,291.5288,408.9184,184.4554
+Tomato,APMC Pimpalgaon Baswant,6,fold5,xgb_extended,441,44,2026-01-01,2026-03-31,280.5079,381.8909,184.4934
+Tomato,APMC Pimpalgaon Baswant,6,holdout,persistence,487,129,2026-04-01,2026-09-30,510.0000,642.6595,500.0000
+Tomato,APMC Pimpalgaon Baswant,6,holdout,rolling_mean_7d,487,129,2026-04-01,2026-09-30,497.0903,615.1674,416.6667
+Tomato,APMC Pimpalgaon Baswant,6,holdout,ridge_core,487,129,2026-04-01,2026-09-30,479.5687,606.2851,443.0597
+Tomato,APMC Pimpalgaon Baswant,6,holdout,ridge_extended,487,129,2026-04-01,2026-09-30,479.2502,605.7927,434.6395
+Tomato,APMC Pimpalgaon Baswant,6,holdout,rf_core,487,129,2026-04-01,2026-09-30,478.2811,596.1401,413.6886
+Tomato,APMC Pimpalgaon Baswant,6,holdout,rf_extended,487,129,2026-04-01,2026-09-30,476.6860,609.3775,402.1381
+Tomato,APMC Pimpalgaon Baswant,6,holdout,xgb_core,487,129,2026-04-01,2026-09-30,492.9980,616.6324,429.2989
+Tomato,APMC Pimpalgaon Baswant,6,holdout,xgb_extended,487,129,2026-04-01,2026-09-30,491.2976,620.1469,460.5416
+Tomato,APMC Pimpalgaon Baswant,7,fold1,persistence,187,77,2025-01-01,2025-03-31,93.3766,132.8069,70.0000
+Tomato,APMC Pimpalgaon Baswant,7,fold1,rolling_mean_7d,187,77,2025-01-01,2025-03-31,100.5476,144.8636,67.1429
+Tomato,APMC Pimpalgaon Baswant,7,fold1,ridge_core,187,77,2025-01-01,2025-03-31,102.2486,128.0456,94.8040
+Tomato,APMC Pimpalgaon Baswant,7,fold1,ridge_extended,187,77,2025-01-01,2025-03-31,93.5390,120.6686,81.3599
+Tomato,APMC Pimpalgaon Baswant,7,fold1,rf_core,187,77,2025-01-01,2025-03-31,102.9857,127.7606,89.4294
+Tomato,APMC Pimpalgaon Baswant,7,fold1,rf_extended,187,77,2025-01-01,2025-03-31,104.5033,126.1057,93.5088
+Tomato,APMC Pimpalgaon Baswant,7,fold1,xgb_core,187,77,2025-01-01,2025-03-31,110.8096,141.9985,89.3680
+Tomato,APMC Pimpalgaon Baswant,7,fold1,xgb_extended,187,77,2025-01-01,2025-03-31,114.0912,140.9132,98.8894
+Tomato,APMC Pimpalgaon Baswant,7,fold2,persistence,263,71,2025-04-01,2025-06-30,257.3944,325.2664,200.0000
+Tomato,APMC Pimpalgaon Baswant,7,fold2,rolling_mean_7d,263,71,2025-04-01,2025-06-30,224.6794,290.2340,150.0000
+Tomato,APMC Pimpalgaon Baswant,7,fold2,ridge_core,263,71,2025-04-01,2025-06-30,250.2168,314.5782,200.7081
+Tomato,APMC Pimpalgaon Baswant,7,fold2,ridge_extended,263,71,2025-04-01,2025-06-30,250.2082,314.4425,201.1079
+Tomato,APMC Pimpalgaon Baswant,7,fold2,rf_core,263,71,2025-04-01,2025-06-30,267.8757,341.3434,203.2059
+Tomato,APMC Pimpalgaon Baswant,7,fold2,rf_extended,263,71,2025-04-01,2025-06-30,256.0551,326.2936,192.4645
+Tomato,APMC Pimpalgaon Baswant,7,fold2,xgb_core,263,71,2025-04-01,2025-06-30,274.9646,366.8211,194.0108
+Tomato,APMC Pimpalgaon Baswant,7,fold2,xgb_extended,263,71,2025-04-01,2025-06-30,258.2955,339.4739,184.9149
+Tomato,APMC Pimpalgaon Baswant,7,fold3,persistence,335,74,2025-07-02,2025-09-30,702.0946,930.5442,540.0000
+Tomato,APMC Pimpalgaon Baswant,7,fold3,rolling_mean_7d,335,74,2025-07-02,2025-09-30,710.5273,969.1258,541.4286
+Tomato,APMC Pimpalgaon Baswant,7,fold3,ridge_core,335,74,2025-07-02,2025-09-30,784.9413,1022.1444,646.3733
+Tomato,APMC Pimpalgaon Baswant,7,fold3,ridge_extended,335,74,2025-07-02,2025-09-30,727.6921,957.0385,514.7115
+Tomato,APMC Pimpalgaon Baswant,7,fold3,rf_core,335,74,2025-07-02,2025-09-30,790.5713,1003.4186,632.3535
+Tomato,APMC Pimpalgaon Baswant,7,fold3,rf_extended,335,74,2025-07-02,2025-09-30,780.3349,993.7385,646.2565
+Tomato,APMC Pimpalgaon Baswant,7,fold3,xgb_core,335,74,2025-07-02,2025-09-30,855.7709,1068.1971,722.5498
+Tomato,APMC Pimpalgaon Baswant,7,fold3,xgb_extended,335,74,2025-07-02,2025-09-30,852.3078,1065.7675,728.0075
+Tomato,APMC Pimpalgaon Baswant,7,fold4,persistence,412,51,2025-10-02,2025-12-31,534.2157,687.8950,400.0000
+Tomato,APMC Pimpalgaon Baswant,7,fold4,rolling_mean_7d,412,51,2025-10-02,2025-12-31,521.2337,636.5438,453.3333
+Tomato,APMC Pimpalgaon Baswant,7,fold4,ridge_core,412,51,2025-10-02,2025-12-31,517.3206,655.8428,414.1801
+Tomato,APMC Pimpalgaon Baswant,7,fold4,ridge_extended,412,51,2025-10-02,2025-12-31,523.5382,660.8686,393.6772
+Tomato,APMC Pimpalgaon Baswant,7,fold4,rf_core,412,51,2025-10-02,2025-12-31,735.8331,892.4766,573.9022
+Tomato,APMC Pimpalgaon Baswant,7,fold4,rf_extended,412,51,2025-10-02,2025-12-31,759.3401,922.9370,692.6422
+Tomato,APMC Pimpalgaon Baswant,7,fold4,xgb_core,412,51,2025-10-02,2025-12-31,797.3398,960.9111,706.5804
+Tomato,APMC Pimpalgaon Baswant,7,fold4,xgb_extended,412,51,2025-10-02,2025-12-31,798.6189,972.3272,670.0327
+Tomato,APMC Pimpalgaon Baswant,7,fold5,persistence,459,54,2026-01-01,2026-03-31,363.1481,562.2483,150.0000
+Tomato,APMC Pimpalgaon Baswant,7,fold5,rolling_mean_7d,459,54,2026-01-01,2026-03-31,339.1173,513.8368,169.1667
+Tomato,APMC Pimpalgaon Baswant,7,fold5,ridge_core,459,54,2026-01-01,2026-03-31,334.1365,511.9974,188.1284
+Tomato,APMC Pimpalgaon Baswant,7,fold5,ridge_extended,459,54,2026-01-01,2026-03-31,329.8127,499.6037,186.2943
+Tomato,APMC Pimpalgaon Baswant,7,fold5,rf_core,459,54,2026-01-01,2026-03-31,321.8318,468.5760,189.6422
+Tomato,APMC Pimpalgaon Baswant,7,fold5,rf_extended,459,54,2026-01-01,2026-03-31,312.7108,452.8898,187.8388
+Tomato,APMC Pimpalgaon Baswant,7,fold5,xgb_core,459,54,2026-01-01,2026-03-31,324.1264,455.0305,184.2172
+Tomato,APMC Pimpalgaon Baswant,7,fold5,xgb_extended,459,54,2026-01-01,2026-03-31,305.2931,437.9266,184.4147
+Tomato,APMC Pimpalgaon Baswant,7,holdout,persistence,516,144,2026-04-01,2026-09-29,546.5278,673.8591,520.0000
+Tomato,APMC Pimpalgaon Baswant,7,holdout,rolling_mean_7d,516,144,2026-04-01,2026-09-29,535.3629,661.2020,459.1667
+Tomato,APMC Pimpalgaon Baswant,7,holdout,ridge_core,516,144,2026-04-01,2026-09-29,513.0349,636.5903,456.0933
+Tomato,APMC Pimpalgaon Baswant,7,holdout,ridge_extended,516,144,2026-04-01,2026-09-29,515.7019,639.5461,457.4394
+Tomato,APMC Pimpalgaon Baswant,7,holdout,rf_core,516,144,2026-04-01,2026-09-29,502.2532,645.6196,418.9714
+Tomato,APMC Pimpalgaon Baswant,7,holdout,rf_extended,516,144,2026-04-01,2026-09-29,494.2930,636.5939,373.5015
+Tomato,APMC Pimpalgaon Baswant,7,holdout,xgb_core,516,144,2026-04-01,2026-09-29,509.9259,659.2819,412.9730
+Tomato,APMC Pimpalgaon Baswant,7,holdout,xgb_extended,516,144,2026-04-01,2026-09-29,511.8278,658.7437,414.6116
+Brinjal,APMC Nasik,1,fold1,persistence,292,85,2025-01-01,2025-03-31,544.7059,693.7536,500.0000
+Brinjal,APMC Nasik,1,fold1,rolling_mean_7d,292,85,2025-01-01,2025-03-31,583.7325,761.8973,464.2857
+Brinjal,APMC Nasik,1,fold1,ridge_core,292,85,2025-01-01,2025-03-31,492.3217,645.7061,385.8740
+Brinjal,APMC Nasik,1,fold1,ridge_extended,292,85,2025-01-01,2025-03-31,499.3632,653.5241,402.6373
+Brinjal,APMC Nasik,1,fold1,rf_core,292,85,2025-01-01,2025-03-31,501.5141,667.6940,356.4749
+Brinjal,APMC Nasik,1,fold1,rf_extended,292,85,2025-01-01,2025-03-31,506.4087,663.8940,374.0107
+Brinjal,APMC Nasik,1,fold1,xgb_core,292,85,2025-01-01,2025-03-31,540.0787,714.9796,393.4159
+Brinjal,APMC Nasik,1,fold1,xgb_extended,292,85,2025-01-01,2025-03-31,553.4541,718.1519,434.2992
+Brinjal,APMC Nasik,1,fold2,persistence,377,83,2025-04-01,2025-06-30,925.3012,1220.1126,700.0000
+Brinjal,APMC Nasik,1,fold2,rolling_mean_7d,377,83,2025-04-01,2025-06-30,760.0459,1076.8896,571.4286
+Brinjal,APMC Nasik,1,fold2,ridge_core,377,83,2025-04-01,2025-06-30,785.9697,1039.2967,624.9159
+Brinjal,APMC Nasik,1,fold2,ridge_extended,377,83,2025-04-01,2025-06-30,802.1113,1062.8653,664.1266
+Brinjal,APMC Nasik,1,fold2,rf_core,377,83,2025-04-01,2025-06-30,815.2821,1082.3501,631.3169
+Brinjal,APMC Nasik,1,fold2,rf_extended,377,83,2025-04-01,2025-06-30,820.7395,1094.5144,589.5694
+Brinjal,APMC Nasik,1,fold2,xgb_core,377,83,2025-04-01,2025-06-30,823.6550,1090.5308,653.0215
+Brinjal,APMC Nasik,1,fold2,xgb_extended,377,83,2025-04-01,2025-06-30,795.8692,1074.4239,587.4028
+Brinjal,APMC Nasik,1,fold3,persistence,460,80,2025-07-03,2025-09-30,850.0000,1169.4283,575.0000
+Brinjal,APMC Nasik,1,fold3,rolling_mean_7d,460,80,2025-07-03,2025-09-30,1016.1696,1351.7986,765.8333
+Brinjal,APMC Nasik,1,fold3,ridge_core,460,80,2025-07-03,2025-09-30,843.2899,1175.3847,547.6336
+Brinjal,APMC Nasik,1,fold3,ridge_extended,460,80,2025-07-03,2025-09-30,826.6645,1151.0171,528.9074
+Brinjal,APMC Nasik,1,fold3,rf_core,460,80,2025-07-03,2025-09-30,864.0626,1191.1800,579.9461
+Brinjal,APMC Nasik,1,fold3,rf_extended,460,80,2025-07-03,2025-09-30,851.0151,1176.0953,570.5394
+Brinjal,APMC Nasik,1,fold3,xgb_core,460,80,2025-07-03,2025-09-30,937.0841,1246.5409,686.4998
+Brinjal,APMC Nasik,1,fold3,xgb_extended,460,80,2025-07-03,2025-09-30,929.1111,1265.5731,677.1486
+Brinjal,APMC Nasik,1,fold4,persistence,540,68,2025-10-01,2025-12-30,1320.5882,1671.3635,1000.0000
+Brinjal,APMC Nasik,1,fold4,rolling_mean_7d,540,68,2025-10-01,2025-12-30,1645.4744,2038.7940,1285.7143
+Brinjal,APMC Nasik,1,fold4,ridge_core,540,68,2025-10-01,2025-12-30,1295.8313,1655.5746,1048.6416
+Brinjal,APMC Nasik,1,fold4,ridge_extended,540,68,2025-10-01,2025-12-30,1303.7957,1650.8078,1017.8899
+Brinjal,APMC Nasik,1,fold4,rf_core,540,68,2025-10-01,2025-12-30,1279.0849,1631.9925,1024.2183
+Brinjal,APMC Nasik,1,fold4,rf_extended,540,68,2025-10-01,2025-12-30,1329.2623,1667.1509,1087.0795
+Brinjal,APMC Nasik,1,fold4,xgb_core,540,68,2025-10-01,2025-12-30,1300.9638,1662.3885,980.9195
+Brinjal,APMC Nasik,1,fold4,xgb_extended,540,68,2025-10-01,2025-12-30,1420.8466,1785.3990,936.0548
+Brinjal,APMC Nasik,1,fold5,persistence,609,83,2026-01-02,2026-03-31,645.7831,847.0715,500.0000
+Brinjal,APMC Nasik,1,fold5,rolling_mean_7d,609,83,2026-01-02,2026-03-31,586.7456,794.5011,385.7143
+Brinjal,APMC Nasik,1,fold5,ridge_core,609,83,2026-01-02,2026-03-31,552.1340,734.3192,471.6692
+Brinjal,APMC Nasik,1,fold5,ridge_extended,609,83,2026-01-02,2026-03-31,550.0632,732.2058,432.0891
+Brinjal,APMC Nasik,1,fold5,rf_core,609,83,2026-01-02,2026-03-31,555.4665,740.5580,427.2759
+Brinjal,APMC Nasik,1,fold5,rf_extended,609,83,2026-01-02,2026-03-31,549.1456,743.9293,394.5665
+Brinjal,APMC Nasik,1,fold5,xgb_core,609,83,2026-01-02,2026-03-31,557.8875,760.7355,384.6130
+Brinjal,APMC Nasik,1,fold5,xgb_extended,609,83,2026-01-02,2026-03-31,551.0757,740.8519,366.5317
+Brinjal,APMC Nasik,1,holdout,persistence,691,152,2026-04-01,2026-10-05,564.9342,750.1765,465.0000
+Brinjal,APMC Nasik,1,holdout,rolling_mean_7d,691,152,2026-04-01,2026-10-05,599.9409,787.3426,469.2857
+Brinjal,APMC Nasik,1,holdout,ridge_core,691,152,2026-04-01,2026-10-05,536.2094,705.8506,425.8244
+Brinjal,APMC Nasik,1,holdout,ridge_extended,691,152,2026-04-01,2026-10-05,549.4315,717.8828,426.3901
+Brinjal,APMC Nasik,1,holdout,rf_core,691,152,2026-04-01,2026-10-05,543.1997,716.5139,422.7467
+Brinjal,APMC Nasik,1,holdout,rf_extended,691,152,2026-04-01,2026-10-05,547.4247,716.1234,435.2533
+Brinjal,APMC Nasik,1,holdout,xgb_core,691,152,2026-04-01,2026-10-05,547.8800,721.9935,417.9511
+Brinjal,APMC Nasik,1,holdout,xgb_extended,691,152,2026-04-01,2026-10-05,564.2687,730.2977,481.7075
+Brinjal,APMC Nasik,2,fold1,persistence,286,84,2025-01-01,2025-03-31,729.7619,925.3378,500.0000
+Brinjal,APMC Nasik,2,fold1,rolling_mean_7d,286,84,2025-01-01,2025-03-31,617.3399,825.3780,432.1429
+Brinjal,APMC Nasik,2,fold1,ridge_core,286,84,2025-01-01,2025-03-31,586.6268,787.4755,383.0528
+Brinjal,APMC Nasik,2,fold1,ridge_extended,286,84,2025-01-01,2025-03-31,590.5245,798.9790,366.4680
+Brinjal,APMC Nasik,2,fold1,rf_core,286,84,2025-01-01,2025-03-31,623.8394,855.7925,437.5348
+Brinjal,APMC Nasik,2,fold1,rf_extended,286,84,2025-01-01,2025-03-31,613.8238,842.7385,431.3070
+Brinjal,APMC Nasik,2,fold1,xgb_core,286,84,2025-01-01,2025-03-31,666.3291,907.2961,544.9886
+Brinjal,APMC Nasik,2,fold1,xgb_extended,286,84,2025-01-01,2025-03-31,646.5595,872.3184,533.6423
+Brinjal,APMC Nasik,2,fold2,persistence,370,82,2025-04-01,2025-06-29,896.3415,1206.6381,875.0000
+Brinjal,APMC Nasik,2,fold2,rolling_mean_7d,370,82,2025-04-01,2025-06-29,772.5755,1128.5074,530.3571
+Brinjal,APMC Nasik,2,fold2,ridge_core,370,82,2025-04-01,2025-06-29,754.3454,1052.9235,540.4067
+Brinjal,APMC Nasik,2,fold2,ridge_extended,370,82,2025-04-01,2025-06-29,762.4936,1057.7419,554.3151
+Brinjal,APMC Nasik,2,fold2,rf_core,370,82,2025-04-01,2025-06-29,761.5747,1061.1110,543.4955
+Brinjal,APMC Nasik,2,fold2,rf_extended,370,82,2025-04-01,2025-06-29,761.3045,1074.5524,637.6001
+Brinjal,APMC Nasik,2,fold2,xgb_core,370,82,2025-04-01,2025-06-29,765.9835,1082.5728,533.2965
+Brinjal,APMC Nasik,2,fold2,xgb_extended,370,82,2025-04-01,2025-06-29,758.3208,1087.0463,468.0297
+Brinjal,APMC Nasik,2,fold3,persistence,453,81,2025-07-01,2025-09-30,1016.0494,1319.0672,900.0000
+Brinjal,APMC Nasik,2,fold3,rolling_mean_7d,453,81,2025-07-01,2025-09-30,1115.2175,1476.9472,857.1429
+Brinjal,APMC Nasik,2,fold3,ridge_core,453,81,2025-07-01,2025-09-30,995.7192,1300.1315,813.6573
+Brinjal,APMC Nasik,2,fold3,ridge_extended,453,81,2025-07-01,2025-09-30,979.2618,1282.1082,780.9153
+Brinjal,APMC Nasik,2,fold3,rf_core,453,81,2025-07-01,2025-09-30,1041.0293,1322.7367,945.7628
+Brinjal,APMC Nasik,2,fold3,rf_extended,453,81,2025-07-01,2025-09-30,1039.4381,1326.4859,932.4200
+Brinjal,APMC Nasik,2,fold3,xgb_core,453,81,2025-07-01,2025-09-30,1059.2187,1319.1230,872.0127
+Brinjal,APMC Nasik,2,fold3,xgb_extended,453,81,2025-07-01,2025-09-30,1034.2352,1314.5556,923.8226
+Brinjal,APMC Nasik,2,fold4,persistence,533,67,2025-10-01,2025-12-31,1643.2836,2068.1486,1500.0000
+Brinjal,APMC Nasik,2,fold4,rolling_mean_7d,533,67,2025-10-01,2025-12-31,1874.2804,2311.3760,1571.4286
+Brinjal,APMC Nasik,2,fold4,ridge_core,533,67,2025-10-01,2025-12-31,1616.3272,2055.3963,1310.8320
+Brinjal,APMC Nasik,2,fold4,ridge_extended,533,67,2025-10-01,2025-12-31,1578.5660,2026.2860,1184.8201
+Brinjal,APMC Nasik,2,fold4,rf_core,533,67,2025-10-01,2025-12-31,1696.1836,2130.5844,1233.4425
+Brinjal,APMC Nasik,2,fold4,rf_extended,533,67,2025-10-01,2025-12-31,1724.0002,2158.6493,1259.9439
+Brinjal,APMC Nasik,2,fold4,xgb_core,533,67,2025-10-01,2025-12-31,1674.9024,2109.1284,1236.7072
+Brinjal,APMC Nasik,2,fold4,xgb_extended,533,67,2025-10-01,2025-12-31,1775.5694,2229.6480,1387.9850
+Brinjal,APMC Nasik,2,fold5,persistence,601,83,2026-01-02,2026-03-31,720.4819,972.8545,500.0000
+Brinjal,APMC Nasik,2,fold5,rolling_mean_7d,601,83,2026-01-02,2026-03-31,655.9079,869.7791,514.2857
+Brinjal,APMC Nasik,2,fold5,ridge_core,601,83,2026-01-02,2026-03-31,610.0869,843.7073,419.4807
+Brinjal,APMC Nasik,2,fold5,ridge_extended,601,83,2026-01-02,2026-03-31,606.8618,846.8632,401.5426
+Brinjal,APMC Nasik,2,fold5,rf_core,601,83,2026-01-02,2026-03-31,632.0379,849.7891,456.6909
+Brinjal,APMC Nasik,2,fold5,rf_extended,601,83,2026-01-02,2026-03-31,606.2513,826.7958,464.2154
+Brinjal,APMC Nasik,2,fold5,xgb_core,601,83,2026-01-02,2026-03-31,631.2777,832.3420,449.2550
+Brinjal,APMC Nasik,2,fold5,xgb_extended,601,83,2026-01-02,2026-03-31,609.5423,836.9089,471.9511
+Brinjal,APMC Nasik,2,holdout,persistence,683,147,2026-04-01,2026-10-04,672.2449,855.9363,500.0000
+Brinjal,APMC Nasik,2,holdout,rolling_mean_7d,683,147,2026-04-01,2026-10-04,625.2559,833.6967,467.8571
+Brinjal,APMC Nasik,2,holdout,ridge_core,683,147,2026-04-01,2026-10-04,596.6432,788.6941,417.5579
+Brinjal,APMC Nasik,2,holdout,ridge_extended,683,147,2026-04-01,2026-10-04,600.3613,796.5044,416.5894
+Brinjal,APMC Nasik,2,holdout,rf_core,683,147,2026-04-01,2026-10-04,605.8215,808.0577,431.1611
+Brinjal,APMC Nasik,2,holdout,rf_extended,683,147,2026-04-01,2026-10-04,605.6085,810.9547,439.2377
+Brinjal,APMC Nasik,2,holdout,xgb_core,683,147,2026-04-01,2026-10-04,601.8651,805.0399,451.1257
+Brinjal,APMC Nasik,2,holdout,xgb_extended,683,147,2026-04-01,2026-10-04,624.7692,843.0874,456.0986
+Brinjal,APMC Nasik,3,fold1,persistence,284,83,2025-01-01,2025-03-31,798.7952,1001.1138,700.0000
+Brinjal,APMC Nasik,3,fold1,rolling_mean_7d,284,83,2025-01-01,2025-03-31,639.5511,850.9881,442.8571
+Brinjal,APMC Nasik,3,fold1,ridge_core,284,83,2025-01-01,2025-03-31,638.7672,841.7923,453.6288
+Brinjal,APMC Nasik,3,fold1,ridge_extended,284,83,2025-01-01,2025-03-31,647.8136,848.1612,442.2088
+Brinjal,APMC Nasik,3,fold1,rf_core,284,83,2025-01-01,2025-03-31,692.0712,921.5820,523.0883
+Brinjal,APMC Nasik,3,fold1,rf_extended,284,83,2025-01-01,2025-03-31,678.9518,902.5920,478.4226
+Brinjal,APMC Nasik,3,fold1,xgb_core,284,83,2025-01-01,2025-03-31,722.9498,937.2512,576.2344
+Brinjal,APMC Nasik,3,fold1,xgb_extended,284,83,2025-01-01,2025-03-31,698.5614,911.6065,528.1564
+Brinjal,APMC Nasik,3,fold2,persistence,367,83,2025-04-01,2025-06-30,942.7711,1307.8885,750.0000
+Brinjal,APMC Nasik,3,fold2,rolling_mean_7d,367,83,2025-04-01,2025-06-30,844.5066,1210.7234,525.0000
+Brinjal,APMC Nasik,3,fold2,ridge_core,367,83,2025-04-01,2025-06-30,800.7623,1116.6436,505.8678
+Brinjal,APMC Nasik,3,fold2,ridge_extended,367,83,2025-04-01,2025-06-30,798.1025,1121.0878,495.3384
+Brinjal,APMC Nasik,3,fold2,rf_core,367,83,2025-04-01,2025-06-30,793.9156,1123.8676,533.7003
+Brinjal,APMC Nasik,3,fold2,rf_extended,367,83,2025-04-01,2025-06-30,811.9192,1151.1350,564.4475
+Brinjal,APMC Nasik,3,fold2,xgb_core,367,83,2025-04-01,2025-06-30,818.3781,1160.7196,532.1712
+Brinjal,APMC Nasik,3,fold2,xgb_extended,367,83,2025-04-01,2025-06-30,809.0586,1145.7659,526.8177
+Brinjal,APMC Nasik,3,fold3,persistence,451,82,2025-07-01,2025-09-30,1261.5854,1603.7779,1000.0000
+Brinjal,APMC Nasik,3,fold3,rolling_mean_7d,451,82,2025-07-01,2025-09-30,1307.2503,1739.3471,1061.9048
+Brinjal,APMC Nasik,3,fold3,ridge_core,451,82,2025-07-01,2025-09-30,1250.5965,1609.8752,920.3256
+Brinjal,APMC Nasik,3,fold3,ridge_extended,451,82,2025-07-01,2025-09-30,1206.4451,1529.7129,900.2225
+Brinjal,APMC Nasik,3,fold3,rf_core,451,82,2025-07-01,2025-09-30,1287.5102,1634.5470,1005.1818
+Brinjal,APMC Nasik,3,fold3,rf_extended,451,82,2025-07-01,2025-09-30,1306.4006,1650.8476,1068.3914
+Brinjal,APMC Nasik,3,fold3,xgb_core,451,82,2025-07-01,2025-09-30,1292.3541,1637.9986,953.6307
+Brinjal,APMC Nasik,3,fold3,xgb_extended,451,82,2025-07-01,2025-09-30,1290.8704,1623.3986,1078.7838
+Brinjal,APMC Nasik,3,fold4,persistence,532,65,2025-10-01,2025-12-31,1731.5385,2047.5971,1500.0000
+Brinjal,APMC Nasik,3,fold4,rolling_mean_7d,532,65,2025-10-01,2025-12-31,1959.8168,2404.7791,1700.0000
+Brinjal,APMC Nasik,3,fold4,ridge_core,532,65,2025-10-01,2025-12-31,1755.2988,2144.4823,1566.1242
+Brinjal,APMC Nasik,3,fold4,ridge_extended,532,65,2025-10-01,2025-12-31,1737.0513,2151.4755,1538.6527
+Brinjal,APMC Nasik,3,fold4,rf_core,532,65,2025-10-01,2025-12-31,1737.2575,2153.7952,1538.7370
+Brinjal,APMC Nasik,3,fold4,rf_extended,532,65,2025-10-01,2025-12-31,1780.5154,2226.9782,1502.6053
+Brinjal,APMC Nasik,3,fold4,xgb_core,532,65,2025-10-01,2025-12-31,1809.0246,2213.3290,1697.9935
+Brinjal,APMC Nasik,3,fold4,xgb_extended,532,65,2025-10-01,2025-12-31,1874.7223,2318.0714,1695.2322
+Brinjal,APMC Nasik,3,fold5,persistence,598,83,2026-01-02,2026-03-31,844.5783,1082.0273,700.0000
+Brinjal,APMC Nasik,3,fold5,rolling_mean_7d,598,83,2026-01-02,2026-03-31,698.3635,917.3914,550.0000
+Brinjal,APMC Nasik,3,fold5,ridge_core,598,83,2026-01-02,2026-03-31,710.4175,909.5547,571.0821
+Brinjal,APMC Nasik,3,fold5,ridge_extended,598,83,2026-01-02,2026-03-31,700.2336,909.0421,549.9012
+Brinjal,APMC Nasik,3,fold5,rf_core,598,83,2026-01-02,2026-03-31,741.8781,941.3324,577.5520
+Brinjal,APMC Nasik,3,fold5,rf_extended,598,83,2026-01-02,2026-03-31,735.9968,925.0765,560.7837
+Brinjal,APMC Nasik,3,fold5,xgb_core,598,83,2026-01-02,2026-03-31,767.5201,979.9660,565.0650
+Brinjal,APMC Nasik,3,fold5,xgb_extended,598,83,2026-01-02,2026-03-31,734.1916,923.7003,536.6922
+Brinjal,APMC Nasik,3,holdout,persistence,680,146,2026-04-01,2026-10-03,712.7397,958.8937,565.0000
+Brinjal,APMC Nasik,3,holdout,rolling_mean_7d,680,146,2026-04-01,2026-10-03,679.4602,918.1478,487.8571
+Brinjal,APMC Nasik,3,holdout,ridge_core,680,146,2026-04-01,2026-10-03,651.6673,880.7683,463.2989
+Brinjal,APMC Nasik,3,holdout,ridge_extended,680,146,2026-04-01,2026-10-03,658.0665,900.6470,448.3303
+Brinjal,APMC Nasik,3,holdout,rf_core,680,146,2026-04-01,2026-10-03,659.6204,896.8170,446.2930
+Brinjal,APMC Nasik,3,holdout,rf_extended,680,146,2026-04-01,2026-10-03,640.2741,889.2930,381.5374
+Brinjal,APMC Nasik,3,holdout,xgb_core,680,146,2026-04-01,2026-10-03,646.7473,885.1773,497.3790
+Brinjal,APMC Nasik,3,holdout,xgb_extended,680,146,2026-04-01,2026-10-03,644.8376,891.0845,405.9476
+Brinjal,APMC Nasik,4,fold1,persistence,282,82,2025-01-01,2025-03-31,787.8049,1018.3679,500.0000
+Brinjal,APMC Nasik,4,fold1,rolling_mean_7d,282,82,2025-01-01,2025-03-31,678.6803,883.9773,534.5238
+Brinjal,APMC Nasik,4,fold1,ridge_core,282,82,2025-01-01,2025-03-31,660.8997,870.7547,528.5409
+Brinjal,APMC Nasik,4,fold1,ridge_extended,282,82,2025-01-01,2025-03-31,670.0578,879.3182,566.9196
+Brinjal,APMC Nasik,4,fold1,rf_core,282,82,2025-01-01,2025-03-31,781.2871,996.9431,626.6097
+Brinjal,APMC Nasik,4,fold1,rf_extended,282,82,2025-01-01,2025-03-31,731.1249,943.7877,538.2326
+Brinjal,APMC Nasik,4,fold1,xgb_core,282,82,2025-01-01,2025-03-31,820.7857,1058.6339,622.6365
+Brinjal,APMC Nasik,4,fold1,xgb_extended,282,82,2025-01-01,2025-03-31,782.8842,1005.7414,578.7728
+Brinjal,APMC Nasik,4,fold2,persistence,364,82,2025-04-01,2025-06-30,993.2927,1402.4260,500.0000
+Brinjal,APMC Nasik,4,fold2,rolling_mean_7d,364,82,2025-04-01,2025-06-30,883.5569,1270.7807,542.8571
+Brinjal,APMC Nasik,4,fold2,ridge_core,364,82,2025-04-01,2025-06-30,860.3155,1207.0519,546.2902
+Brinjal,APMC Nasik,4,fold2,ridge_extended,364,82,2025-04-01,2025-06-30,852.1812,1205.3047,585.1378
+Brinjal,APMC Nasik,4,fold2,rf_core,364,82,2025-04-01,2025-06-30,860.4587,1221.4134,579.0046
+Brinjal,APMC Nasik,4,fold2,rf_extended,364,82,2025-04-01,2025-06-30,864.9899,1238.4393,550.9719
+Brinjal,APMC Nasik,4,fold2,xgb_core,364,82,2025-04-01,2025-06-30,888.6120,1258.7202,584.9175
+Brinjal,APMC Nasik,4,fold2,xgb_extended,364,82,2025-04-01,2025-06-30,873.7869,1264.4262,608.6105
+Brinjal,APMC Nasik,4,fold3,persistence,447,81,2025-07-01,2025-09-30,1437.6543,1864.0276,1100.0000
+Brinjal,APMC Nasik,4,fold3,rolling_mean_7d,447,81,2025-07-01,2025-09-30,1479.7854,1897.6084,1357.1429
+Brinjal,APMC Nasik,4,fold3,ridge_core,447,81,2025-07-01,2025-09-30,1387.6760,1804.4572,1066.7998
+Brinjal,APMC Nasik,4,fold3,ridge_extended,447,81,2025-07-01,2025-09-30,1366.4143,1764.6832,1075.3899
+Brinjal,APMC Nasik,4,fold3,rf_core,447,81,2025-07-01,2025-09-30,1395.2884,1837.0883,1057.6375
+Brinjal,APMC Nasik,4,fold3,rf_extended,447,81,2025-07-01,2025-09-30,1380.3145,1814.3068,1215.3632
+Brinjal,APMC Nasik,4,fold3,xgb_core,447,81,2025-07-01,2025-09-30,1390.2068,1796.7883,1182.5018
+Brinjal,APMC Nasik,4,fold3,xgb_extended,447,81,2025-07-01,2025-09-30,1397.2636,1809.9445,1220.5585
+Brinjal,APMC Nasik,4,fold4,persistence,527,64,2025-10-02,2025-12-31,1832.0312,2285.6977,1500.0000
+Brinjal,APMC Nasik,4,fold4,rolling_mean_7d,527,64,2025-10-02,2025-12-31,2110.0818,2643.5683,1768.7500
+Brinjal,APMC Nasik,4,fold4,ridge_core,527,64,2025-10-02,2025-12-31,1977.6879,2388.5760,1662.5526
+Brinjal,APMC Nasik,4,fold4,ridge_extended,527,64,2025-10-02,2025-12-31,1934.1269,2349.1499,1788.0727
+Brinjal,APMC Nasik,4,fold4,rf_core,527,64,2025-10-02,2025-12-31,2033.9521,2462.8986,1908.8988
+Brinjal,APMC Nasik,4,fold4,rf_extended,527,64,2025-10-02,2025-12-31,2095.3498,2523.6723,2000.8000
+Brinjal,APMC Nasik,4,fold4,xgb_core,527,64,2025-10-02,2025-12-31,2055.7920,2431.5946,1888.4588
+Brinjal,APMC Nasik,4,fold4,xgb_extended,527,64,2025-10-02,2025-12-31,2103.7790,2539.5987,1881.2178
+Brinjal,APMC Nasik,4,fold5,persistence,592,83,2026-01-02,2026-03-31,812.0482,1029.1826,650.0000
+Brinjal,APMC Nasik,4,fold5,rolling_mean_7d,592,83,2026-01-02,2026-03-31,702.2074,933.2546,525.0000
+Brinjal,APMC Nasik,4,fold5,ridge_core,592,83,2026-01-02,2026-03-31,694.8318,890.1122,586.7461
+Brinjal,APMC Nasik,4,fold5,ridge_extended,592,83,2026-01-02,2026-03-31,686.3311,900.9900,542.1339
+Brinjal,APMC Nasik,4,fold5,rf_core,592,83,2026-01-02,2026-03-31,714.7062,936.4099,537.5951
+Brinjal,APMC Nasik,4,fold5,rf_extended,592,83,2026-01-02,2026-03-31,711.0220,918.6161,545.5012
+Brinjal,APMC Nasik,4,fold5,xgb_core,592,83,2026-01-02,2026-03-31,740.8479,969.8468,525.0674
+Brinjal,APMC Nasik,4,fold5,xgb_extended,592,83,2026-01-02,2026-03-31,715.6174,927.4856,520.5211
+Brinjal,APMC Nasik,4,holdout,persistence,674,146,2026-04-01,2026-10-02,809.8630,1075.8916,650.0000
+Brinjal,APMC Nasik,4,holdout,rolling_mean_7d,674,146,2026-04-01,2026-10-02,744.2133,1001.8960,523.5714
+Brinjal,APMC Nasik,4,holdout,ridge_core,674,146,2026-04-01,2026-10-02,738.6830,970.8594,559.4640
+Brinjal,APMC Nasik,4,holdout,ridge_extended,674,146,2026-04-01,2026-10-02,752.7029,998.0641,547.9786
+Brinjal,APMC Nasik,4,holdout,rf_core,674,146,2026-04-01,2026-10-02,745.7801,982.9865,560.4034
+Brinjal,APMC Nasik,4,holdout,rf_extended,674,146,2026-04-01,2026-10-02,713.2500,959.9356,542.4304
+Brinjal,APMC Nasik,4,holdout,xgb_core,674,146,2026-04-01,2026-10-02,762.2594,1003.1486,562.9078
+Brinjal,APMC Nasik,4,holdout,xgb_extended,674,146,2026-04-01,2026-10-02,738.8804,994.5014,546.0595
+Brinjal,APMC Nasik,5,fold1,persistence,278,82,2025-01-01,2025-03-31,796.3415,1028.6743,500.0000
+Brinjal,APMC Nasik,5,fold1,rolling_mean_7d,278,82,2025-01-01,2025-03-31,685.6780,897.1062,510.7143
+Brinjal,APMC Nasik,5,fold1,ridge_core,278,82,2025-01-01,2025-03-31,684.2372,905.0585,509.7496
+Brinjal,APMC Nasik,5,fold1,ridge_extended,278,82,2025-01-01,2025-03-31,705.0136,929.4760,525.6379
+Brinjal,APMC Nasik,5,fold1,rf_core,278,82,2025-01-01,2025-03-31,773.9766,1022.0006,548.0940
+Brinjal,APMC Nasik,5,fold1,rf_extended,278,82,2025-01-01,2025-03-31,742.0563,985.2630,545.4040
+Brinjal,APMC Nasik,5,fold1,xgb_core,278,82,2025-01-01,2025-03-31,799.5064,1054.4655,582.8077
+Brinjal,APMC Nasik,5,fold1,xgb_extended,278,82,2025-01-01,2025-03-31,792.8390,1050.0884,595.8592
+Brinjal,APMC Nasik,5,fold2,persistence,360,82,2025-04-01,2025-06-30,944.5122,1269.1100,650.0000
+Brinjal,APMC Nasik,5,fold2,rolling_mean_7d,360,82,2025-04-01,2025-06-30,894.6777,1303.2053,545.8333
+Brinjal,APMC Nasik,5,fold2,ridge_core,360,82,2025-04-01,2025-06-30,847.3729,1180.6834,593.1008
+Brinjal,APMC Nasik,5,fold2,ridge_extended,360,82,2025-04-01,2025-06-30,838.3022,1174.9581,582.8076
+Brinjal,APMC Nasik,5,fold2,rf_core,360,82,2025-04-01,2025-06-30,879.3470,1218.8129,588.6034
+Brinjal,APMC Nasik,5,fold2,rf_extended,360,82,2025-04-01,2025-06-30,852.4074,1205.6037,605.4207
+Brinjal,APMC Nasik,5,fold2,xgb_core,360,82,2025-04-01,2025-06-30,862.5042,1179.4316,633.8737
+Brinjal,APMC Nasik,5,fold2,xgb_extended,360,82,2025-04-01,2025-06-30,879.9261,1227.0960,568.7135
+Brinjal,APMC Nasik,5,fold3,persistence,443,80,2025-07-01,2025-09-29,1443.1250,1926.4686,1000.0000
+Brinjal,APMC Nasik,5,fold3,rolling_mean_7d,443,80,2025-07-01,2025-09-29,1591.9702,2000.7979,1282.1429
+Brinjal,APMC Nasik,5,fold3,ridge_core,443,80,2025-07-01,2025-09-29,1464.6193,1909.1108,1186.7178
+Brinjal,APMC Nasik,5,fold3,ridge_extended,443,80,2025-07-01,2025-09-29,1449.2314,1877.5407,1184.7943
+Brinjal,APMC Nasik,5,fold3,rf_core,443,80,2025-07-01,2025-09-29,1495.2529,1922.8837,1091.3518
+Brinjal,APMC Nasik,5,fold3,rf_extended,443,80,2025-07-01,2025-09-29,1507.6900,1922.8435,1129.2914
+Brinjal,APMC Nasik,5,fold3,xgb_core,443,80,2025-07-01,2025-09-29,1473.6816,1902.3720,1167.2197
+Brinjal,APMC Nasik,5,fold3,xgb_extended,443,80,2025-07-01,2025-09-29,1489.1286,1912.3301,1224.2192
+Brinjal,APMC Nasik,5,fold4,persistence,523,68,2025-10-01,2025-12-31,2149.2647,2671.6994,2100.0000
+Brinjal,APMC Nasik,5,fold4,rolling_mean_7d,523,68,2025-10-01,2025-12-31,2318.6800,2868.0115,1954.1667
+Brinjal,APMC Nasik,5,fold4,ridge_core,523,68,2025-10-01,2025-12-31,2101.9557,2614.5301,1844.1044
+Brinjal,APMC Nasik,5,fold4,ridge_extended,523,68,2025-10-01,2025-12-31,2058.2417,2526.1155,1886.6339
+Brinjal,APMC Nasik,5,fold4,rf_core,523,68,2025-10-01,2025-12-31,2083.1249,2568.3301,1803.0045
+Brinjal,APMC Nasik,5,fold4,rf_extended,523,68,2025-10-01,2025-12-31,2081.5838,2580.3488,1896.7449
+Brinjal,APMC Nasik,5,fold4,xgb_core,523,68,2025-10-01,2025-12-31,2056.4472,2513.6129,1812.0931
+Brinjal,APMC Nasik,5,fold4,xgb_extended,523,68,2025-10-01,2025-12-31,2013.3246,2522.8902,1625.6192
+Brinjal,APMC Nasik,5,fold5,persistence,592,83,2026-01-02,2026-03-31,798.7952,1046.8254,700.0000
+Brinjal,APMC Nasik,5,fold5,rolling_mean_7d,592,83,2026-01-02,2026-03-31,699.1667,927.1167,500.0000
+Brinjal,APMC Nasik,5,fold5,ridge_core,592,83,2026-01-02,2026-03-31,679.9885,902.8289,537.8999
+Brinjal,APMC Nasik,5,fold5,ridge_extended,592,83,2026-01-02,2026-03-31,685.0362,938.3118,537.0577
+Brinjal,APMC Nasik,5,fold5,rf_core,592,83,2026-01-02,2026-03-31,732.8464,968.1667,559.3112
+Brinjal,APMC Nasik,5,fold5,rf_extended,592,83,2026-01-02,2026-03-31,737.7856,952.4095,554.7879
+Brinjal,APMC Nasik,5,fold5,xgb_core,592,83,2026-01-02,2026-03-31,732.8646,955.1605,586.5947
+Brinjal,APMC Nasik,5,fold5,xgb_extended,592,83,2026-01-02,2026-03-31,705.4485,936.5578,603.1843
+Brinjal,APMC Nasik,5,holdout,persistence,673,144,2026-04-01,2026-10-01,853.4722,1117.0641,690.0000
+Brinjal,APMC Nasik,5,holdout,rolling_mean_7d,673,144,2026-04-01,2026-10-01,760.1928,1047.6997,481.9048
+Brinjal,APMC Nasik,5,holdout,ridge_core,673,144,2026-04-01,2026-10-01,767.8174,1022.7678,567.1075
+Brinjal,APMC Nasik,5,holdout,ridge_extended,673,144,2026-04-01,2026-10-01,775.5895,1040.2644,581.2070
+Brinjal,APMC Nasik,5,holdout,rf_core,673,144,2026-04-01,2026-10-01,794.0974,1040.1600,606.4467
+Brinjal,APMC Nasik,5,holdout,rf_extended,673,144,2026-04-01,2026-10-01,772.6695,1022.7893,544.9535
+Brinjal,APMC Nasik,5,holdout,xgb_core,673,144,2026-04-01,2026-10-01,807.1922,1048.3038,635.0433
+Brinjal,APMC Nasik,5,holdout,xgb_extended,673,144,2026-04-01,2026-10-01,780.6196,1026.2898,616.4046
+Brinjal,APMC Nasik,6,fold1,persistence,279,82,2025-01-01,2025-03-31,808.5366,1035.2624,675.0000
+Brinjal,APMC Nasik,6,fold1,rolling_mean_7d,279,82,2025-01-01,2025-03-31,715.5270,914.8876,528.5714
+Brinjal,APMC Nasik,6,fold1,ridge_core,279,82,2025-01-01,2025-03-31,694.8395,928.3819,463.3760
+Brinjal,APMC Nasik,6,fold1,ridge_extended,279,82,2025-01-01,2025-03-31,696.2813,933.5090,502.6715
+Brinjal,APMC Nasik,6,fold1,rf_core,279,82,2025-01-01,2025-03-31,768.5637,1013.9894,560.8741
+Brinjal,APMC Nasik,6,fold1,rf_extended,279,82,2025-01-01,2025-03-31,741.1492,980.6139,509.0614
+Brinjal,APMC Nasik,6,fold1,xgb_core,279,82,2025-01-01,2025-03-31,818.1293,1080.5982,555.0771
+Brinjal,APMC Nasik,6,fold1,xgb_extended,279,82,2025-01-01,2025-03-31,792.8534,1044.5106,576.4634
+Brinjal,APMC Nasik,6,fold2,persistence,361,82,2025-04-01,2025-06-30,1077.4390,1473.2058,750.0000
+Brinjal,APMC Nasik,6,fold2,rolling_mean_7d,361,82,2025-04-01,2025-06-30,973.0110,1396.7656,641.6667
+Brinjal,APMC Nasik,6,fold2,ridge_core,361,82,2025-04-01,2025-06-30,933.7366,1338.4157,607.6420
+Brinjal,APMC Nasik,6,fold2,ridge_extended,361,82,2025-04-01,2025-06-30,913.8873,1317.3850,619.8119
+Brinjal,APMC Nasik,6,fold2,rf_core,361,82,2025-04-01,2025-06-30,954.4681,1331.0848,754.0207
+Brinjal,APMC Nasik,6,fold2,rf_extended,361,82,2025-04-01,2025-06-30,943.7876,1322.3026,671.6586
+Brinjal,APMC Nasik,6,fold2,xgb_core,361,82,2025-04-01,2025-06-30,975.6427,1311.0165,720.3215
+Brinjal,APMC Nasik,6,fold2,xgb_extended,361,82,2025-04-01,2025-06-30,940.3538,1295.9071,587.4615
+Brinjal,APMC Nasik,6,fold3,persistence,444,80,2025-07-01,2025-09-30,1496.2500,2004.8847,1000.0000
+Brinjal,APMC Nasik,6,fold3,rolling_mean_7d,444,80,2025-07-01,2025-09-30,1794.9167,2210.5879,1508.3333
+Brinjal,APMC Nasik,6,fold3,ridge_core,444,80,2025-07-01,2025-09-30,1726.4368,2157.9342,1535.1888
+Brinjal,APMC Nasik,6,fold3,ridge_extended,444,80,2025-07-01,2025-09-30,1653.2497,2042.3449,1524.9299
+Brinjal,APMC Nasik,6,fold3,rf_core,444,80,2025-07-01,2025-09-30,1706.4202,2126.6572,1615.6376
+Brinjal,APMC Nasik,6,fold3,rf_extended,444,80,2025-07-01,2025-09-30,1689.2182,2081.4458,1595.4180
+Brinjal,APMC Nasik,6,fold3,xgb_core,444,80,2025-07-01,2025-09-30,1693.8063,2127.5630,1421.4795
+Brinjal,APMC Nasik,6,fold3,xgb_extended,444,80,2025-07-01,2025-09-30,1625.5727,2071.8961,1375.1910
+Brinjal,APMC Nasik,6,fold4,persistence,524,66,2025-10-01,2025-12-31,2299.2424,3011.3736,1600.0000
+Brinjal,APMC Nasik,6,fold4,rolling_mean_7d,524,66,2025-10-01,2025-12-31,2584.2532,3143.5369,2321.4286
+Brinjal,APMC Nasik,6,fold4,ridge_core,524,66,2025-10-01,2025-12-31,2308.1454,2889.9597,1907.9256
+Brinjal,APMC Nasik,6,fold4,ridge_extended,524,66,2025-10-01,2025-12-31,2260.2048,2765.5889,1845.7557
+Brinjal,APMC Nasik,6,fold4,rf_core,524,66,2025-10-01,2025-12-31,2305.5574,2862.4725,1842.3182
+Brinjal,APMC Nasik,6,fold4,rf_extended,524,66,2025-10-01,2025-12-31,2292.9871,2787.9536,1975.7525
+Brinjal,APMC Nasik,6,fold4,xgb_core,524,66,2025-10-01,2025-12-31,2323.1946,2861.8170,1990.6275
+Brinjal,APMC Nasik,6,fold4,xgb_extended,524,66,2025-10-01,2025-12-31,2313.3489,2803.8025,2064.6758
+Brinjal,APMC Nasik,6,fold5,persistence,592,83,2026-01-02,2026-03-31,764.4578,1058.4286,600.0000
+Brinjal,APMC Nasik,6,fold5,rolling_mean_7d,592,83,2026-01-02,2026-03-31,727.6692,940.6543,678.5714
+Brinjal,APMC Nasik,6,fold5,ridge_core,592,83,2026-01-02,2026-03-31,653.9793,899.5885,487.9354
+Brinjal,APMC Nasik,6,fold5,ridge_extended,592,83,2026-01-02,2026-03-31,685.4852,947.9875,491.8982
+Brinjal,APMC Nasik,6,fold5,rf_core,592,83,2026-01-02,2026-03-31,702.0449,940.5199,524.7962
+Brinjal,APMC Nasik,6,fold5,rf_extended,592,83,2026-01-02,2026-03-31,700.8594,934.5274,546.8211
+Brinjal,APMC Nasik,6,fold5,xgb_core,592,83,2026-01-02,2026-03-31,703.5059,922.8355,581.2366
+Brinjal,APMC Nasik,6,fold5,xgb_extended,592,83,2026-01-02,2026-03-31,689.7580,920.0990,513.9101
+Brinjal,APMC Nasik,6,holdout,persistence,672,144,2026-04-01,2026-09-30,845.9028,1086.9103,650.0000
+Brinjal,APMC Nasik,6,holdout,rolling_mean_7d,672,144,2026-04-01,2026-09-30,768.6642,1055.0228,522.8571
+Brinjal,APMC Nasik,6,holdout,ridge_core,672,144,2026-04-01,2026-09-30,753.6780,1008.0139,558.1302
+Brinjal,APMC Nasik,6,holdout,ridge_extended,672,144,2026-04-01,2026-09-30,761.7644,1044.5297,556.0945
+Brinjal,APMC Nasik,6,holdout,rf_core,672,144,2026-04-01,2026-09-30,787.4745,1039.1965,549.7495
+Brinjal,APMC Nasik,6,holdout,rf_extended,672,144,2026-04-01,2026-09-30,760.7035,1014.7921,542.3467
+Brinjal,APMC Nasik,6,holdout,xgb_core,672,144,2026-04-01,2026-09-30,798.7477,1049.9380,569.6984
+Brinjal,APMC Nasik,6,holdout,xgb_extended,672,144,2026-04-01,2026-09-30,781.3715,1028.6011,525.4285
+Brinjal,APMC Nasik,7,fold1,persistence,279,82,2025-01-01,2025-03-31,746.3415,989.7955,500.0000
+Brinjal,APMC Nasik,7,fold1,rolling_mean_7d,279,82,2025-01-01,2025-03-31,737.6379,913.1075,528.5714
+Brinjal,APMC Nasik,7,fold1,ridge_core,279,82,2025-01-01,2025-03-31,683.6695,911.0227,461.7982
+Brinjal,APMC Nasik,7,fold1,ridge_extended,279,82,2025-01-01,2025-03-31,682.3232,914.1313,464.7318
+Brinjal,APMC Nasik,7,fold1,rf_core,279,82,2025-01-01,2025-03-31,821.0689,1066.7346,586.3841
+Brinjal,APMC Nasik,7,fold1,rf_extended,279,82,2025-01-01,2025-03-31,809.7398,1012.4352,611.2744
+Brinjal,APMC Nasik,7,fold1,xgb_core,279,82,2025-01-01,2025-03-31,870.3111,1137.3275,744.1899
+Brinjal,APMC Nasik,7,fold1,xgb_extended,279,82,2025-01-01,2025-03-31,845.2976,1072.1771,655.4666
+Brinjal,APMC Nasik,7,fold2,persistence,361,82,2025-04-01,2025-06-30,1073.1707,1507.5825,750.0000
+Brinjal,APMC Nasik,7,fold2,rolling_mean_7d,361,82,2025-04-01,2025-06-30,1055.4965,1494.4782,800.0000
+Brinjal,APMC Nasik,7,fold2,ridge_core,361,82,2025-04-01,2025-06-30,999.6827,1410.1690,689.5697
+Brinjal,APMC Nasik,7,fold2,ridge_extended,361,82,2025-04-01,2025-06-30,981.2909,1394.9937,695.2946
+Brinjal,APMC Nasik,7,fold2,rf_core,361,82,2025-04-01,2025-06-30,990.9686,1382.6330,684.5762
+Brinjal,APMC Nasik,7,fold2,rf_extended,361,82,2025-04-01,2025-06-30,1005.6932,1431.7437,717.7125
+Brinjal,APMC Nasik,7,fold2,xgb_core,361,82,2025-04-01,2025-06-30,1007.5171,1395.6239,648.2631
+Brinjal,APMC Nasik,7,fold2,xgb_extended,361,82,2025-04-01,2025-06-30,1033.2609,1471.3243,681.1052
+Brinjal,APMC Nasik,7,fold3,persistence,444,80,2025-07-01,2025-09-30,1581.8750,2139.8379,1200.0000
+Brinjal,APMC Nasik,7,fold3,rolling_mean_7d,444,80,2025-07-01,2025-09-30,1882.5804,2293.2818,1483.3333
+Brinjal,APMC Nasik,7,fold3,ridge_core,444,80,2025-07-01,2025-09-30,1734.3223,2199.0833,1411.8168
+Brinjal,APMC Nasik,7,fold3,ridge_extended,444,80,2025-07-01,2025-09-30,1706.4520,2127.7815,1419.1641
+Brinjal,APMC Nasik,7,fold3,rf_core,444,80,2025-07-01,2025-09-30,1725.8168,2224.8032,1423.6934
+Brinjal,APMC Nasik,7,fold3,rf_extended,444,80,2025-07-01,2025-09-30,1687.0624,2163.9092,1356.3851
+Brinjal,APMC Nasik,7,fold3,xgb_core,444,80,2025-07-01,2025-09-30,1780.3774,2277.0752,1493.5118
+Brinjal,APMC Nasik,7,fold3,xgb_extended,444,80,2025-07-01,2025-09-30,1719.5811,2218.2692,1335.7800
+Brinjal,APMC Nasik,7,fold4,persistence,524,65,2025-10-01,2025-12-31,2362.3077,3078.5798,1500.0000
+Brinjal,APMC Nasik,7,fold4,rolling_mean_7d,524,65,2025-10-01,2025-12-31,2679.8168,3162.4882,2362.5000
+Brinjal,APMC Nasik,7,fold4,ridge_core,524,65,2025-10-01,2025-12-31,2321.1575,2926.1345,2100.4386
+Brinjal,APMC Nasik,7,fold4,ridge_extended,524,65,2025-10-01,2025-12-31,2266.8532,2814.7688,1933.6800
+Brinjal,APMC Nasik,7,fold4,rf_core,524,65,2025-10-01,2025-12-31,2473.7148,2938.4546,2339.2537
+Brinjal,APMC Nasik,7,fold4,rf_extended,524,65,2025-10-01,2025-12-31,2263.1577,2717.3592,2000.6250
+Brinjal,APMC Nasik,7,fold4,xgb_core,524,65,2025-10-01,2025-12-31,2544.7936,3001.2326,2126.1950
+Brinjal,APMC Nasik,7,fold4,xgb_extended,524,65,2025-10-01,2025-12-31,2243.7329,2707.9411,2068.5142
+Brinjal,APMC Nasik,7,fold5,persistence,592,83,2026-01-02,2026-03-31,847.5904,1118.4784,600.0000
+Brinjal,APMC Nasik,7,fold5,rolling_mean_7d,592,83,2026-01-02,2026-03-31,758.9056,962.0337,716.6667
+Brinjal,APMC Nasik,7,fold5,ridge_core,592,83,2026-01-02,2026-03-31,708.9171,914.1977,569.8731
+Brinjal,APMC Nasik,7,fold5,ridge_extended,592,83,2026-01-02,2026-03-31,732.5886,966.6905,542.9213
+Brinjal,APMC Nasik,7,fold5,rf_core,592,83,2026-01-02,2026-03-31,715.1841,905.2439,659.0691
+Brinjal,APMC Nasik,7,fold5,rf_extended,592,83,2026-01-02,2026-03-31,741.6521,935.7169,598.3367
+Brinjal,APMC Nasik,7,fold5,xgb_core,592,83,2026-01-02,2026-03-31,722.9861,883.7523,661.7521
+Brinjal,APMC Nasik,7,fold5,xgb_extended,592,83,2026-01-02,2026-03-31,734.2673,909.0177,664.8419
+Brinjal,APMC Nasik,7,holdout,persistence,672,144,2026-04-01,2026-09-29,862.7083,1147.6266,675.0000
+Brinjal,APMC Nasik,7,holdout,rolling_mean_7d,672,144,2026-04-01,2026-09-29,812.4264,1120.4178,551.6667
+Brinjal,APMC Nasik,7,holdout,ridge_core,672,144,2026-04-01,2026-09-29,809.6599,1082.5378,510.2060
+Brinjal,APMC Nasik,7,holdout,ridge_extended,672,144,2026-04-01,2026-09-29,857.9722,1160.2163,548.4358
+Brinjal,APMC Nasik,7,holdout,rf_core,672,144,2026-04-01,2026-09-29,842.7284,1098.8458,632.9368
+Brinjal,APMC Nasik,7,holdout,rf_extended,672,144,2026-04-01,2026-09-29,826.1376,1081.1975,605.1126
+Brinjal,APMC Nasik,7,holdout,xgb_core,672,144,2026-04-01,2026-09-29,870.8373,1147.1669,667.9977
+Brinjal,APMC Nasik,7,holdout,xgb_extended,672,144,2026-04-01,2026-09-29,852.6684,1113.9882,618.1713
+Cabbage,APMC Nasik,1,fold1,persistence,286,85,2025-01-01,2025-03-31,163.0235,251.7849,85.0000
+Cabbage,APMC Nasik,1,fold1,rolling_mean_7d,286,85,2025-01-01,2025-03-31,172.6452,235.3448,118.5714
+Cabbage,APMC Nasik,1,fold1,ridge_core,286,85,2025-01-01,2025-03-31,143.8659,210.7439,88.2471
+Cabbage,APMC Nasik,1,fold1,ridge_extended,286,85,2025-01-01,2025-03-31,143.8355,210.3131,90.7459
+Cabbage,APMC Nasik,1,fold1,rf_core,286,85,2025-01-01,2025-03-31,148.2491,216.6901,105.3130
+Cabbage,APMC Nasik,1,fold1,rf_extended,286,85,2025-01-01,2025-03-31,146.4972,215.1696,91.6196
+Cabbage,APMC Nasik,1,fold1,xgb_core,286,85,2025-01-01,2025-03-31,158.9221,224.7839,117.2217
+Cabbage,APMC Nasik,1,fold1,xgb_extended,286,85,2025-01-01,2025-03-31,152.7300,217.5873,104.5011
+Cabbage,APMC Nasik,1,fold2,persistence,371,83,2025-04-01,2025-06-30,388.7711,1379.1257,125.0000
+Cabbage,APMC Nasik,1,fold2,rolling_mean_7d,371,83,2025-04-01,2025-06-30,373.5441,1061.7541,146.5000
+Cabbage,APMC Nasik,1,fold2,ridge_core,371,83,2025-04-01,2025-06-30,332.2056,1092.6166,121.3959
+Cabbage,APMC Nasik,1,fold2,ridge_extended,371,83,2025-04-01,2025-06-30,330.6941,1090.3384,109.5963
+Cabbage,APMC Nasik,1,fold2,rf_core,371,83,2025-04-01,2025-06-30,340.8560,1114.5195,118.8461
+Cabbage,APMC Nasik,1,fold2,rf_extended,371,83,2025-04-01,2025-06-30,337.2333,1115.9821,105.4480
+Cabbage,APMC Nasik,1,fold2,xgb_core,371,83,2025-04-01,2025-06-30,337.4810,1084.1203,126.7597
+Cabbage,APMC Nasik,1,fold2,xgb_extended,371,83,2025-04-01,2025-06-30,348.2467,1115.7513,132.9758
+Cabbage,APMC Nasik,1,fold3,persistence,454,82,2025-07-03,2025-09-30,214.6951,334.3801,160.0000
+Cabbage,APMC Nasik,1,fold3,rolling_mean_7d,454,82,2025-07-03,2025-09-30,219.2009,306.1594,167.8571
+Cabbage,APMC Nasik,1,fold3,ridge_core,454,82,2025-07-03,2025-09-30,197.7362,291.8583,153.0782
+Cabbage,APMC Nasik,1,fold3,ridge_extended,454,82,2025-07-03,2025-09-30,195.8725,290.1211,159.0903
+Cabbage,APMC Nasik,1,fold3,rf_core,454,82,2025-07-03,2025-09-30,195.7463,293.1331,137.0859
+Cabbage,APMC Nasik,1,fold3,rf_extended,454,82,2025-07-03,2025-09-30,192.3685,289.1320,141.1417
+Cabbage,APMC Nasik,1,fold3,xgb_core,454,82,2025-07-03,2025-09-30,200.7434,300.1825,152.0702
+Cabbage,APMC Nasik,1,fold3,xgb_extended,454,82,2025-07-03,2025-09-30,199.7904,298.0687,156.5200
+Cabbage,APMC Nasik,1,fold4,persistence,536,71,2025-10-01,2025-12-31,176.7465,228.5612,165.0000
+Cabbage,APMC Nasik,1,fold4,rolling_mean_7d,536,71,2025-10-01,2025-12-31,184.4410,220.7305,172.5000
+Cabbage,APMC Nasik,1,fold4,ridge_core,536,71,2025-10-01,2025-12-31,168.0737,210.6770,135.1962
+Cabbage,APMC Nasik,1,fold4,ridge_extended,536,71,2025-10-01,2025-12-31,162.5568,208.4980,119.2618
+Cabbage,APMC Nasik,1,fold4,rf_core,536,71,2025-10-01,2025-12-31,167.8790,211.2232,133.9972
+Cabbage,APMC Nasik,1,fold4,rf_extended,536,71,2025-10-01,2025-12-31,167.7432,212.5000,124.0538
+Cabbage,APMC Nasik,1,fold4,xgb_core,536,71,2025-10-01,2025-12-31,172.1978,212.1480,152.6506
+Cabbage,APMC Nasik,1,fold4,xgb_extended,536,71,2025-10-01,2025-12-31,166.9315,212.1836,135.3486
+Cabbage,APMC Nasik,1,fold5,persistence,607,81,2026-01-01,2026-03-30,135.7284,184.4860,125.0000
+Cabbage,APMC Nasik,1,fold5,rolling_mean_7d,607,81,2026-01-01,2026-03-30,167.9409,205.1365,164.2857
+Cabbage,APMC Nasik,1,fold5,ridge_core,607,81,2026-01-01,2026-03-30,139.0005,180.7735,95.4814
+Cabbage,APMC Nasik,1,fold5,ridge_extended,607,81,2026-01-01,2026-03-30,141.2385,182.0714,105.2701
+Cabbage,APMC Nasik,1,fold5,rf_core,607,81,2026-01-01,2026-03-30,145.4986,190.4942,98.0486
+Cabbage,APMC Nasik,1,fold5,rf_extended,607,81,2026-01-01,2026-03-30,148.3552,189.6105,110.2957
+Cabbage,APMC Nasik,1,fold5,xgb_core,607,81,2026-01-01,2026-03-30,144.1528,191.6352,102.0898
+Cabbage,APMC Nasik,1,fold5,xgb_extended,607,81,2026-01-01,2026-03-30,146.5858,190.1091,106.2332
+Cabbage,APMC Nasik,1,holdout,persistence,689,171,2026-04-02,2026-10-05,156.9357,210.4523,125.0000
+Cabbage,APMC Nasik,1,holdout,rolling_mean_7d,689,171,2026-04-02,2026-10-05,147.7238,190.1199,116.4286
+Cabbage,APMC Nasik,1,holdout,ridge_core,689,171,2026-04-02,2026-10-05,141.6060,187.3667,104.2268
+Cabbage,APMC Nasik,1,holdout,ridge_extended,689,171,2026-04-02,2026-10-05,140.7684,187.6110,106.0477
+Cabbage,APMC Nasik,1,holdout,rf_core,689,171,2026-04-02,2026-10-05,138.9215,184.1158,102.2524
+Cabbage,APMC Nasik,1,holdout,rf_extended,689,171,2026-04-02,2026-10-05,140.6718,187.2293,96.3361
+Cabbage,APMC Nasik,1,holdout,xgb_core,689,171,2026-04-02,2026-10-05,145.0767,187.5202,106.8445
+Cabbage,APMC Nasik,1,holdout,xgb_extended,689,171,2026-04-02,2026-10-05,143.5018,190.8019,100.5771
+Cabbage,APMC Nasik,2,fold1,persistence,281,84,2025-01-01,2025-03-31,206.8810,313.1805,125.5000
+Cabbage,APMC Nasik,2,fold1,rolling_mean_7d,281,84,2025-01-01,2025-03-31,180.4581,244.6220,119.8571
+Cabbage,APMC Nasik,2,fold1,ridge_core,281,84,2025-01-01,2025-03-31,168.8188,241.2595,108.4774
+Cabbage,APMC Nasik,2,fold1,ridge_extended,281,84,2025-01-01,2025-03-31,169.5785,240.5960,115.5042
+Cabbage,APMC Nasik,2,fold1,rf_core,281,84,2025-01-01,2025-03-31,177.0491,250.9867,128.6569
+Cabbage,APMC Nasik,2,fold1,rf_extended,281,84,2025-01-01,2025-03-31,176.6040,251.5250,123.7292
+Cabbage,APMC Nasik,2,fold1,xgb_core,281,84,2025-01-01,2025-03-31,178.2898,245.9627,126.9364
+Cabbage,APMC Nasik,2,fold1,xgb_extended,281,84,2025-01-01,2025-03-31,178.6469,246.6033,119.2364
+Cabbage,APMC Nasik,2,fold2,persistence,365,82,2025-04-01,2025-06-29,411.3659,1383.0846,147.5000
+Cabbage,APMC Nasik,2,fold2,rolling_mean_7d,365,82,2025-04-01,2025-06-29,377.3158,1069.2523,171.0119
+Cabbage,APMC Nasik,2,fold2,ridge_core,365,82,2025-04-01,2025-06-29,345.8912,1067.7509,156.6384
+Cabbage,APMC Nasik,2,fold2,ridge_extended,365,82,2025-04-01,2025-06-29,352.9599,1076.5590,174.8556
+Cabbage,APMC Nasik,2,fold2,rf_core,365,82,2025-04-01,2025-06-29,363.4629,1104.2360,175.7421
+Cabbage,APMC Nasik,2,fold2,rf_extended,365,82,2025-04-01,2025-06-29,361.1563,1105.8969,176.5577
+Cabbage,APMC Nasik,2,fold2,xgb_core,365,82,2025-04-01,2025-06-29,362.3224,1070.1768,180.1320
+Cabbage,APMC Nasik,2,fold2,xgb_extended,365,82,2025-04-01,2025-06-29,361.8909,1085.9832,186.8985
+Cabbage,APMC Nasik,2,fold3,persistence,448,83,2025-07-01,2025-09-30,201.8675,314.4545,165.0000
+Cabbage,APMC Nasik,2,fold3,rolling_mean_7d,448,83,2025-07-01,2025-09-30,256.7008,359.2098,190.7143
+Cabbage,APMC Nasik,2,fold3,ridge_core,448,83,2025-07-01,2025-09-30,211.5871,305.6000,147.0657
+Cabbage,APMC Nasik,2,fold3,ridge_extended,448,83,2025-07-01,2025-09-30,212.2964,306.3040,153.2523
+Cabbage,APMC Nasik,2,fold3,rf_core,448,83,2025-07-01,2025-09-30,221.7243,322.7885,154.5932
+Cabbage,APMC Nasik,2,fold3,rf_extended,448,83,2025-07-01,2025-09-30,215.1148,315.0535,155.7740
+Cabbage,APMC Nasik,2,fold3,xgb_core,448,83,2025-07-01,2025-09-30,231.8458,335.7532,143.9477
+Cabbage,APMC Nasik,2,fold3,xgb_extended,448,83,2025-07-01,2025-09-30,223.9380,322.2528,155.7362
+Cabbage,APMC Nasik,2,fold4,persistence,530,70,2025-10-01,2025-12-31,227.7857,293.1002,175.0000
+Cabbage,APMC Nasik,2,fold4,rolling_mean_7d,530,70,2025-10-01,2025-12-31,204.4416,246.2096,192.0833
+Cabbage,APMC Nasik,2,fold4,ridge_core,530,70,2025-10-01,2025-12-31,204.4126,253.7890,181.6762
+Cabbage,APMC Nasik,2,fold4,ridge_extended,530,70,2025-10-01,2025-12-31,202.1579,251.9669,165.6340
+Cabbage,APMC Nasik,2,fold4,rf_core,530,70,2025-10-01,2025-12-31,192.2935,240.6012,149.0229
+Cabbage,APMC Nasik,2,fold4,rf_extended,530,70,2025-10-01,2025-12-31,195.3654,241.5611,161.2406
+Cabbage,APMC Nasik,2,fold4,xgb_core,530,70,2025-10-01,2025-12-31,199.6392,248.2658,152.5176
+Cabbage,APMC Nasik,2,fold4,xgb_extended,530,70,2025-10-01,2025-12-31,196.7897,240.4465,159.2095
+Cabbage,APMC Nasik,2,fold5,persistence,600,81,2026-01-01,2026-03-31,170.2469,236.9701,120.0000
+Cabbage,APMC Nasik,2,fold5,rolling_mean_7d,600,81,2026-01-01,2026-03-31,180.5006,219.8012,165.7143
+Cabbage,APMC Nasik,2,fold5,ridge_core,600,81,2026-01-01,2026-03-31,173.2738,216.2700,135.8116
+Cabbage,APMC Nasik,2,fold5,ridge_extended,600,81,2026-01-01,2026-03-31,174.7503,217.0222,133.6872
+Cabbage,APMC Nasik,2,fold5,rf_core,600,81,2026-01-01,2026-03-31,180.6882,221.0661,159.7794
+Cabbage,APMC Nasik,2,fold5,rf_extended,600,81,2026-01-01,2026-03-31,181.0098,219.5122,163.5304
+Cabbage,APMC Nasik,2,fold5,xgb_core,600,81,2026-01-01,2026-03-31,183.3390,225.2735,168.0821
+Cabbage,APMC Nasik,2,fold5,xgb_extended,600,81,2026-01-01,2026-03-31,178.9164,220.1377,171.3335
+Cabbage,APMC Nasik,2,holdout,persistence,682,170,2026-04-02,2026-10-04,179.0588,229.8689,165.0000
+Cabbage,APMC Nasik,2,holdout,rolling_mean_7d,682,170,2026-04-02,2026-10-04,150.1051,193.7288,114.3452
+Cabbage,APMC Nasik,2,holdout,ridge_core,682,170,2026-04-02,2026-10-04,159.0432,203.4795,123.2943
+Cabbage,APMC Nasik,2,holdout,ridge_extended,682,170,2026-04-02,2026-10-04,158.6133,203.2015,124.6731
+Cabbage,APMC Nasik,2,holdout,rf_core,682,170,2026-04-02,2026-10-04,158.2922,200.3166,124.4494
+Cabbage,APMC Nasik,2,holdout,rf_extended,682,170,2026-04-02,2026-10-04,157.0089,199.9652,120.4583
+Cabbage,APMC Nasik,2,holdout,xgb_core,682,170,2026-04-02,2026-10-04,157.7035,200.7884,120.1896
+Cabbage,APMC Nasik,2,holdout,xgb_extended,682,170,2026-04-02,2026-10-04,156.9241,202.1289,126.4767
+Cabbage,APMC Nasik,3,fold1,persistence,279,83,2025-01-01,2025-03-31,202.3494,311.8816,125.0000
+Cabbage,APMC Nasik,3,fold1,rolling_mean_7d,279,83,2025-01-01,2025-03-31,178.2670,239.7621,128.0000
+Cabbage,APMC Nasik,3,fold1,ridge_core,279,83,2025-01-01,2025-03-31,171.9850,243.8473,120.9272
+Cabbage,APMC Nasik,3,fold1,ridge_extended,279,83,2025-01-01,2025-03-31,172.0276,243.1012,125.0116
+Cabbage,APMC Nasik,3,fold1,rf_core,279,83,2025-01-01,2025-03-31,175.9634,255.2514,112.7465
+Cabbage,APMC Nasik,3,fold1,rf_extended,279,83,2025-01-01,2025-03-31,176.9495,256.3885,112.3848
+Cabbage,APMC Nasik,3,fold1,xgb_core,279,83,2025-01-01,2025-03-31,176.9214,249.1409,114.8870
+Cabbage,APMC Nasik,3,fold1,xgb_extended,279,83,2025-01-01,2025-03-31,174.3587,245.9329,120.8724
+Cabbage,APMC Nasik,3,fold2,persistence,362,83,2025-04-01,2025-06-30,441.2410,1404.9896,130.0000
+Cabbage,APMC Nasik,3,fold2,rolling_mean_7d,362,83,2025-04-01,2025-06-30,393.1932,1077.4023,172.1429
+Cabbage,APMC Nasik,3,fold2,ridge_core,362,83,2025-04-01,2025-06-30,370.8112,1101.6912,168.6967
+Cabbage,APMC Nasik,3,fold2,ridge_extended,362,83,2025-04-01,2025-06-30,369.4991,1099.5705,168.2136
+Cabbage,APMC Nasik,3,fold2,rf_core,362,83,2025-04-01,2025-06-30,388.9722,1117.8872,188.2988
+Cabbage,APMC Nasik,3,fold2,rf_extended,362,83,2025-04-01,2025-06-30,383.3533,1117.9128,173.9667
+Cabbage,APMC Nasik,3,fold2,xgb_core,362,83,2025-04-01,2025-06-30,379.6130,1088.9725,178.3683
+Cabbage,APMC Nasik,3,fold2,xgb_extended,362,83,2025-04-01,2025-06-30,381.6949,1107.5749,168.7537
+Cabbage,APMC Nasik,3,fold3,persistence,446,84,2025-07-01,2025-09-30,252.1429,374.0560,167.5000
+Cabbage,APMC Nasik,3,fold3,rolling_mean_7d,446,84,2025-07-01,2025-09-30,273.5643,374.6778,187.5000
+Cabbage,APMC Nasik,3,fold3,ridge_core,446,84,2025-07-01,2025-09-30,252.0261,343.7635,203.1439
+Cabbage,APMC Nasik,3,fold3,ridge_extended,446,84,2025-07-01,2025-09-30,248.1928,340.6569,203.0495
+Cabbage,APMC Nasik,3,fold3,rf_core,446,84,2025-07-01,2025-09-30,249.2963,346.2554,187.2637
+Cabbage,APMC Nasik,3,fold3,rf_extended,446,84,2025-07-01,2025-09-30,252.0855,342.0913,174.6852
+Cabbage,APMC Nasik,3,fold3,xgb_core,446,84,2025-07-01,2025-09-30,267.3868,363.3370,223.3176
+Cabbage,APMC Nasik,3,fold3,xgb_extended,446,84,2025-07-01,2025-09-30,265.8423,353.7926,211.9588
+Cabbage,APMC Nasik,3,fold4,persistence,529,68,2025-10-01,2025-12-31,206.7941,271.9517,167.5000
+Cabbage,APMC Nasik,3,fold4,rolling_mean_7d,529,68,2025-10-01,2025-12-31,208.7902,248.4347,200.6429
+Cabbage,APMC Nasik,3,fold4,ridge_core,529,68,2025-10-01,2025-12-31,205.4310,256.2294,163.3907
+Cabbage,APMC Nasik,3,fold4,ridge_extended,529,68,2025-10-01,2025-12-31,198.2228,254.0124,156.9847
+Cabbage,APMC Nasik,3,fold4,rf_core,529,68,2025-10-01,2025-12-31,195.3970,250.1895,165.0748
+Cabbage,APMC Nasik,3,fold4,rf_extended,529,68,2025-10-01,2025-12-31,187.6348,247.1253,150.3989
+Cabbage,APMC Nasik,3,fold4,xgb_core,529,68,2025-10-01,2025-12-31,197.9073,256.7497,192.6764
+Cabbage,APMC Nasik,3,fold4,xgb_extended,529,68,2025-10-01,2025-12-31,189.2468,252.0811,144.6470
+Cabbage,APMC Nasik,3,fold5,persistence,597,81,2026-01-01,2026-03-31,203.1728,273.9163,165.0000
+Cabbage,APMC Nasik,3,fold5,rolling_mean_7d,597,81,2026-01-01,2026-03-31,185.2216,222.8309,159.1667
+Cabbage,APMC Nasik,3,fold5,ridge_core,597,81,2026-01-01,2026-03-31,186.9689,231.5640,158.2611
+Cabbage,APMC Nasik,3,fold5,ridge_extended,597,81,2026-01-01,2026-03-31,189.0450,233.3174,169.0441
+Cabbage,APMC Nasik,3,fold5,rf_core,597,81,2026-01-01,2026-03-31,192.1879,238.1178,170.7644
+Cabbage,APMC Nasik,3,fold5,rf_extended,597,81,2026-01-01,2026-03-31,191.8080,238.5940,156.3633
+Cabbage,APMC Nasik,3,fold5,xgb_core,597,81,2026-01-01,2026-03-31,194.7488,241.7104,171.0232
+Cabbage,APMC Nasik,3,fold5,xgb_extended,597,81,2026-01-01,2026-03-31,191.0502,237.8257,168.2805
+Cabbage,APMC Nasik,3,holdout,persistence,679,167,2026-04-02,2026-10-03,189.1078,245.7668,165.0000
+Cabbage,APMC Nasik,3,holdout,rolling_mean_7d,679,167,2026-04-02,2026-10-03,151.5343,196.9714,112.1429
+Cabbage,APMC Nasik,3,holdout,ridge_core,679,167,2026-04-02,2026-10-03,162.8508,212.2503,125.5774
+Cabbage,APMC Nasik,3,holdout,ridge_extended,679,167,2026-04-02,2026-10-03,161.6338,210.9312,121.3738
+Cabbage,APMC Nasik,3,holdout,rf_core,679,167,2026-04-02,2026-10-03,166.8722,216.6986,134.1140
+Cabbage,APMC Nasik,3,holdout,rf_extended,679,167,2026-04-02,2026-10-03,166.2923,214.3957,137.0277
+Cabbage,APMC Nasik,3,holdout,xgb_core,679,167,2026-04-02,2026-10-03,167.3442,217.6945,134.6185
+Cabbage,APMC Nasik,3,holdout,xgb_extended,679,167,2026-04-02,2026-10-03,162.7112,213.4340,123.5145
+Cabbage,APMC Nasik,4,fold1,persistence,276,82,2025-01-01,2025-03-31,195.6341,292.6433,120.0000
+Cabbage,APMC Nasik,4,fold1,rolling_mean_7d,276,82,2025-01-01,2025-03-31,174.5133,234.8331,123.9286
+Cabbage,APMC Nasik,4,fold1,ridge_core,276,82,2025-01-01,2025-03-31,160.0279,229.2129,99.7221
+Cabbage,APMC Nasik,4,fold1,ridge_extended,276,82,2025-01-01,2025-03-31,159.4141,227.8244,103.9810
+Cabbage,APMC Nasik,4,fold1,rf_core,276,82,2025-01-01,2025-03-31,174.0678,243.6132,115.0243
+Cabbage,APMC Nasik,4,fold1,rf_extended,276,82,2025-01-01,2025-03-31,173.4886,242.9383,107.9306
+Cabbage,APMC Nasik,4,fold1,xgb_core,276,82,2025-01-01,2025-03-31,182.7334,244.9758,124.0331
+Cabbage,APMC Nasik,4,fold1,xgb_extended,276,82,2025-01-01,2025-03-31,173.0761,232.9381,119.0311
+Cabbage,APMC Nasik,4,fold2,persistence,358,82,2025-04-01,2025-06-30,460.5122,1405.5609,170.0000
+Cabbage,APMC Nasik,4,fold2,rolling_mean_7d,358,82,2025-04-01,2025-06-30,410.8033,1085.4421,204.2857
+Cabbage,APMC Nasik,4,fold2,ridge_core,358,82,2025-04-01,2025-06-30,370.5567,1091.0596,170.8782
+Cabbage,APMC Nasik,4,fold2,ridge_extended,358,82,2025-04-01,2025-06-30,368.0983,1083.4794,173.4919
+Cabbage,APMC Nasik,4,fold2,rf_core,358,82,2025-04-01,2025-06-30,393.4050,1126.7640,208.7867
+Cabbage,APMC Nasik,4,fold2,rf_extended,358,82,2025-04-01,2025-06-30,386.5726,1121.8637,182.9002
+Cabbage,APMC Nasik,4,fold2,xgb_core,358,82,2025-04-01,2025-06-30,378.1247,1093.8751,197.2851
+Cabbage,APMC Nasik,4,fold2,xgb_extended,358,82,2025-04-01,2025-06-30,380.4512,1089.9255,197.5403
+Cabbage,APMC Nasik,4,fold3,persistence,441,83,2025-07-01,2025-09-30,274.3976,371.0150,210.0000
+Cabbage,APMC Nasik,4,fold3,rolling_mean_7d,441,83,2025-07-01,2025-09-30,304.4334,413.5201,251.6667
+Cabbage,APMC Nasik,4,fold3,ridge_core,441,83,2025-07-01,2025-09-30,284.6324,374.2892,235.6298
+Cabbage,APMC Nasik,4,fold3,ridge_extended,441,83,2025-07-01,2025-09-30,275.9305,367.0537,218.5446
+Cabbage,APMC Nasik,4,fold3,rf_core,441,83,2025-07-01,2025-09-30,290.3144,384.4667,201.0231
+Cabbage,APMC Nasik,4,fold3,rf_extended,441,83,2025-07-01,2025-09-30,279.3125,371.5841,189.2532
+Cabbage,APMC Nasik,4,fold3,xgb_core,441,83,2025-07-01,2025-09-30,294.4315,392.4991,212.2742
+Cabbage,APMC Nasik,4,fold3,xgb_extended,441,83,2025-07-01,2025-09-30,283.2535,377.8267,207.2293
+Cabbage,APMC Nasik,4,fold4,persistence,523,66,2025-10-02,2025-12-31,209.3788,268.5995,200.0000
+Cabbage,APMC Nasik,4,fold4,rolling_mean_7d,523,66,2025-10-02,2025-12-31,227.9029,274.1708,221.1310
+Cabbage,APMC Nasik,4,fold4,ridge_core,523,66,2025-10-02,2025-12-31,218.1364,273.6361,199.0741
+Cabbage,APMC Nasik,4,fold4,ridge_extended,523,66,2025-10-02,2025-12-31,212.1867,268.2208,171.4546
+Cabbage,APMC Nasik,4,fold4,rf_core,523,66,2025-10-02,2025-12-31,209.5653,260.1195,188.9141
+Cabbage,APMC Nasik,4,fold4,rf_extended,523,66,2025-10-02,2025-12-31,200.9514,249.7781,175.1324
+Cabbage,APMC Nasik,4,fold4,xgb_core,523,66,2025-10-02,2025-12-31,219.5708,280.5085,191.1747
+Cabbage,APMC Nasik,4,fold4,xgb_extended,523,66,2025-10-02,2025-12-31,197.6967,255.7912,160.2993
+Cabbage,APMC Nasik,4,fold5,persistence,590,81,2026-01-01,2026-03-31,227.9877,290.1280,210.0000
+Cabbage,APMC Nasik,4,fold5,rolling_mean_7d,590,81,2026-01-01,2026-03-31,180.1293,217.5092,137.1429
+Cabbage,APMC Nasik,4,fold5,ridge_core,590,81,2026-01-01,2026-03-31,191.7148,234.7239,181.2191
+Cabbage,APMC Nasik,4,fold5,ridge_extended,590,81,2026-01-01,2026-03-31,194.5091,237.6393,177.5630
+Cabbage,APMC Nasik,4,fold5,rf_core,590,81,2026-01-01,2026-03-31,194.7342,236.1194,193.3410
+Cabbage,APMC Nasik,4,fold5,rf_extended,590,81,2026-01-01,2026-03-31,195.7345,237.5715,174.1387
+Cabbage,APMC Nasik,4,fold5,xgb_core,590,81,2026-01-01,2026-03-31,195.9172,240.3745,186.1481
+Cabbage,APMC Nasik,4,fold5,xgb_extended,590,81,2026-01-01,2026-03-31,195.4060,242.3530,165.0125
+Cabbage,APMC Nasik,4,holdout,persistence,671,166,2026-04-02,2026-10-02,191.7048,247.8280,165.0000
+Cabbage,APMC Nasik,4,holdout,rolling_mean_7d,671,166,2026-04-02,2026-10-02,155.0854,199.6748,118.0000
+Cabbage,APMC Nasik,4,holdout,ridge_core,671,166,2026-04-02,2026-10-02,165.5521,216.8554,121.5211
+Cabbage,APMC Nasik,4,holdout,ridge_extended,671,166,2026-04-02,2026-10-02,161.6113,214.9931,112.5073
+Cabbage,APMC Nasik,4,holdout,rf_core,671,166,2026-04-02,2026-10-02,163.9561,217.2665,125.4857
+Cabbage,APMC Nasik,4,holdout,rf_extended,671,166,2026-04-02,2026-10-02,160.5107,211.8631,116.8089
+Cabbage,APMC Nasik,4,holdout,xgb_core,671,166,2026-04-02,2026-10-02,169.2631,222.1747,130.9650
+Cabbage,APMC Nasik,4,holdout,xgb_extended,671,166,2026-04-02,2026-10-02,160.8267,215.2939,116.1409
+Cabbage,APMC Nasik,5,fold1,persistence,273,82,2025-01-01,2025-03-31,185.5122,284.9140,125.0000
+Cabbage,APMC Nasik,5,fold1,rolling_mean_7d,273,82,2025-01-01,2025-03-31,178.9529,239.6542,130.7143
+Cabbage,APMC Nasik,5,fold1,ridge_core,273,82,2025-01-01,2025-03-31,167.2223,230.2560,118.6810
+Cabbage,APMC Nasik,5,fold1,ridge_extended,273,82,2025-01-01,2025-03-31,166.3710,229.9584,126.2670
+Cabbage,APMC Nasik,5,fold1,rf_core,273,82,2025-01-01,2025-03-31,173.7139,236.4537,131.3382
+Cabbage,APMC Nasik,5,fold1,rf_extended,273,82,2025-01-01,2025-03-31,171.7064,236.5789,124.0422
+Cabbage,APMC Nasik,5,fold1,xgb_core,273,82,2025-01-01,2025-03-31,183.8286,239.8081,144.3736
+Cabbage,APMC Nasik,5,fold1,xgb_extended,273,82,2025-01-01,2025-03-31,175.0282,234.7915,135.0378
+Cabbage,APMC Nasik,5,fold2,persistence,355,82,2025-04-01,2025-06-30,483.6220,1414.6208,170.0000
+Cabbage,APMC Nasik,5,fold2,rolling_mean_7d,355,82,2025-04-01,2025-06-30,427.8373,1098.0803,223.2143
+Cabbage,APMC Nasik,5,fold2,ridge_core,355,82,2025-04-01,2025-06-30,387.6528,1108.5690,169.5308
+Cabbage,APMC Nasik,5,fold2,ridge_extended,355,82,2025-04-01,2025-06-30,385.8929,1103.0101,177.7573
+Cabbage,APMC Nasik,5,fold2,rf_core,355,82,2025-04-01,2025-06-30,407.1931,1151.5515,180.2157
+Cabbage,APMC Nasik,5,fold2,rf_extended,355,82,2025-04-01,2025-06-30,411.0498,1161.8143,172.8936
+Cabbage,APMC Nasik,5,fold2,xgb_core,355,82,2025-04-01,2025-06-30,401.6513,1130.7930,199.2064
+Cabbage,APMC Nasik,5,fold2,xgb_extended,355,82,2025-04-01,2025-06-30,401.8019,1135.9630,177.1809
+Cabbage,APMC Nasik,5,fold3,persistence,438,82,2025-07-01,2025-09-29,285.6707,408.0348,210.0000
+Cabbage,APMC Nasik,5,fold3,rolling_mean_7d,438,82,2025-07-01,2025-09-29,315.7651,419.2876,272.5000
+Cabbage,APMC Nasik,5,fold3,ridge_core,438,82,2025-07-01,2025-09-29,304.0112,398.7557,250.8362
+Cabbage,APMC Nasik,5,fold3,ridge_extended,438,82,2025-07-01,2025-09-29,296.7764,392.5057,243.2910
+Cabbage,APMC Nasik,5,fold3,rf_core,438,82,2025-07-01,2025-09-29,315.3084,417.1320,302.0905
+Cabbage,APMC Nasik,5,fold3,rf_extended,438,82,2025-07-01,2025-09-29,306.0497,407.0537,253.3938
+Cabbage,APMC Nasik,5,fold3,xgb_core,438,82,2025-07-01,2025-09-29,342.3547,457.5176,304.9689
+Cabbage,APMC Nasik,5,fold3,xgb_extended,438,82,2025-07-01,2025-09-29,319.9915,426.3076,295.2413
+Cabbage,APMC Nasik,5,fold4,persistence,520,69,2025-10-01,2025-12-31,234.7681,286.7369,210.0000
+Cabbage,APMC Nasik,5,fold4,rolling_mean_7d,520,69,2025-10-01,2025-12-31,231.8836,287.4316,207.2857
+Cabbage,APMC Nasik,5,fold4,ridge_core,520,69,2025-10-01,2025-12-31,230.9862,284.6343,203.7051
+Cabbage,APMC Nasik,5,fold4,ridge_extended,520,69,2025-10-01,2025-12-31,223.1194,280.7269,199.0205
+Cabbage,APMC Nasik,5,fold4,rf_core,520,69,2025-10-01,2025-12-31,224.8735,275.7923,205.5510
+Cabbage,APMC Nasik,5,fold4,rf_extended,520,69,2025-10-01,2025-12-31,215.7134,266.4705,200.8537
+Cabbage,APMC Nasik,5,fold4,xgb_core,520,69,2025-10-01,2025-12-31,235.8175,291.4623,210.0447
+Cabbage,APMC Nasik,5,fold4,xgb_extended,520,69,2025-10-01,2025-12-31,214.3312,264.9622,205.8033
+Cabbage,APMC Nasik,5,fold5,persistence,590,81,2026-01-01,2026-03-31,215.5309,281.8479,175.0000
+Cabbage,APMC Nasik,5,fold5,rolling_mean_7d,590,81,2026-01-01,2026-03-31,173.1437,209.9726,135.2857
+Cabbage,APMC Nasik,5,fold5,ridge_core,590,81,2026-01-01,2026-03-31,183.9022,224.6943,172.8541
+Cabbage,APMC Nasik,5,fold5,ridge_extended,590,81,2026-01-01,2026-03-31,188.4189,229.3651,171.1976
+Cabbage,APMC Nasik,5,fold5,rf_core,590,81,2026-01-01,2026-03-31,180.1968,214.6812,161.1481
+Cabbage,APMC Nasik,5,fold5,rf_extended,590,81,2026-01-01,2026-03-31,183.1458,220.2766,164.8917
+Cabbage,APMC Nasik,5,fold5,xgb_core,590,81,2026-01-01,2026-03-31,186.3599,223.0970,176.5083
+Cabbage,APMC Nasik,5,fold5,xgb_extended,590,81,2026-01-01,2026-03-31,187.7162,225.1263,175.3335
+Cabbage,APMC Nasik,5,holdout,persistence,670,165,2026-04-02,2026-10-01,198.6727,253.8513,165.0000
+Cabbage,APMC Nasik,5,holdout,rolling_mean_7d,670,165,2026-04-02,2026-10-01,164.6516,211.2982,130.7143
+Cabbage,APMC Nasik,5,holdout,ridge_core,670,165,2026-04-02,2026-10-01,172.7736,226.1320,129.0927
+Cabbage,APMC Nasik,5,holdout,ridge_extended,670,165,2026-04-02,2026-10-01,173.0261,226.4071,127.5322
+Cabbage,APMC Nasik,5,holdout,rf_core,670,165,2026-04-02,2026-10-01,173.8609,228.4465,136.0684
+Cabbage,APMC Nasik,5,holdout,rf_extended,670,165,2026-04-02,2026-10-01,173.2145,228.4391,130.3493
+Cabbage,APMC Nasik,5,holdout,xgb_core,670,165,2026-04-02,2026-10-01,179.6151,229.3099,143.2487
+Cabbage,APMC Nasik,5,holdout,xgb_extended,670,165,2026-04-02,2026-10-01,175.5850,229.7992,131.0675
+Cabbage,APMC Nasik,6,fold1,persistence,274,82,2025-01-01,2025-03-31,194.9878,290.9977,126.0000
+Cabbage,APMC Nasik,6,fold1,rolling_mean_7d,274,82,2025-01-01,2025-03-31,178.7212,232.1342,137.3571
+Cabbage,APMC Nasik,6,fold1,ridge_core,274,82,2025-01-01,2025-03-31,164.2130,217.4879,130.3207
+Cabbage,APMC Nasik,6,fold1,ridge_extended,274,82,2025-01-01,2025-03-31,162.6125,214.4113,128.2607
+Cabbage,APMC Nasik,6,fold1,rf_core,274,82,2025-01-01,2025-03-31,171.1312,226.2319,126.9526
+Cabbage,APMC Nasik,6,fold1,rf_extended,274,82,2025-01-01,2025-03-31,173.0343,231.9583,130.9367
+Cabbage,APMC Nasik,6,fold1,xgb_core,274,82,2025-01-01,2025-03-31,174.3324,224.5478,139.9300
+Cabbage,APMC Nasik,6,fold1,xgb_extended,274,82,2025-01-01,2025-03-31,171.7084,227.5353,139.5469
+Cabbage,APMC Nasik,6,fold2,persistence,356,82,2025-04-01,2025-06-30,474.7439,1447.1690,168.5000
+Cabbage,APMC Nasik,6,fold2,rolling_mean_7d,356,82,2025-04-01,2025-06-30,429.7612,1106.0122,199.9286
+Cabbage,APMC Nasik,6,fold2,ridge_core,356,82,2025-04-01,2025-06-30,389.3303,1126.8499,174.8536
+Cabbage,APMC Nasik,6,fold2,ridge_extended,356,82,2025-04-01,2025-06-30,388.9750,1119.5070,172.2422
+Cabbage,APMC Nasik,6,fold2,rf_core,356,82,2025-04-01,2025-06-30,418.2866,1163.1611,216.6005
+Cabbage,APMC Nasik,6,fold2,rf_extended,356,82,2025-04-01,2025-06-30,414.0548,1169.0040,193.9158
+Cabbage,APMC Nasik,6,fold2,xgb_core,356,82,2025-04-01,2025-06-30,405.4294,1130.1907,195.6159
+Cabbage,APMC Nasik,6,fold2,xgb_extended,356,82,2025-04-01,2025-06-30,402.2865,1131.0704,180.3362
+Cabbage,APMC Nasik,6,fold3,persistence,439,82,2025-07-01,2025-09-30,327.6829,432.1112,250.0000
+Cabbage,APMC Nasik,6,fold3,rolling_mean_7d,439,82,2025-07-01,2025-09-30,336.7828,443.5659,297.3571
+Cabbage,APMC Nasik,6,fold3,ridge_core,439,82,2025-07-01,2025-09-30,321.6610,419.9852,284.3219
+Cabbage,APMC Nasik,6,fold3,ridge_extended,439,82,2025-07-01,2025-09-30,314.3120,411.8232,278.3439
+Cabbage,APMC Nasik,6,fold3,rf_core,439,82,2025-07-01,2025-09-30,327.8997,424.0713,306.8945
+Cabbage,APMC Nasik,6,fold3,rf_extended,439,82,2025-07-01,2025-09-30,324.4569,420.4220,300.7160
+Cabbage,APMC Nasik,6,fold3,xgb_core,439,82,2025-07-01,2025-09-30,340.4771,436.3866,314.6337
+Cabbage,APMC Nasik,6,fold3,xgb_extended,439,82,2025-07-01,2025-09-30,330.2744,426.4276,302.4672
+Cabbage,APMC Nasik,6,fold4,persistence,521,67,2025-10-01,2025-12-31,259.7015,323.9790,210.0000
+Cabbage,APMC Nasik,6,fold4,rolling_mean_7d,521,67,2025-10-01,2025-12-31,243.1205,294.8290,236.4286
+Cabbage,APMC Nasik,6,fold4,ridge_core,521,67,2025-10-01,2025-12-31,253.5793,303.0445,248.1308
+Cabbage,APMC Nasik,6,fold4,ridge_extended,521,67,2025-10-01,2025-12-31,244.4236,301.3398,232.9220
+Cabbage,APMC Nasik,6,fold4,rf_core,521,67,2025-10-01,2025-12-31,255.0315,304.5991,233.6508
+Cabbage,APMC Nasik,6,fold4,rf_extended,521,67,2025-10-01,2025-12-31,238.0767,289.8652,213.6155
+Cabbage,APMC Nasik,6,fold4,xgb_core,521,67,2025-10-01,2025-12-31,268.6461,318.8299,253.3669
+Cabbage,APMC Nasik,6,fold4,xgb_extended,521,67,2025-10-01,2025-12-31,251.9138,305.9797,239.0969
+Cabbage,APMC Nasik,6,fold5,persistence,590,81,2026-01-01,2026-03-31,201.4568,250.5374,179.0000
+Cabbage,APMC Nasik,6,fold5,rolling_mean_7d,590,81,2026-01-01,2026-03-31,172.4289,212.4332,132.1429
+Cabbage,APMC Nasik,6,fold5,ridge_core,590,81,2026-01-01,2026-03-31,172.2352,210.9579,139.2767
+Cabbage,APMC Nasik,6,fold5,ridge_extended,590,81,2026-01-01,2026-03-31,178.5562,218.6850,146.0810
+Cabbage,APMC Nasik,6,fold5,rf_core,590,81,2026-01-01,2026-03-31,177.8270,217.2961,152.2959
+Cabbage,APMC Nasik,6,fold5,rf_extended,590,81,2026-01-01,2026-03-31,175.5541,214.9903,155.8607
+Cabbage,APMC Nasik,6,fold5,xgb_core,590,81,2026-01-01,2026-03-31,187.3314,228.2428,141.8367
+Cabbage,APMC Nasik,6,fold5,xgb_extended,590,81,2026-01-01,2026-03-31,184.8253,224.5891,149.4048
+Cabbage,APMC Nasik,6,holdout,persistence,669,165,2026-04-02,2026-09-30,197.4788,258.6383,165.0000
+Cabbage,APMC Nasik,6,holdout,rolling_mean_7d,669,165,2026-04-02,2026-09-30,169.6741,220.0754,126.1429
+Cabbage,APMC Nasik,6,holdout,ridge_core,669,165,2026-04-02,2026-09-30,180.0892,235.4340,149.4149
+Cabbage,APMC Nasik,6,holdout,ridge_extended,669,165,2026-04-02,2026-09-30,179.8274,234.0319,147.2331
+Cabbage,APMC Nasik,6,holdout,rf_core,669,165,2026-04-02,2026-09-30,189.2486,242.2445,153.4214
+Cabbage,APMC Nasik,6,holdout,rf_extended,669,165,2026-04-02,2026-09-30,179.6835,232.2148,145.2355
+Cabbage,APMC Nasik,6,holdout,xgb_core,669,165,2026-04-02,2026-09-30,190.0247,240.8466,153.6281
+Cabbage,APMC Nasik,6,holdout,xgb_extended,669,165,2026-04-02,2026-09-30,177.9199,226.0421,142.9472
+Cabbage,APMC Nasik,7,fold1,persistence,276,82,2025-01-01,2025-03-31,211.3659,306.1876,128.5000
+Cabbage,APMC Nasik,7,fold1,rolling_mean_7d,276,82,2025-01-01,2025-03-31,177.1956,234.4487,131.0714
+Cabbage,APMC Nasik,7,fold1,ridge_core,276,82,2025-01-01,2025-03-31,166.4238,227.5058,111.1937
+Cabbage,APMC Nasik,7,fold1,ridge_extended,276,82,2025-01-01,2025-03-31,166.1105,225.7709,111.7039
+Cabbage,APMC Nasik,7,fold1,rf_core,276,82,2025-01-01,2025-03-31,179.6309,240.4098,127.2839
+Cabbage,APMC Nasik,7,fold1,rf_extended,276,82,2025-01-01,2025-03-31,178.5640,238.6254,132.9948
+Cabbage,APMC Nasik,7,fold1,xgb_core,276,82,2025-01-01,2025-03-31,177.1820,234.3348,128.6049
+Cabbage,APMC Nasik,7,fold1,xgb_extended,276,82,2025-01-01,2025-03-31,172.7524,228.9162,128.3305
+Cabbage,APMC Nasik,7,fold2,persistence,358,82,2025-04-01,2025-06-30,389.7561,1086.0654,210.0000
+Cabbage,APMC Nasik,7,fold2,rolling_mean_7d,358,82,2025-04-01,2025-06-30,448.6811,1110.5218,221.6429
+Cabbage,APMC Nasik,7,fold2,ridge_core,358,82,2025-04-01,2025-06-30,366.7379,1060.8367,211.8715
+Cabbage,APMC Nasik,7,fold2,ridge_extended,358,82,2025-04-01,2025-06-30,369.8255,1067.9760,191.3841
+Cabbage,APMC Nasik,7,fold2,rf_core,358,82,2025-04-01,2025-06-30,395.7368,1073.5976,241.6133
+Cabbage,APMC Nasik,7,fold2,rf_extended,358,82,2025-04-01,2025-06-30,391.0585,1072.2501,228.7859
+Cabbage,APMC Nasik,7,fold2,xgb_core,358,82,2025-04-01,2025-06-30,390.2448,1070.5068,247.7640
+Cabbage,APMC Nasik,7,fold2,xgb_extended,358,82,2025-04-01,2025-06-30,393.2819,1074.3081,242.7832
+Cabbage,APMC Nasik,7,fold3,persistence,441,82,2025-07-01,2025-09-30,325.1829,455.4537,210.0000
+Cabbage,APMC Nasik,7,fold3,rolling_mean_7d,441,82,2025-07-01,2025-09-30,344.4657,450.1014,303.5714
+Cabbage,APMC Nasik,7,fold3,ridge_core,441,82,2025-07-01,2025-09-30,356.3834,459.5362,320.4763
+Cabbage,APMC Nasik,7,fold3,ridge_extended,441,82,2025-07-01,2025-09-30,351.4809,451.9312,312.6465
+Cabbage,APMC Nasik,7,fold3,rf_core,441,82,2025-07-01,2025-09-30,335.2859,444.4245,294.5327
+Cabbage,APMC Nasik,7,fold3,rf_extended,441,82,2025-07-01,2025-09-30,340.0718,448.0563,297.2283
+Cabbage,APMC Nasik,7,fold3,xgb_core,441,82,2025-07-01,2025-09-30,341.9381,452.2173,290.0668
+Cabbage,APMC Nasik,7,fold3,xgb_extended,441,82,2025-07-01,2025-09-30,348.4560,459.1324,295.5588
+Cabbage,APMC Nasik,7,fold4,persistence,523,67,2025-10-01,2025-12-31,275.5970,331.6963,250.0000
+Cabbage,APMC Nasik,7,fold4,rolling_mean_7d,523,67,2025-10-01,2025-12-31,252.5157,307.9125,243.5714
+Cabbage,APMC Nasik,7,fold4,ridge_core,523,67,2025-10-01,2025-12-31,271.1573,332.3357,234.7739
+Cabbage,APMC Nasik,7,fold4,ridge_extended,523,67,2025-10-01,2025-12-31,247.6506,308.3044,226.4253
+Cabbage,APMC Nasik,7,fold4,rf_core,523,67,2025-10-01,2025-12-31,253.4616,301.6620,225.3679
+Cabbage,APMC Nasik,7,fold4,rf_extended,523,67,2025-10-01,2025-12-31,245.0091,293.5779,208.9583
+Cabbage,APMC Nasik,7,fold4,xgb_core,523,67,2025-10-01,2025-12-31,270.9024,325.0495,259.4267
+Cabbage,APMC Nasik,7,fold4,xgb_extended,523,67,2025-10-01,2025-12-31,254.5562,303.4054,248.6452
+Cabbage,APMC Nasik,7,fold5,persistence,592,82,2026-01-01,2026-03-31,182.1707,245.7972,125.0000
+Cabbage,APMC Nasik,7,fold5,rolling_mean_7d,592,82,2026-01-01,2026-03-31,176.8929,219.5862,144.4762
+Cabbage,APMC Nasik,7,fold5,ridge_core,592,82,2026-01-01,2026-03-31,170.8294,212.5414,128.1493
+Cabbage,APMC Nasik,7,fold5,ridge_extended,592,82,2026-01-01,2026-03-31,170.0315,215.6233,114.1339
+Cabbage,APMC Nasik,7,fold5,rf_core,592,82,2026-01-01,2026-03-31,176.1064,222.9109,132.5729
+Cabbage,APMC Nasik,7,fold5,rf_extended,592,82,2026-01-01,2026-03-31,172.5881,218.7604,139.3014
+Cabbage,APMC Nasik,7,fold5,xgb_core,592,82,2026-01-01,2026-03-31,184.2289,229.5614,163.2552
+Cabbage,APMC Nasik,7,fold5,xgb_extended,592,82,2026-01-01,2026-03-31,177.0549,223.0964,143.0424
+Cabbage,APMC Nasik,7,holdout,persistence,672,163,2026-04-02,2026-09-29,187.5521,241.4033,165.0000
+Cabbage,APMC Nasik,7,holdout,rolling_mean_7d,672,163,2026-04-02,2026-09-29,170.1426,222.2911,137.8571
+Cabbage,APMC Nasik,7,holdout,ridge_core,672,163,2026-04-02,2026-09-29,175.0312,230.8563,124.4142
+Cabbage,APMC Nasik,7,holdout,ridge_extended,672,163,2026-04-02,2026-09-29,174.0664,228.0805,129.8462
+Cabbage,APMC Nasik,7,holdout,rf_core,672,163,2026-04-02,2026-09-29,182.8562,233.6447,148.1492
+Cabbage,APMC Nasik,7,holdout,rf_extended,672,163,2026-04-02,2026-09-29,174.8037,222.6724,142.9501
+Cabbage,APMC Nasik,7,holdout,xgb_core,672,163,2026-04-02,2026-09-29,191.5924,243.8796,153.8454
+Cabbage,APMC Nasik,7,holdout,xgb_extended,672,163,2026-04-02,2026-09-29,183.8893,233.0077,162.6050
+Cauliflower,APMC Nasik,1,fold1,persistence,290,83,2025-01-01,2025-03-31,213.0964,309.8937,150.0000
+Cauliflower,APMC Nasik,1,fold1,rolling_mean_7d,290,83,2025-01-01,2025-03-31,221.9755,267.9767,212.0000
+Cauliflower,APMC Nasik,1,fold1,ridge_core,290,83,2025-01-01,2025-03-31,188.9829,242.0412,164.6657
+Cauliflower,APMC Nasik,1,fold1,ridge_extended,290,83,2025-01-01,2025-03-31,191.1339,246.4079,157.5821
+Cauliflower,APMC Nasik,1,fold1,rf_core,290,83,2025-01-01,2025-03-31,183.8482,238.1558,140.8356
+Cauliflower,APMC Nasik,1,fold1,rf_extended,290,83,2025-01-01,2025-03-31,184.4149,239.0161,146.4413
+Cauliflower,APMC Nasik,1,fold1,xgb_core,290,83,2025-01-01,2025-03-31,182.7051,235.8343,136.7150
+Cauliflower,APMC Nasik,1,fold1,xgb_extended,290,83,2025-01-01,2025-03-31,180.0018,234.7440,138.6103
+Cauliflower,APMC Nasik,1,fold2,persistence,373,83,2025-04-01,2025-06-30,257.6024,352.7156,212.0000
+Cauliflower,APMC Nasik,1,fold2,rolling_mean_7d,373,83,2025-04-01,2025-06-30,264.9291,349.6469,202.2857
+Cauliflower,APMC Nasik,1,fold2,ridge_core,373,83,2025-04-01,2025-06-30,236.9866,314.8047,198.8386
+Cauliflower,APMC Nasik,1,fold2,ridge_extended,373,83,2025-04-01,2025-06-30,235.0772,312.3303,190.0842
+Cauliflower,APMC Nasik,1,fold2,rf_core,373,83,2025-04-01,2025-06-30,237.2878,322.6481,190.8607
+Cauliflower,APMC Nasik,1,fold2,rf_extended,373,83,2025-04-01,2025-06-30,232.7649,312.4685,184.6244
+Cauliflower,APMC Nasik,1,fold2,xgb_core,373,83,2025-04-01,2025-06-30,236.2664,322.8992,193.3912
+Cauliflower,APMC Nasik,1,fold2,xgb_extended,373,83,2025-04-01,2025-06-30,240.9702,319.0856,211.6898
+Cauliflower,APMC Nasik,1,fold3,persistence,456,82,2025-07-03,2025-09-30,320.7439,483.1078,210.0000
+Cauliflower,APMC Nasik,1,fold3,rolling_mean_7d,456,82,2025-07-03,2025-09-30,387.0151,516.7065,275.3571
+Cauliflower,APMC Nasik,1,fold3,ridge_core,456,82,2025-07-03,2025-09-30,313.7059,441.5636,223.3603
+Cauliflower,APMC Nasik,1,fold3,ridge_extended,456,82,2025-07-03,2025-09-30,309.7461,436.4756,225.9397
+Cauliflower,APMC Nasik,1,fold3,rf_core,456,82,2025-07-03,2025-09-30,318.7290,447.9154,236.5593
+Cauliflower,APMC Nasik,1,fold3,rf_extended,456,82,2025-07-03,2025-09-30,322.9826,440.9483,249.1830
+Cauliflower,APMC Nasik,1,fold3,xgb_core,456,82,2025-07-03,2025-09-30,322.1056,447.5068,249.3087
+Cauliflower,APMC Nasik,1,fold3,xgb_extended,456,82,2025-07-03,2025-09-30,332.3816,456.2634,247.9704
+Cauliflower,APMC Nasik,1,fold4,persistence,538,73,2025-10-01,2025-12-31,249.3973,341.8598,180.0000
+Cauliflower,APMC Nasik,1,fold4,rolling_mean_7d,538,73,2025-10-01,2025-12-31,284.4558,358.2844,215.0000
+Cauliflower,APMC Nasik,1,fold4,ridge_core,538,73,2025-10-01,2025-12-31,234.6131,312.5755,154.2887
+Cauliflower,APMC Nasik,1,fold4,ridge_extended,538,73,2025-10-01,2025-12-31,230.0184,310.5240,151.2936
+Cauliflower,APMC Nasik,1,fold4,rf_core,538,73,2025-10-01,2025-12-31,242.2223,313.1381,181.5722
+Cauliflower,APMC Nasik,1,fold4,rf_extended,538,73,2025-10-01,2025-12-31,235.4674,302.4996,163.2964
+Cauliflower,APMC Nasik,1,fold4,xgb_core,538,73,2025-10-01,2025-12-31,244.9064,316.6246,160.6980
+Cauliflower,APMC Nasik,1,fold4,xgb_extended,538,73,2025-10-01,2025-12-31,246.0061,312.7409,186.1877
+Cauliflower,APMC Nasik,1,fold5,persistence,611,71,2026-01-01,2026-03-30,321.5211,442.4477,235.0000
+Cauliflower,APMC Nasik,1,fold5,rolling_mean_7d,611,71,2026-01-01,2026-03-30,269.0560,363.6468,190.8333
+Cauliflower,APMC Nasik,1,fold5,ridge_core,611,71,2026-01-01,2026-03-30,263.5033,378.1370,158.2468
+Cauliflower,APMC Nasik,1,fold5,ridge_extended,611,71,2026-01-01,2026-03-30,262.0716,374.7414,159.9003
+Cauliflower,APMC Nasik,1,fold5,rf_core,611,71,2026-01-01,2026-03-30,265.5526,368.0091,154.4476
+Cauliflower,APMC Nasik,1,fold5,rf_extended,611,71,2026-01-01,2026-03-30,262.1345,365.4543,172.0164
+Cauliflower,APMC Nasik,1,fold5,xgb_core,611,71,2026-01-01,2026-03-30,273.7711,390.4430,187.8505
+Cauliflower,APMC Nasik,1,fold5,xgb_extended,611,71,2026-01-01,2026-03-30,269.3293,375.4157,188.2780
+Cauliflower,APMC Nasik,1,holdout,persistence,683,171,2026-04-02,2026-10-05,160.0643,237.2735,110.0000
+Cauliflower,APMC Nasik,1,holdout,rolling_mean_7d,683,171,2026-04-02,2026-10-05,173.9252,242.1327,119.2857
+Cauliflower,APMC Nasik,1,holdout,ridge_core,683,171,2026-04-02,2026-10-05,148.4153,216.2938,96.9350
+Cauliflower,APMC Nasik,1,holdout,ridge_extended,683,171,2026-04-02,2026-10-05,151.0724,214.9130,105.7323
+Cauliflower,APMC Nasik,1,holdout,rf_core,683,171,2026-04-02,2026-10-05,160.0896,227.2589,110.5142
+Cauliflower,APMC Nasik,1,holdout,rf_extended,683,171,2026-04-02,2026-10-05,160.6183,223.5701,108.0793
+Cauliflower,APMC Nasik,1,holdout,xgb_core,683,171,2026-04-02,2026-10-05,163.0671,231.6019,102.0642
+Cauliflower,APMC Nasik,1,holdout,xgb_extended,683,171,2026-04-02,2026-10-05,169.5978,229.3056,119.5291
+Cauliflower,APMC Nasik,2,fold1,persistence,284,82,2025-01-01,2025-03-31,258.6707,386.7436,195.0000
+Cauliflower,APMC Nasik,2,fold1,rolling_mean_7d,284,82,2025-01-01,2025-03-31,259.3619,342.5772,224.1429
+Cauliflower,APMC Nasik,2,fold1,ridge_core,284,82,2025-01-01,2025-03-31,240.1994,331.1530,186.5394
+Cauliflower,APMC Nasik,2,fold1,ridge_extended,284,82,2025-01-01,2025-03-31,241.9183,332.3865,183.4883
+Cauliflower,APMC Nasik,2,fold1,rf_core,284,82,2025-01-01,2025-03-31,238.6804,333.5146,177.3352
+Cauliflower,APMC Nasik,2,fold1,rf_extended,284,82,2025-01-01,2025-03-31,236.7570,328.0228,183.8803
+Cauliflower,APMC Nasik,2,fold1,xgb_core,284,82,2025-01-01,2025-03-31,237.8290,327.9204,182.0693
+Cauliflower,APMC Nasik,2,fold1,xgb_extended,284,82,2025-01-01,2025-03-31,233.6603,317.0694,184.6643
+Cauliflower,APMC Nasik,2,fold2,persistence,366,82,2025-04-01,2025-06-29,311.2805,426.4792,215.0000
+Cauliflower,APMC Nasik,2,fold2,rolling_mean_7d,366,82,2025-04-01,2025-06-29,293.4733,386.6509,207.1071
+Cauliflower,APMC Nasik,2,fold2,ridge_core,366,82,2025-04-01,2025-06-29,292.8314,380.8549,221.7110
+Cauliflower,APMC Nasik,2,fold2,ridge_extended,366,82,2025-04-01,2025-06-29,289.3961,377.0377,216.8644
+Cauliflower,APMC Nasik,2,fold2,rf_core,366,82,2025-04-01,2025-06-29,295.0018,381.5061,222.8729
+Cauliflower,APMC Nasik,2,fold2,rf_extended,366,82,2025-04-01,2025-06-29,291.9476,373.1247,218.7740
+Cauliflower,APMC Nasik,2,fold2,xgb_core,366,82,2025-04-01,2025-06-29,301.7774,385.4887,235.8419
+Cauliflower,APMC Nasik,2,fold2,xgb_extended,366,82,2025-04-01,2025-06-29,291.4421,372.7704,223.5421
+Cauliflower,APMC Nasik,2,fold3,persistence,449,83,2025-07-01,2025-09-30,333.0602,509.5433,210.0000
+Cauliflower,APMC Nasik,2,fold3,rolling_mean_7d,449,83,2025-07-01,2025-09-30,415.1056,545.1060,336.4286
+Cauliflower,APMC Nasik,2,fold3,ridge_core,449,83,2025-07-01,2025-09-30,337.7263,470.5162,252.1453
+Cauliflower,APMC Nasik,2,fold3,ridge_extended,449,83,2025-07-01,2025-09-30,341.4427,465.9609,273.1169
+Cauliflower,APMC Nasik,2,fold3,rf_core,449,83,2025-07-01,2025-09-30,354.4054,471.4277,276.9851
+Cauliflower,APMC Nasik,2,fold3,rf_extended,449,83,2025-07-01,2025-09-30,365.7677,481.8142,300.2716
+Cauliflower,APMC Nasik,2,fold3,xgb_core,449,83,2025-07-01,2025-09-30,358.9307,474.2552,291.8405
+Cauliflower,APMC Nasik,2,fold3,xgb_extended,449,83,2025-07-01,2025-09-30,373.5916,489.8152,315.7435
+Cauliflower,APMC Nasik,2,fold4,persistence,531,72,2025-10-01,2025-12-31,317.0417,395.0870,262.5000
+Cauliflower,APMC Nasik,2,fold4,rolling_mean_7d,531,72,2025-10-01,2025-12-31,320.8220,392.0618,286.1143
+Cauliflower,APMC Nasik,2,fold4,ridge_core,531,72,2025-10-01,2025-12-31,298.7099,363.1656,257.4675
+Cauliflower,APMC Nasik,2,fold4,ridge_extended,531,72,2025-10-01,2025-12-31,297.7749,360.9873,243.1592
+Cauliflower,APMC Nasik,2,fold4,rf_core,531,72,2025-10-01,2025-12-31,311.9503,386.5979,295.4626
+Cauliflower,APMC Nasik,2,fold4,rf_extended,531,72,2025-10-01,2025-12-31,305.7560,374.9807,251.7374
+Cauliflower,APMC Nasik,2,fold4,xgb_core,531,72,2025-10-01,2025-12-31,324.0215,399.8553,307.9931
+Cauliflower,APMC Nasik,2,fold4,xgb_extended,531,72,2025-10-01,2025-12-31,328.1491,413.2474,252.5927
+Cauliflower,APMC Nasik,2,fold5,persistence,603,70,2026-01-01,2026-03-31,349.5143,491.0330,212.5000
+Cauliflower,APMC Nasik,2,fold5,rolling_mean_7d,603,70,2026-01-01,2026-03-31,285.3145,377.7832,196.7143
+Cauliflower,APMC Nasik,2,fold5,ridge_core,603,70,2026-01-01,2026-03-31,297.4220,409.2652,195.8824
+Cauliflower,APMC Nasik,2,fold5,ridge_extended,603,70,2026-01-01,2026-03-31,295.4199,408.4134,180.8536
+Cauliflower,APMC Nasik,2,fold5,rf_core,603,70,2026-01-01,2026-03-31,272.0482,376.5226,196.2105
+Cauliflower,APMC Nasik,2,fold5,rf_extended,603,70,2026-01-01,2026-03-31,270.6008,380.2238,197.1189
+Cauliflower,APMC Nasik,2,fold5,xgb_core,603,70,2026-01-01,2026-03-31,286.3819,389.8214,224.7342
+Cauliflower,APMC Nasik,2,fold5,xgb_extended,603,70,2026-01-01,2026-03-31,276.0505,385.4362,192.9538
+Cauliflower,APMC Nasik,2,holdout,persistence,674,169,2026-04-02,2026-10-04,202.0118,276.5424,145.0000
+Cauliflower,APMC Nasik,2,holdout,rolling_mean_7d,674,169,2026-04-02,2026-10-04,190.4792,263.4965,130.0000
+Cauliflower,APMC Nasik,2,holdout,ridge_core,674,169,2026-04-02,2026-10-04,177.7645,244.1903,128.7705
+Cauliflower,APMC Nasik,2,holdout,ridge_extended,674,169,2026-04-02,2026-10-04,179.6572,242.9741,126.0518
+Cauliflower,APMC Nasik,2,holdout,rf_core,674,169,2026-04-02,2026-10-04,185.8375,247.2543,130.4330
+Cauliflower,APMC Nasik,2,holdout,rf_extended,674,169,2026-04-02,2026-10-04,180.4943,242.8248,123.4517
+Cauliflower,APMC Nasik,2,holdout,xgb_core,674,169,2026-04-02,2026-10-04,184.8446,248.7151,128.7836
+Cauliflower,APMC Nasik,2,holdout,xgb_extended,674,169,2026-04-02,2026-10-04,179.4111,242.0713,131.5564
+Cauliflower,APMC Nasik,3,fold1,persistence,282,81,2025-01-01,2025-03-31,273.8519,390.2895,215.0000
+Cauliflower,APMC Nasik,3,fold1,rolling_mean_7d,282,81,2025-01-01,2025-03-31,269.1574,355.6236,231.4286
+Cauliflower,APMC Nasik,3,fold1,ridge_core,282,81,2025-01-01,2025-03-31,244.2511,338.4155,222.2442
+Cauliflower,APMC Nasik,3,fold1,ridge_extended,282,81,2025-01-01,2025-03-31,245.5570,339.6756,221.0684
+Cauliflower,APMC Nasik,3,fold1,rf_core,282,81,2025-01-01,2025-03-31,259.0361,354.7452,229.1436
+Cauliflower,APMC Nasik,3,fold1,rf_extended,282,81,2025-01-01,2025-03-31,250.1070,347.1901,233.6300
+Cauliflower,APMC Nasik,3,fold1,xgb_core,282,81,2025-01-01,2025-03-31,260.8177,352.8412,239.4939
+Cauliflower,APMC Nasik,3,fold1,xgb_extended,282,81,2025-01-01,2025-03-31,255.2927,346.5764,220.2224
+Cauliflower,APMC Nasik,3,fold2,persistence,363,83,2025-04-01,2025-06-30,308.8434,435.7236,215.0000
+Cauliflower,APMC Nasik,3,fold2,rolling_mean_7d,363,83,2025-04-01,2025-06-30,303.6429,399.7724,224.7143
+Cauliflower,APMC Nasik,3,fold2,ridge_core,363,83,2025-04-01,2025-06-30,296.5534,389.4260,231.5690
+Cauliflower,APMC Nasik,3,fold2,ridge_extended,363,83,2025-04-01,2025-06-30,291.9353,384.7727,224.6766
+Cauliflower,APMC Nasik,3,fold2,rf_core,363,83,2025-04-01,2025-06-30,307.2592,402.8653,241.0143
+Cauliflower,APMC Nasik,3,fold2,rf_extended,363,83,2025-04-01,2025-06-30,299.5233,390.1662,235.9119
+Cauliflower,APMC Nasik,3,fold2,xgb_core,363,83,2025-04-01,2025-06-30,312.2570,397.7728,241.5132
+Cauliflower,APMC Nasik,3,fold2,xgb_extended,363,83,2025-04-01,2025-06-30,285.0483,375.3285,232.5640
+Cauliflower,APMC Nasik,3,fold3,persistence,447,84,2025-07-01,2025-09-30,391.8690,570.9141,282.5000
+Cauliflower,APMC Nasik,3,fold3,rolling_mean_7d,447,84,2025-07-01,2025-09-30,463.4824,609.3953,340.7143
+Cauliflower,APMC Nasik,3,fold3,ridge_core,447,84,2025-07-01,2025-09-30,397.9460,539.4165,302.1456
+Cauliflower,APMC Nasik,3,fold3,ridge_extended,447,84,2025-07-01,2025-09-30,394.7329,536.7396,296.7719
+Cauliflower,APMC Nasik,3,fold3,rf_core,447,84,2025-07-01,2025-09-30,403.9017,539.5443,302.6426
+Cauliflower,APMC Nasik,3,fold3,rf_extended,447,84,2025-07-01,2025-09-30,402.0495,530.3981,323.3540
+Cauliflower,APMC Nasik,3,fold3,xgb_core,447,84,2025-07-01,2025-09-30,400.5019,540.5664,319.2455
+Cauliflower,APMC Nasik,3,fold3,xgb_extended,447,84,2025-07-01,2025-09-30,405.4246,537.6418,327.4691
+Cauliflower,APMC Nasik,3,fold4,persistence,530,70,2025-10-01,2025-12-31,333.0000,396.8272,350.0000
+Cauliflower,APMC Nasik,3,fold4,rolling_mean_7d,530,70,2025-10-01,2025-12-31,360.5641,442.6761,317.5476
+Cauliflower,APMC Nasik,3,fold4,ridge_core,530,70,2025-10-01,2025-12-31,329.2956,388.0643,269.3582
+Cauliflower,APMC Nasik,3,fold4,ridge_extended,530,70,2025-10-01,2025-12-31,320.0703,392.3181,264.5363
+Cauliflower,APMC Nasik,3,fold4,rf_core,530,70,2025-10-01,2025-12-31,339.5244,410.9502,305.7269
+Cauliflower,APMC Nasik,3,fold4,rf_extended,530,70,2025-10-01,2025-12-31,341.3657,419.6385,282.5173
+Cauliflower,APMC Nasik,3,fold4,xgb_core,530,70,2025-10-01,2025-12-31,346.0152,429.4366,280.9690
+Cauliflower,APMC Nasik,3,fold4,xgb_extended,530,70,2025-10-01,2025-12-31,362.3849,453.0567,282.4970
+Cauliflower,APMC Nasik,3,fold5,persistence,600,69,2026-01-15,2026-03-31,359.8986,471.8269,286.0000
+Cauliflower,APMC Nasik,3,fold5,rolling_mean_7d,600,69,2026-01-15,2026-03-31,262.4405,348.6810,190.8333
+Cauliflower,APMC Nasik,3,fold5,ridge_core,600,69,2026-01-15,2026-03-31,284.0835,369.7121,217.4361
+Cauliflower,APMC Nasik,3,fold5,ridge_extended,600,69,2026-01-15,2026-03-31,278.0327,365.9965,216.4238
+Cauliflower,APMC Nasik,3,fold5,rf_core,600,69,2026-01-15,2026-03-31,293.3942,374.3933,250.8309
+Cauliflower,APMC Nasik,3,fold5,rf_extended,600,69,2026-01-15,2026-03-31,278.5202,361.3318,239.4188
+Cauliflower,APMC Nasik,3,fold5,xgb_core,600,69,2026-01-15,2026-03-31,309.6150,379.0206,250.5369
+Cauliflower,APMC Nasik,3,fold5,xgb_extended,600,69,2026-01-15,2026-03-31,288.7090,363.9919,239.9839
+Cauliflower,APMC Nasik,3,holdout,persistence,670,167,2026-04-02,2026-10-03,223.5928,295.6174,170.0000
+Cauliflower,APMC Nasik,3,holdout,rolling_mean_7d,670,167,2026-04-02,2026-10-03,204.4007,280.5003,145.0000
+Cauliflower,APMC Nasik,3,holdout,ridge_core,670,167,2026-04-02,2026-10-03,191.7256,260.6313,140.3753
+Cauliflower,APMC Nasik,3,holdout,ridge_extended,670,167,2026-04-02,2026-10-03,191.1414,256.4104,132.5031
+Cauliflower,APMC Nasik,3,holdout,rf_core,670,167,2026-04-02,2026-10-03,194.3027,263.9793,150.1147
+Cauliflower,APMC Nasik,3,holdout,rf_extended,670,167,2026-04-02,2026-10-03,192.0524,258.3461,140.0332
+Cauliflower,APMC Nasik,3,holdout,xgb_core,670,167,2026-04-02,2026-10-03,199.7148,267.1157,154.7511
+Cauliflower,APMC Nasik,3,holdout,xgb_extended,670,167,2026-04-02,2026-10-03,194.5492,260.3968,141.4255
+Cauliflower,APMC Nasik,4,fold1,persistence,280,80,2025-01-01,2025-03-31,306.2500,441.2067,220.0000
+Cauliflower,APMC Nasik,4,fold1,rolling_mean_7d,280,80,2025-01-01,2025-03-31,284.0240,368.6106,236.7857
+Cauliflower,APMC Nasik,4,fold1,ridge_core,280,80,2025-01-01,2025-03-31,283.5472,388.3643,230.7326
+Cauliflower,APMC Nasik,4,fold1,ridge_extended,280,80,2025-01-01,2025-03-31,284.6773,388.9066,235.0408
+Cauliflower,APMC Nasik,4,fold1,rf_core,280,80,2025-01-01,2025-03-31,285.6692,394.5791,239.3669
+Cauliflower,APMC Nasik,4,fold1,rf_extended,280,80,2025-01-01,2025-03-31,286.8290,389.9785,241.5095
+Cauliflower,APMC Nasik,4,fold1,xgb_core,280,80,2025-01-01,2025-03-31,298.1004,413.1985,260.7316
+Cauliflower,APMC Nasik,4,fold1,xgb_extended,280,80,2025-01-01,2025-03-31,277.8343,384.2619,223.9442
+Cauliflower,APMC Nasik,4,fold2,persistence,360,82,2025-04-01,2025-06-30,331.3537,464.6105,251.5000
+Cauliflower,APMC Nasik,4,fold2,rolling_mean_7d,360,82,2025-04-01,2025-06-30,326.0450,419.5380,264.1429
+Cauliflower,APMC Nasik,4,fold2,ridge_core,360,82,2025-04-01,2025-06-30,320.0069,417.2252,255.5973
+Cauliflower,APMC Nasik,4,fold2,ridge_extended,360,82,2025-04-01,2025-06-30,314.4576,410.5228,241.4827
+Cauliflower,APMC Nasik,4,fold2,rf_core,360,82,2025-04-01,2025-06-30,320.2706,417.8565,287.9479
+Cauliflower,APMC Nasik,4,fold2,rf_extended,360,82,2025-04-01,2025-06-30,321.9316,412.6932,266.8569
+Cauliflower,APMC Nasik,4,fold2,xgb_core,360,82,2025-04-01,2025-06-30,325.6993,422.0700,239.3615
+Cauliflower,APMC Nasik,4,fold2,xgb_extended,360,82,2025-04-01,2025-06-30,321.8927,418.9057,250.3145
+Cauliflower,APMC Nasik,4,fold3,persistence,443,83,2025-07-01,2025-09-30,456.7952,630.8362,350.0000
+Cauliflower,APMC Nasik,4,fold3,rolling_mean_7d,443,83,2025-07-01,2025-09-30,486.0984,647.1818,359.1667
+Cauliflower,APMC Nasik,4,fold3,ridge_core,443,83,2025-07-01,2025-09-30,445.4573,585.6751,307.7316
+Cauliflower,APMC Nasik,4,fold3,ridge_extended,443,83,2025-07-01,2025-09-30,439.6349,578.9847,315.8273
+Cauliflower,APMC Nasik,4,fold3,rf_core,443,83,2025-07-01,2025-09-30,459.5764,608.9021,407.8567
+Cauliflower,APMC Nasik,4,fold3,rf_extended,443,83,2025-07-01,2025-09-30,456.1913,604.3334,393.6585
+Cauliflower,APMC Nasik,4,fold3,xgb_core,443,83,2025-07-01,2025-09-30,458.6621,601.6160,365.7617
+Cauliflower,APMC Nasik,4,fold3,xgb_extended,443,83,2025-07-01,2025-09-30,441.6534,582.0755,381.8063
+Cauliflower,APMC Nasik,4,fold4,persistence,525,67,2025-10-02,2025-12-30,353.0000,456.7337,320.0000
+Cauliflower,APMC Nasik,4,fold4,rolling_mean_7d,525,67,2025-10-02,2025-12-30,390.9943,481.9838,333.5714
+Cauliflower,APMC Nasik,4,fold4,ridge_core,525,67,2025-10-02,2025-12-30,341.9742,440.2959,241.5271
+Cauliflower,APMC Nasik,4,fold4,ridge_extended,525,67,2025-10-02,2025-12-30,346.9909,457.5077,296.7836
+Cauliflower,APMC Nasik,4,fold4,rf_core,525,67,2025-10-02,2025-12-30,344.5478,444.0322,266.2348
+Cauliflower,APMC Nasik,4,fold4,rf_extended,525,67,2025-10-02,2025-12-30,341.4503,442.7169,284.6651
+Cauliflower,APMC Nasik,4,fold4,xgb_core,525,67,2025-10-02,2025-12-30,356.9732,461.5056,277.6455
+Cauliflower,APMC Nasik,4,fold4,xgb_extended,525,67,2025-10-02,2025-12-30,348.7981,463.4292,281.4729
+Cauliflower,APMC Nasik,4,fold5,persistence,594,69,2026-01-16,2026-03-31,368.1594,481.6834,285.0000
+Cauliflower,APMC Nasik,4,fold5,rolling_mean_7d,594,69,2026-01-16,2026-03-31,262.5454,357.2036,173.0000
+Cauliflower,APMC Nasik,4,fold5,ridge_core,594,69,2026-01-16,2026-03-31,295.4100,384.0286,209.3003
+Cauliflower,APMC Nasik,4,fold5,ridge_extended,594,69,2026-01-16,2026-03-31,292.4278,385.0454,207.8686
+Cauliflower,APMC Nasik,4,fold5,rf_core,594,69,2026-01-16,2026-03-31,311.1180,401.3689,256.9626
+Cauliflower,APMC Nasik,4,fold5,rf_extended,594,69,2026-01-16,2026-03-31,300.8665,393.7122,243.2335
+Cauliflower,APMC Nasik,4,fold5,xgb_core,594,69,2026-01-16,2026-03-31,346.7453,436.9712,313.4468
+Cauliflower,APMC Nasik,4,fold5,xgb_extended,594,69,2026-01-16,2026-03-31,323.8726,419.1774,270.0432
+Cauliflower,APMC Nasik,4,holdout,persistence,662,166,2026-04-02,2026-10-02,237.9699,315.2992,197.5000
+Cauliflower,APMC Nasik,4,holdout,rolling_mean_7d,662,166,2026-04-02,2026-10-02,217.5127,291.4351,141.7857
+Cauliflower,APMC Nasik,4,holdout,ridge_core,662,166,2026-04-02,2026-10-02,205.4006,274.3294,149.4722
+Cauliflower,APMC Nasik,4,holdout,ridge_extended,662,166,2026-04-02,2026-10-02,203.1467,267.7666,154.5054
+Cauliflower,APMC Nasik,4,holdout,rf_core,662,166,2026-04-02,2026-10-02,212.0286,283.5422,163.5069
+Cauliflower,APMC Nasik,4,holdout,rf_extended,662,166,2026-04-02,2026-10-02,209.3711,277.0140,155.4141
+Cauliflower,APMC Nasik,4,holdout,xgb_core,662,166,2026-04-02,2026-10-02,218.0881,293.4942,161.2256
+Cauliflower,APMC Nasik,4,holdout,xgb_extended,662,166,2026-04-02,2026-10-02,210.2874,279.6762,154.8010
+Cauliflower,APMC Nasik,5,fold1,persistence,275,80,2025-01-01,2025-03-31,285.4625,406.0162,215.0000
+Cauliflower,APMC Nasik,5,fold1,rolling_mean_7d,275,80,2025-01-01,2025-03-31,281.8272,365.7582,229.4286
+Cauliflower,APMC Nasik,5,fold1,ridge_core,275,80,2025-01-01,2025-03-31,264.2468,353.4016,213.0018
+Cauliflower,APMC Nasik,5,fold1,ridge_extended,275,80,2025-01-01,2025-03-31,267.8490,357.3362,215.1079
+Cauliflower,APMC Nasik,5,fold1,rf_core,275,80,2025-01-01,2025-03-31,284.2301,392.5761,231.4039
+Cauliflower,APMC Nasik,5,fold1,rf_extended,275,80,2025-01-01,2025-03-31,273.7452,379.2758,225.8113
+Cauliflower,APMC Nasik,5,fold1,xgb_core,275,80,2025-01-01,2025-03-31,304.2306,411.5888,262.0899
+Cauliflower,APMC Nasik,5,fold1,xgb_extended,275,80,2025-01-01,2025-03-31,275.4077,378.9045,209.7834
+Cauliflower,APMC Nasik,5,fold2,persistence,355,82,2025-04-01,2025-06-30,339.1341,462.2936,215.0000
+Cauliflower,APMC Nasik,5,fold2,rolling_mean_7d,355,82,2025-04-01,2025-06-30,334.9277,427.8077,258.5119
+Cauliflower,APMC Nasik,5,fold2,ridge_core,355,82,2025-04-01,2025-06-30,329.7367,426.0771,243.4702
+Cauliflower,APMC Nasik,5,fold2,ridge_extended,355,82,2025-04-01,2025-06-30,323.4247,418.0605,231.5717
+Cauliflower,APMC Nasik,5,fold2,rf_core,355,82,2025-04-01,2025-06-30,317.9893,417.5936,252.6757
+Cauliflower,APMC Nasik,5,fold2,rf_extended,355,82,2025-04-01,2025-06-30,313.0434,406.8359,252.6364
+Cauliflower,APMC Nasik,5,fold2,xgb_core,355,82,2025-04-01,2025-06-30,340.3589,437.3419,256.2247
+Cauliflower,APMC Nasik,5,fold2,xgb_extended,355,82,2025-04-01,2025-06-30,321.4465,418.4660,263.7102
+Cauliflower,APMC Nasik,5,fold3,persistence,438,82,2025-07-01,2025-09-29,492.6220,688.4853,350.0000
+Cauliflower,APMC Nasik,5,fold3,rolling_mean_7d,438,82,2025-07-01,2025-09-29,528.7163,694.5103,385.0714
+Cauliflower,APMC Nasik,5,fold3,ridge_core,438,82,2025-07-01,2025-09-29,486.3456,641.9535,326.6098
+Cauliflower,APMC Nasik,5,fold3,ridge_extended,438,82,2025-07-01,2025-09-29,485.5951,630.0448,393.4414
+Cauliflower,APMC Nasik,5,fold3,rf_core,438,82,2025-07-01,2025-09-29,499.9562,656.4395,398.3487
+Cauliflower,APMC Nasik,5,fold3,rf_extended,438,82,2025-07-01,2025-09-29,490.3769,646.1386,383.9826
+Cauliflower,APMC Nasik,5,fold3,xgb_core,438,82,2025-07-01,2025-09-29,493.0431,649.3736,374.9579
+Cauliflower,APMC Nasik,5,fold3,xgb_extended,438,82,2025-07-01,2025-09-29,483.7936,627.9722,403.6771
+Cauliflower,APMC Nasik,5,fold4,persistence,520,69,2025-10-01,2025-12-29,393.6522,490.9592,355.0000
+Cauliflower,APMC Nasik,5,fold4,rolling_mean_7d,520,69,2025-10-01,2025-12-29,397.2405,483.8626,352.3333
+Cauliflower,APMC Nasik,5,fold4,ridge_core,520,69,2025-10-01,2025-12-29,361.9722,450.5413,303.7386
+Cauliflower,APMC Nasik,5,fold4,ridge_extended,520,69,2025-10-01,2025-12-29,345.6001,439.5156,264.1540
+Cauliflower,APMC Nasik,5,fold4,rf_core,520,69,2025-10-01,2025-12-29,375.1707,466.6159,301.3695
+Cauliflower,APMC Nasik,5,fold4,rf_extended,520,69,2025-10-01,2025-12-29,342.1226,439.2696,256.1554
+Cauliflower,APMC Nasik,5,fold4,xgb_core,520,69,2025-10-01,2025-12-29,392.3987,497.0641,292.1534
+Cauliflower,APMC Nasik,5,fold4,xgb_extended,520,69,2025-10-01,2025-12-29,353.0834,460.8797,291.2651
+Cauliflower,APMC Nasik,5,fold5,persistence,592,70,2026-01-15,2026-03-31,283.5286,382.3206,215.0000
+Cauliflower,APMC Nasik,5,fold5,rolling_mean_7d,592,70,2026-01-15,2026-03-31,264.5318,356.5079,165.7143
+Cauliflower,APMC Nasik,5,fold5,ridge_core,592,70,2026-01-15,2026-03-31,251.0704,344.6356,147.9438
+Cauliflower,APMC Nasik,5,fold5,ridge_extended,592,70,2026-01-15,2026-03-31,255.4210,350.1955,202.8503
+Cauliflower,APMC Nasik,5,fold5,rf_core,592,70,2026-01-15,2026-03-31,290.2408,398.7829,215.1811
+Cauliflower,APMC Nasik,5,fold5,rf_extended,592,70,2026-01-15,2026-03-31,287.5992,393.3546,176.5132
+Cauliflower,APMC Nasik,5,fold5,xgb_core,592,70,2026-01-15,2026-03-31,335.0668,434.3469,243.5563
+Cauliflower,APMC Nasik,5,fold5,xgb_extended,592,70,2026-01-15,2026-03-31,319.5860,418.2754,218.2952
+Cauliflower,APMC Nasik,5,holdout,persistence,659,165,2026-04-02,2026-10-01,239.1394,325.9810,175.0000
+Cauliflower,APMC Nasik,5,holdout,rolling_mean_7d,659,165,2026-04-02,2026-10-01,231.2403,309.3567,154.2857
+Cauliflower,APMC Nasik,5,holdout,ridge_core,659,165,2026-04-02,2026-10-01,216.5392,291.0178,164.0745
+Cauliflower,APMC Nasik,5,holdout,ridge_extended,659,165,2026-04-02,2026-10-01,211.3146,282.2021,154.9332
+Cauliflower,APMC Nasik,5,holdout,rf_core,659,165,2026-04-02,2026-10-01,223.4405,297.4991,169.4351
+Cauliflower,APMC Nasik,5,holdout,rf_extended,659,165,2026-04-02,2026-10-01,218.5303,291.5944,147.9261
+Cauliflower,APMC Nasik,5,holdout,xgb_core,659,165,2026-04-02,2026-10-01,228.2579,302.5609,161.4387
+Cauliflower,APMC Nasik,5,holdout,xgb_extended,659,165,2026-04-02,2026-10-01,223.2144,295.6979,158.9256
+Cauliflower,APMC Nasik,6,fold1,persistence,276,80,2025-01-01,2025-03-31,320.6000,461.3447,282.5000
+Cauliflower,APMC Nasik,6,fold1,rolling_mean_7d,276,80,2025-01-01,2025-03-31,291.4927,376.8112,252.7857
+Cauliflower,APMC Nasik,6,fold1,ridge_core,276,80,2025-01-01,2025-03-31,279.0200,378.5947,247.7784
+Cauliflower,APMC Nasik,6,fold1,ridge_extended,276,80,2025-01-01,2025-03-31,282.1487,382.4223,239.5760
+Cauliflower,APMC Nasik,6,fold1,rf_core,276,80,2025-01-01,2025-03-31,284.6152,387.1034,208.6408
+Cauliflower,APMC Nasik,6,fold1,rf_extended,276,80,2025-01-01,2025-03-31,272.9133,380.1880,216.0043
+Cauliflower,APMC Nasik,6,fold1,xgb_core,276,80,2025-01-01,2025-03-31,288.2903,399.6427,217.3400
+Cauliflower,APMC Nasik,6,fold1,xgb_extended,276,80,2025-01-01,2025-03-31,269.9104,383.1052,206.2188
+Cauliflower,APMC Nasik,6,fold2,persistence,356,82,2025-04-01,2025-06-30,374.2195,492.3379,325.0000
+Cauliflower,APMC Nasik,6,fold2,rolling_mean_7d,356,82,2025-04-01,2025-06-30,356.4352,447.7685,296.3690
+Cauliflower,APMC Nasik,6,fold2,ridge_core,356,82,2025-04-01,2025-06-30,354.1705,444.6048,297.6927
+Cauliflower,APMC Nasik,6,fold2,ridge_extended,356,82,2025-04-01,2025-06-30,348.6791,435.6455,291.4243
+Cauliflower,APMC Nasik,6,fold2,rf_core,356,82,2025-04-01,2025-06-30,362.4402,451.1515,299.9043
+Cauliflower,APMC Nasik,6,fold2,rf_extended,356,82,2025-04-01,2025-06-30,360.4350,445.7829,309.2895
+Cauliflower,APMC Nasik,6,fold2,xgb_core,356,82,2025-04-01,2025-06-30,379.4113,473.0404,332.9857
+Cauliflower,APMC Nasik,6,fold2,xgb_extended,356,82,2025-04-01,2025-06-30,372.3165,463.8364,330.7830
+Cauliflower,APMC Nasik,6,fold3,persistence,439,82,2025-07-01,2025-09-30,518.5854,746.4366,352.5000
+Cauliflower,APMC Nasik,6,fold3,rolling_mean_7d,439,82,2025-07-01,2025-09-30,548.4004,719.3267,423.7857
+Cauliflower,APMC Nasik,6,fold3,ridge_core,439,82,2025-07-01,2025-09-30,508.7251,670.9514,403.2922
+Cauliflower,APMC Nasik,6,fold3,ridge_extended,439,82,2025-07-01,2025-09-30,499.7941,660.8002,393.7462
+Cauliflower,APMC Nasik,6,fold3,rf_core,439,82,2025-07-01,2025-09-30,522.8869,676.9176,410.0834
+Cauliflower,APMC Nasik,6,fold3,rf_extended,439,82,2025-07-01,2025-09-30,516.1403,670.6469,453.3303
+Cauliflower,APMC Nasik,6,fold3,xgb_core,439,82,2025-07-01,2025-09-30,508.0461,659.6671,432.3518
+Cauliflower,APMC Nasik,6,fold3,xgb_extended,439,82,2025-07-01,2025-09-30,508.4067,655.2858,443.5649
+Cauliflower,APMC Nasik,6,fold4,persistence,521,66,2025-10-01,2025-12-25,435.9394,539.0330,359.0000
+Cauliflower,APMC Nasik,6,fold4,rolling_mean_7d,521,66,2025-10-01,2025-12-25,429.3265,528.6768,370.4524
+Cauliflower,APMC Nasik,6,fold4,ridge_core,521,66,2025-10-01,2025-12-25,388.8051,486.2872,372.6171
+Cauliflower,APMC Nasik,6,fold4,ridge_extended,521,66,2025-10-01,2025-12-25,353.0557,490.2778,252.1680
+Cauliflower,APMC Nasik,6,fold4,rf_core,521,66,2025-10-01,2025-12-25,373.0241,482.0328,350.2857
+Cauliflower,APMC Nasik,6,fold4,rf_extended,521,66,2025-10-01,2025-12-25,347.0236,459.2620,258.9257
+Cauliflower,APMC Nasik,6,fold4,xgb_core,521,66,2025-10-01,2025-12-25,430.8057,542.4905,377.5824
+Cauliflower,APMC Nasik,6,fold4,xgb_extended,521,66,2025-10-01,2025-12-25,371.0754,489.7214,304.1254
+Cauliflower,APMC Nasik,6,fold5,persistence,592,70,2026-01-15,2026-03-31,346.4571,467.5186,254.0000
+Cauliflower,APMC Nasik,6,fold5,rolling_mean_7d,592,70,2026-01-15,2026-03-31,289.6862,381.1199,217.5893
+Cauliflower,APMC Nasik,6,fold5,ridge_core,592,70,2026-01-15,2026-03-31,289.0833,396.1669,213.5724
+Cauliflower,APMC Nasik,6,fold5,ridge_extended,592,70,2026-01-15,2026-03-31,292.2738,402.2554,194.5784
+Cauliflower,APMC Nasik,6,fold5,rf_core,592,70,2026-01-15,2026-03-31,357.6892,449.4043,291.4794
+Cauliflower,APMC Nasik,6,fold5,rf_extended,592,70,2026-01-15,2026-03-31,348.0695,449.1491,283.5906
+Cauliflower,APMC Nasik,6,fold5,xgb_core,592,70,2026-01-15,2026-03-31,399.3044,483.4270,344.1927
+Cauliflower,APMC Nasik,6,fold5,xgb_extended,592,70,2026-01-15,2026-03-31,374.9056,472.4332,292.0673
+Cauliflower,APMC Nasik,6,holdout,persistence,657,165,2026-04-02,2026-09-30,246.8788,342.5411,178.0000
+Cauliflower,APMC Nasik,6,holdout,rolling_mean_7d,657,165,2026-04-02,2026-09-30,240.6718,318.1123,173.5714
+Cauliflower,APMC Nasik,6,holdout,ridge_core,657,165,2026-04-02,2026-09-30,228.6443,307.3509,168.8636
+Cauliflower,APMC Nasik,6,holdout,ridge_extended,657,165,2026-04-02,2026-09-30,221.4891,295.5720,180.7826
+Cauliflower,APMC Nasik,6,holdout,rf_core,657,165,2026-04-02,2026-09-30,247.1956,318.8339,188.5472
+Cauliflower,APMC Nasik,6,holdout,rf_extended,657,165,2026-04-02,2026-09-30,236.9003,307.0870,188.9260
+Cauliflower,APMC Nasik,6,holdout,xgb_core,657,165,2026-04-02,2026-09-30,252.0786,325.1561,182.3087
+Cauliflower,APMC Nasik,6,holdout,xgb_extended,657,165,2026-04-02,2026-09-30,233.5984,306.9862,165.6593
+Cauliflower,APMC Nasik,7,fold1,persistence,277,80,2025-01-01,2025-03-31,317.0625,447.5049,285.5000
+Cauliflower,APMC Nasik,7,fold1,rolling_mean_7d,277,80,2025-01-01,2025-03-31,298.2124,383.1119,266.0000
+Cauliflower,APMC Nasik,7,fold1,ridge_core,277,80,2025-01-01,2025-03-31,289.2991,380.0147,255.4233
+Cauliflower,APMC Nasik,7,fold1,ridge_extended,277,80,2025-01-01,2025-03-31,288.8653,378.7767,243.5069
+Cauliflower,APMC Nasik,7,fold1,rf_core,277,80,2025-01-01,2025-03-31,290.3777,387.0811,211.3758
+Cauliflower,APMC Nasik,7,fold1,rf_extended,277,80,2025-01-01,2025-03-31,280.4538,376.4983,199.3902
+Cauliflower,APMC Nasik,7,fold1,xgb_core,277,80,2025-01-01,2025-03-31,288.5589,398.9904,203.5955
+Cauliflower,APMC Nasik,7,fold1,xgb_extended,277,80,2025-01-01,2025-03-31,265.7472,373.6393,197.2832
+Cauliflower,APMC Nasik,7,fold2,persistence,357,82,2025-04-01,2025-06-30,358.8659,498.3748,249.0000
+Cauliflower,APMC Nasik,7,fold2,rolling_mean_7d,357,82,2025-04-01,2025-06-30,370.6559,465.9725,315.4167
+Cauliflower,APMC Nasik,7,fold2,ridge_core,357,82,2025-04-01,2025-06-30,362.2153,456.5819,301.3074
+Cauliflower,APMC Nasik,7,fold2,ridge_extended,357,82,2025-04-01,2025-06-30,352.1723,446.2750,290.9811
+Cauliflower,APMC Nasik,7,fold2,rf_core,357,82,2025-04-01,2025-06-30,360.3264,460.0860,282.9031
+Cauliflower,APMC Nasik,7,fold2,rf_extended,357,82,2025-04-01,2025-06-30,352.0634,451.5111,297.8008
+Cauliflower,APMC Nasik,7,fold2,xgb_core,357,82,2025-04-01,2025-06-30,382.1891,494.7690,309.6107
+Cauliflower,APMC Nasik,7,fold2,xgb_extended,357,82,2025-04-01,2025-06-30,360.1469,468.2739,300.2036
+Cauliflower,APMC Nasik,7,fold3,persistence,440,82,2025-07-01,2025-09-30,534.3049,737.7415,356.0000
+Cauliflower,APMC Nasik,7,fold3,rolling_mean_7d,440,82,2025-07-01,2025-09-30,572.2143,739.3099,430.7143
+Cauliflower,APMC Nasik,7,fold3,ridge_core,440,82,2025-07-01,2025-09-30,506.9067,673.6019,409.5853
+Cauliflower,APMC Nasik,7,fold3,ridge_extended,440,82,2025-07-01,2025-09-30,500.3645,663.9889,419.0034
+Cauliflower,APMC Nasik,7,fold3,rf_core,440,82,2025-07-01,2025-09-30,534.9182,689.7498,471.5497
+Cauliflower,APMC Nasik,7,fold3,rf_extended,440,82,2025-07-01,2025-09-30,522.9168,685.2009,447.5712
+Cauliflower,APMC Nasik,7,fold3,xgb_core,440,82,2025-07-01,2025-09-30,520.2597,673.3332,427.1145
+Cauliflower,APMC Nasik,7,fold3,xgb_extended,440,82,2025-07-01,2025-09-30,514.2004,668.0507,428.6677
+Cauliflower,APMC Nasik,7,fold4,persistence,522,66,2025-10-01,2025-12-25,449.5152,546.6140,477.5000
+Cauliflower,APMC Nasik,7,fold4,rolling_mean_7d,522,66,2025-10-01,2025-12-25,464.0938,567.5706,416.9000
+Cauliflower,APMC Nasik,7,fold4,ridge_core,522,66,2025-10-01,2025-12-25,414.7893,507.7055,419.5864
+Cauliflower,APMC Nasik,7,fold4,ridge_extended,522,66,2025-10-01,2025-12-25,376.4958,490.5436,265.6865
+Cauliflower,APMC Nasik,7,fold4,rf_core,522,66,2025-10-01,2025-12-25,411.4048,521.4398,353.3266
+Cauliflower,APMC Nasik,7,fold4,rf_extended,522,66,2025-10-01,2025-12-25,354.3581,484.6041,277.6644
+Cauliflower,APMC Nasik,7,fold4,xgb_core,522,66,2025-10-01,2025-12-25,442.5644,566.4260,415.2566
+Cauliflower,APMC Nasik,7,fold4,xgb_extended,522,66,2025-10-01,2025-12-25,357.1986,506.8053,215.1940
+Cauliflower,APMC Nasik,7,fold5,persistence,593,71,2026-01-15,2026-03-31,352.8028,496.4747,238.0000
+Cauliflower,APMC Nasik,7,fold5,rolling_mean_7d,593,71,2026-01-15,2026-03-31,302.2430,396.3380,230.5714
+Cauliflower,APMC Nasik,7,fold5,ridge_core,593,71,2026-01-15,2026-03-31,298.8316,406.5456,233.1406
+Cauliflower,APMC Nasik,7,fold5,ridge_extended,593,71,2026-01-15,2026-03-31,290.8047,404.4600,184.6297
+Cauliflower,APMC Nasik,7,fold5,rf_core,593,71,2026-01-15,2026-03-31,359.1841,472.8449,288.3034
+Cauliflower,APMC Nasik,7,fold5,rf_extended,593,71,2026-01-15,2026-03-31,365.3515,488.5071,267.8830
+Cauliflower,APMC Nasik,7,fold5,xgb_core,593,71,2026-01-15,2026-03-31,404.5021,509.2545,348.5802
+Cauliflower,APMC Nasik,7,fold5,xgb_extended,593,71,2026-01-15,2026-03-31,406.2809,512.7710,317.8000
+Cauliflower,APMC Nasik,7,holdout,persistence,659,163,2026-04-02,2026-09-29,263.5583,352.3345,175.0000
+Cauliflower,APMC Nasik,7,holdout,rolling_mean_7d,659,163,2026-04-02,2026-09-29,254.8872,330.1771,221.4286
+Cauliflower,APMC Nasik,7,holdout,ridge_core,659,163,2026-04-02,2026-09-29,242.1141,317.3420,185.6693
+Cauliflower,APMC Nasik,7,holdout,ridge_extended,659,163,2026-04-02,2026-09-29,232.6705,300.6457,182.6593
+Cauliflower,APMC Nasik,7,holdout,rf_core,659,163,2026-04-02,2026-09-29,265.0297,340.1676,219.2234
+Cauliflower,APMC Nasik,7,holdout,rf_extended,659,163,2026-04-02,2026-09-29,249.9285,324.3738,201.2466
+Cauliflower,APMC Nasik,7,holdout,xgb_core,659,163,2026-04-02,2026-09-29,287.9790,359.7400,232.6676
+Cauliflower,APMC Nasik,7,holdout,xgb_extended,659,163,2026-04-02,2026-09-29,255.4981,329.6957,216.4216

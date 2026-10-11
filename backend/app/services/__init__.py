@@ -1,1 +1,2 @@
-"""Domain logic and external provider adapters."""
+"""Services package for backend.app."""
+
